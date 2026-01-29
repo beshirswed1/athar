@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <h1 style="font-size:40px; margin-bottom:5px;">📚 أَثَر</h1>
+  <p style="font-size:18px; color:gray;">
+    مكتبة شخصية رقمية — بسيطة، عربية، وهادئة
+  </p>
 
-First, run the development server:
+  <img src="https://img.shields.io/badge/Next.js-16-black?style=flat&logo=next.js" />
+  <img src="https://img.shields.io/badge/React-19-blue?style=flat&logo=react" />
+  <img src="https://img.shields.io/badge/Tailwind-v4-38bdf8?style=flat&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/RTL-Arabic-success" />
 
-```bash
+</div>
+
+<hr />
+
+<h2>🎯 فكرة المشروع</h2>
+
+<p>
+<strong>أَثَر</strong> هو مشروع Front-End لإدارة مكتبتك الشخصية.
+<br />
+لا بيع كتب، لا تسجيل دخول، لا Backend.
+</p>
+
+<ul>
+  <li>📖 تتبع حالة القراءة</li>
+  <li>⭐ تقييم الكتب</li>
+  <li>📝 ملاحظات شخصية</li>
+  <li>🗂️ تصنيفات عربية واضحة</li>
+  <li>💾 تخزين محلي (LocalStorage)</li>
+</ul>
+
+<hr />
+
+<h2>🧱 التقنيات المستخدمة</h2>
+
+<table>
+  <tr>
+    <td><strong>Framework</strong></td>
+    <td>Next.js (App Router)</td>
+  </tr>
+  <tr>
+    <td><strong>UI</strong></td>
+    <td>React 19 + Tailwind CSS</td>
+  </tr>
+  <tr>
+    <td><strong>State</strong></td>
+    <td>Redux Toolkit</td>
+  </tr>
+  <tr>
+    <td><strong>Storage</strong></td>
+    <td>LocalStorage</td>
+  </tr>
+</table>
+
+<hr />
+
+<h2>🚀 التشغيل محليًا</h2>
+
+<pre>
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</pre>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>
+ثم افتح:
+<br />
+<a href="http://localhost:3000">http://localhost:3000</a>
+</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<hr />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<h2>🧠 فلسفة التصميم</h2>
 
-## Learn More
+<ul>
+  <li>واجهة هادئة بدون تشتيت</li>
+  <li>RTL حقيقي</li>
+  <li>منع تكرار الكتب</li>
+  <li>Auto-save للمسودات</li>
+  <li>تجربة استخدام تحترم الوقت</li>
+</ul>
 
-To learn more about Next.js, take a look at the following resources:
+<hr />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>📈 تطوير مستقبلي</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<ul>
+  <li>📊 إحصائيات قراءة</li>
+  <li>📤 تصدير / استيراد JSON</li>
+  <li>☁️ مزامنة سحابية (اختياري)</li>
+  <li>📱 تطبيق موبايل</li>
+</ul>
 
-## Deploy on Vercel
+<hr />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2>🧑‍💻 المطوّر</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p>
+<strong>بشير</strong><br />
+Front-End Developer
+</p>
+
+<hr />
+
+<p align="center" style="color:gray;">
+  “المعرفة لا تُستهلك… تُجمع وتُحترم”
+</p>
