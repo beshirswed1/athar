@@ -202,4 +202,8 @@ npm run dev
 <p><b>بواسطة: بشير</b></p>
 <br />
 <img src="https://lh3.googleusercontent.com/a/ACg8ocJph9eRA0cYXN9MOW6uT6erywPnwWwRzDCvXpk3rPbO8-ecMeU=s288-c-no" width="80%" />
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 49c033d0061edc178a210fd5a5623a09dc277f0b
