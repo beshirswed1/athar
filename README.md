@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1 style="font-size:40px; margin-bottom:5px;">📚 أَثَر</h1>
+  <h1 style="font-size:40px; margin-bottom:50px;">📚 أَثَر</h1>
   <p style="font-size:18px; color:gray;">
     مكتبة شخصية رقمية — بسيطة، عربية، وهادئة
   </p>
