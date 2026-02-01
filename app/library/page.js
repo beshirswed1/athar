@@ -48,7 +48,7 @@ export default function MyLibrary() {
   };
 
   return (
-    <div className="py-12">
+    <div className="py-12 mt-12 px-4 md:px-8 lg:px-16">
       <div className="flex justify-between items-center mb-12">
         <h1 className="text-4xl font-bold">مكتبتي</h1>
         <Link

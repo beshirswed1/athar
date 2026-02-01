@@ -13,7 +13,7 @@ export default function Header({
   onCategoryClick 
 }) {
   return (
-    <header className="relative overflow-hidden">
+    <header className="relative overflow-hidden mt-20 rounded-b-3xl shadow-lg">
       <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 dark:from-amber-800 dark:via-orange-700 dark:to-amber-800"></div>
       <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div>
       

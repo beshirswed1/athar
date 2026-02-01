@@ -29,7 +29,7 @@ export default function Header() {
       <header 
         className={`
           fixed top-0 inset-x-0 z-50 transition-all duration-300 ease-in-out
-          border-b border-amber-200/20
+          border-b border-amber-200/20 
           ${scrolled 
             ? 'bg-white/80 backdrop-blur-xl shadow-lg py-2' 
             : 'bg-white/50 backdrop-blur-md py-4'
