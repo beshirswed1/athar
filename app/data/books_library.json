@@ -1,0 +1,4923 @@
+{
+  "metadata": {
+    "totalBooks": 209,
+    "totalAuthors": 91,
+    "totalCategories": 8,
+    "lastUpdated": "2025-01-29"
+  },
+  "categories": [
+{ "name": "الفقه", "count": 31 },
+    { "name": "العقيدة", "count": 16 },
+    { "name": "السيرة", "count": 19 },
+    { "name": "الحديث", "count": 5 },
+    { "name": "التاريخ", "count": 25 },
+    { "name": "الفكر", "count": 76 },
+    { "name": "الرواية", "count": 110 },
+    { "name": "الشعر", "count": 6 }
+  ],
+"authors": [
+  "أبو إسحاق الشاطبي",
+  "أبو الطيب المتنبي",
+  "أبو القاسم الشابي",
+  "أبو بكر ابن العربي",
+  "أبو بكر الخلال",
+  "أبو حامد الغزالي",
+  "أحمد آل حمدان",
+  "أحمد الدردير",
+  "أحمد السيد",
+  "أحمد خالد توفيق",
+  "أحمد خالد مصطفى",
+  "أحمد شوقي",
+  "أحمد عصام الدين",
+  "أحمد مراد",
+  "ألدوس هكسلي",
+  "أمين معلوف",
+  "إبراهيم السكران",
+  "إدوارد سعيد",
+  "إمام الحرمين أبو المعالي الجويني",
+  "إيناس سمير",
+  "ابن الأثير",
+  "ابن الجوزي",
+  "ابن القيم الجوزية",
+  "ابن تيمية",
+  "ابن جزي الكلبي",
+  "ابن رشد",
+  "ابن عابدين",
+  "ابن قدامة المقدسي",
+  "ابن كثير",
+  "ابن هشام الأنصاري",
+  "أسامة المسلم",
+  "الإمام أحمد بن حنبل",
+  "الإمام البخاري",
+  "الإمام الشافعي",
+  "الإمام الطحاوي",
+  "الذهبي",
+  "باولو كويلو",
+  "بدر شاكر السياب",
+  "تقي الدين الحصني",
+  "ج. ر. ر. تولكين",
+  "ج. ك. رولينغ",
+  "جرجي زيدان",
+  "جورج أورويل",
+  "جورج ر. ر. مارتن",
+  "حسن الجندي",
+  "حنان لاشين",
+  "خالد حسيني",
+  "راغب السرجاني",
+  "روبرت كيوساكي",
+  "سحنون بن سعيد",
+  "سيد قطب",
+  "شيرين هنائي",
+  "شهاب الدين القرافي",
+  "صفي الرحمن المباركفوري",
+  "صن تزو",
+  "عبد الرحمن منيف",
+  "عبد العزيز الطريفي",
+  "عبد القاهر البغدادي",
+  "عبد القاهر الجرجاني",
+  "عبد الكريم الرافعي",
+  "عبد الله العجيري",
+  "عبد الله بن عقيل",
+  "عبد الملك بن هشام",
+  "عبد الوهاب السد الرفاعي",
+  "عبد الوهاب خلاف",
+  "علاء الدين الكاساني",
+  "علاء الدين المرداوي",
+  "علي أحمد باكثير",
+  "علي الصلابي",
+  "علي بن محمد المرغيناني",
+  "عمرو عبد الحميد",
+  "غسان كنفاني",
+  "فيكتور هوغو",
+  "فيليب باركر",
+  "كاثرين باترسون",
+  "كورماك مكارثي",
+  "ليو تولستوي",
+  "مارك مانسون",
+  "ماري شيلي",
+  "مالك بن نبي",
+  "متعب بن ظمنه",
+  "محمد البدري",
+  "محمد الغزالي",
+  "محمد بن جرير الطبري",
+  "محمد بن داود الصنهاجي",
+  "محمد بن عبد الكريم الشهرستاني",
+  "محمد بن عبد الله ابن مالك",
+  "محمد بن عبد الوهاب",
+  "محمد بن عيسى الترمذي",
+  "محمد شكري",
+  "محمد قطب",
+  "مريم الحيسي",
+  "منار بدر الدين",
+  "منصور البهوتي",
+  "منى سلامة",
+  "موسى بن أحمد الحجاوي",
+  "نجيب محفوظ",
+  "نزار قباني",
+  "نورمان فينسنت بيل",
+  "وهبة الزحيلي",
+  "ويل ديورانت",
+  "يحيى عبد القادر",
+  "يحيى بن شرف النووي",
+  "يفغيني زامياتين",
+  "يوستاين غاردر",
+  "يوسف زيدان"
+]
+,
+  "books": [
+    {
+      "id": 1,
+      "title": "الورقات",
+      "author": "إمام الحرمين أبو المعالي الجويني",
+      "pages": 120,
+      "coverImage": "https://cdn.salla.sa/DDpXV/ReGymCWHCE3aKRicHLD9lNRdUqNX5qJh6XKFHOrO.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 2,
+      "title": "روضة الناظر",
+      "author": "ابن قدامة المقدسي",
+      "pages": 350,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/1/11/20170618195614%21%D8%B1%D9%88%D8%B6%D8%A9_%D8%A7%D9%84%D9%86%D8%A7%D8%B8%D8%B1_%D9%88%D8%AC%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B8%D8%B1.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 3,
+      "title": "إعلام الموقعين",
+      "author": "ابن قيم الجوزية",
+      "pages": 420,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ePFbjw0kaf36FYrE1tRw3cZRQlTlPsVbvw&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 4,
+      "title": "المستصفى",
+      "author": "أبو حامد الغزالي",
+      "pages": 700,
+      "coverImage": "https://assets.asfar.io/uploads/2023/11/11211138/almustasfa-min-eilm-alosoul-book-alghazaly.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 5,
+      "title": "أصول الفقه",
+      "author": "عبد الوهاب خلاف",
+      "pages": 480,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/314/314869.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 6,
+      "title": "الهداية",
+      "author": "علي بن محمد المرغيناني",
+      "pages": 1200,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/316/316117.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 7,
+      "title": "بدائع الصنائع",
+      "author": "علاء الدين الكاساني",
+      "pages": 3200,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/b/be/20231126094132%21%D8%A8%D8%AF%D8%A7%D8%A6%D8%B9_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%A6%D8%B9.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 8,
+      "title": "الاختيار لتعليل المختار",
+      "author": "عبد الله الموصلي",
+      "pages": 900,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/333/333065.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 9,
+      "title": "رد المحتار على الدر المختار",
+      "author": "ابن عابدين",
+      "pages": 3000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/c/cf/20231126100009%21%D8%B1%D8%AF_%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%A7%D8%B1.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 10,
+      "title": "الفقه الحنفي في ثوبه الجديد",
+      "author": "وهبة الزحيلي",
+      "pages": 850,
+      "coverImage": "https://kotobon.com/uploads/products/b8d5558299735ddf5819.jpeg",
+      "category": "الفقه"
+    },
+    {
+      "id": 11,
+      "title": "المدونة",
+      "author": "سحنون بن سعيد",
+      "pages": 600,
+      "coverImage": "https://cdn.salla.sa/YvENm/UO7eV0l1jPmUqA6O0QWoawEfVwfg0nOB11cJ8znA.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 12,
+      "title": "الشرح الكبير",
+      "author": "أحمد الدردير",
+      "pages": 1500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/371/371290.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 13,
+      "title": "القوانين الفقهية",
+      "author": "ابن جزي الكلبي",
+      "pages": 420,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1484569159i/33867835.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 14,
+      "title": "الذخيرة",
+      "author": "شهاب الدين القرافي",
+      "pages": 2200,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/f/9/5/4be7ab6726f9567485c30dcae7b343ed.jpg.webp",
+      "category": "الفقه"
+    },
+    {
+      "id": 15,
+      "title": "الأم",
+      "author": "محمد بن إدريس الشافعي",
+      "pages": 1000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/0/0c/Alomm.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 16,
+      "title": "المجموع شرح المهذب",
+      "author": "يحيى بن شرف النووي",
+      "pages": 3000,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/106/106150.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 17,
+      "title": "روضة الطالبين",
+      "author": "يحيى بن شرف النووي",
+      "pages": 1200,
+      "coverImage": "https://archive.org/download/FP44490/cover.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 18,
+      "title": "كفاية الأخيار",
+      "author": "تقي الدين الحصني",
+      "pages": 480,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl7pmfb7TbR9G-dBb-EHfirtRaK9cRFfRpYg&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 19,
+      "title": "فتح العزيز",
+      "author": "عبد الكريم الرافعي",
+      "pages": 700,
+      "coverImage": "https://cdn.salla.sa/YvENm/ad0016af-8496-4d76-b0ef-79106d3642ec-1000x1000-tn4dKZzwYvzvchpDF7KxiHTPbl5a2PqtYnGgsZuh.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 20,
+      "title": "المغني",
+      "author": "ابن قدامة المقدسي",
+      "pages": 4000,
+      "coverImage": "https://cdn.salla.sa/YvENm/23615923-081e-4e77-bfd7-fe01511228d7-703x1000-Y1Sg9SGNMhmkoYWs7RIeefi3Tpf0la0In62JdVyP.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 21,
+      "title": "الكافي",
+      "author": "ابن قدامة المقدسي",
+      "pages": 1800,
+      "coverImage": "https://alfeker.net/uploads/pictures/alfekerimgbk00852cvr.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 22,
+      "title": "زاد المستقنع",
+      "author": "موسى بن أحمد الحجاوي",
+      "pages": 600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/b/b5/%D8%B2%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%86%D8%B9.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 23,
+      "title": "الروض المربع",
+      "author": "منصور البهوتي",
+      "pages": 1600,
+      "coverImage": "https://static.ticimax.cloud/cdn-cgi/image/width=0,quality=0/42544/uploads/urunresimleri/buyuk/er-ravzul-murbi-serhu-zadil-mustakni-n-a992b1.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 24,
+      "title": "الإنصاف",
+      "author": "علاء الدين المرداوي",
+      "pages": 2000,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYtQZOetC_mhEKcYuur-zgHv7cvMH-Bh9hMQ&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 25,
+      "title": "الاعتصام",
+      "author": "أبو إسحاق الشاطبي",
+      "pages": 900,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/d/d4/%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B5%D8%A7%D9%85.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 26,
+      "title": "مجموع الفتاوى",
+      "author": "ابن تيمية",
+      "pages": 19500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/d/d9/%D9%85%D8%AC%D9%85%D9%88%D8%B9_%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D9%88%D9%8A_.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 27,
+      "title": "الصارم المسلول على شاتم الرسول",
+      "author": "ابن تيمية",
+      "pages": 600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%A7%D9%84%D8%B5%D8%A7%D8%B1%D9%85_%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%88%D9%84_%D8%B9%D9%84%D9%89_%D8%B4%D8%A7%D8%AA%D9%85_%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 28,
+      "title": "الفتاوى الكبرى",
+      "author": "ابن تيمية",
+      "pages": 3500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/291/291773.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 29,
+      "title": "اقتضاء الصراط المستقيم",
+      "author": "ابن تيمية",
+      "pages": 950,
+      "coverImage": "https://cdn.salla.sa/YvENm/pRYnjViAVxRW1CcuUgILYWIkGB3PGemw8Xzl9ZM8.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 30,
+      "title": "إعلام الموقعين عن رب العالمين",
+      "author": "ابن القيم",
+      "pages": 2200,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ePFbjw0kaf36FYrE1tRw3cZRQlTlPsVbvw&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 31,
+      "title": "الداء والدواء (الجواب الكافي)",
+      "author": "ابن القيم",
+      "pages": 400,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RHuIhDPFMpRJVNttpoidJglSVd7jYImUUA&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 32,
+      "title": "العقيدة الطحاوية",
+      "author": "الإمام الطحاوي",
+      "pages": 120,
+      "coverImage": "https://www.nasihaa.com/uploads/img/1709396373_556.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 33,
+      "title": "كتاب التوحيد",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 200,
+      "coverImage": "https://cdn.salla.sa/onqRgX/hzzuZVoSoYLmvNNbZxmAXTy7l9saLn8SYmYbEcRP.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 34,
+      "title": "كشف الشبهات",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 50,
+      "coverImage": "https://media.zid.store/266058de-f9db-4f4a-874d-5bff2b8b1f5f/ded915a5-897a-46a6-b599-fec6dd483b31.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 35,
+      "title": "الأصول الثلاثة",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 30,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%B4%D8%B1%D8%AD_%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84_%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A9.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 36,
+      "title": "القواعد الأربع",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 20,
+      "coverImage": "https://aqeedeh.com/img_book_files/20170612115040.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 37,
+      "title": "الملل والنحل",
+      "author": "محمد بن عبد الكريم الشهرستاني",
+      "pages": 520,
+      "coverImage": "https://resalah.com/egypt/image/cache/catalog/2022/07/%D8%A7%D9%84%D9%85%D9%84%D9%84-%D9%88%D8%A7%D9%84%D9%86%D8%AD%D9%84-1-scaled-575x575.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 38,
+      "title": "الفرق بين الفرق",
+      "author": "عبد القاهر البغدادي",
+      "pages": 380,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/359/359907.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 39,
+      "title": "السنة",
+      "author": "أبو بكر الخلال",
+      "pages": 260,
+      "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/93/93965.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 40,
+      "title": "الرد على الجهمية",
+      "author": "الإمام أحمد بن حنبل",
+      "pages": 240,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/91/%D8%A7%D9%84%D8%B3%D9%86%D8%A9_%D9%84%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A8%D9%86_%D8%A3%D8%AD%D9%85%D8%AF.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 41,
+      "title": "درء تعارض العقل والنقل",
+      "author": "ابن تيمية",
+      "pages": 4600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/b/bb/%D8%AF%D8%B1%D8%A1_%D8%AA%D8%B9%D8%A7%D8%B1%D8%B6_%D8%A7%D9%84%D8%B9%D9%82%D9%84_%D9%88%D8%A7%D9%84%D9%86%D9%82%D9%84.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 42,
+      "title": "منهاج السنة النبوية",
+      "author": "ابن تيمية",
+      "pages": 4200,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/4/44/20170619050219%21%D9%85%D9%86%D9%87%D8%A7%D8%AC_%D8%A7%D9%84%D8%B3%D9%91%D9%86%D8%A9_%D8%A7%D9%84%D9%86%D9%91%D8%A8%D9%88%D9%8A%D9%91%D8%A9.png",
+      "category": "العقيدة"
+    },
+    {
+      "id": 43,
+      "title": "بيان تلبيس الجهمية",
+      "author": "ابن تيمية",
+      "pages": 5000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/8/83/20170618171226%21%D8%A8%D9%8A%D8%A7%D9%86_%D8%AA%D9%84%D8%A8%D9%8A%D8%B3_%D8%A7%D9%84%D8%AC%D9%87%D9%85%D9%8A%D8%A9.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 44,
+      "title": "الجواب الصحيح لمن بدل دين المسيح",
+      "author": "ابن تيمية",
+      "pages": 3100,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/d/d8/%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD_%D9%84%D9%85%D9%86_%D8%A8%D8%AF%D9%84_%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 45,
+      "title": "شرح العقيدة الأصفهانية",
+      "author": "ابن تيمية",
+      "pages": 350,
+      "coverImage": "https://arabicpdfs.com/wp-content/uploads/2022/07/%D8%B4%D8%B1%D8%AD-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%81%D9%87%D8%A7%D9%86%D9%8A%D8%A9.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 46,
+      "title": "النبوات",
+      "author": "ابن تيمية",
+      "pages": 1100,
+      "coverImage": "https://s2.ketabonline.com/uploads/2020/04/3337710979098679674.webp?1769756903",
+      "category": "العقيدة"
+    },
+    {
+      "id": 47,
+      "title": "ركائن الإيمان",
+      "author": "محمد قطب",
+      "pages": 435,
+      "coverImage": "https://cdn.salla.sa/EjbjB/RG8fYWje028Pot5kqRlnKkZ516PMGFjYGnlGXyfr.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 48,
+      "title": "مختصر سيرة الرسول",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 350,
+      "coverImage": "https://cdn.salla.sa/YvENm/7d398c2a-73e0-44c9-9315-0568aacecdb2-678.90625x1000-hdsTe0SiO1c4HIltDvEYSO8lUUK2yOnv0vw7hDLi.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 49,
+      "title": "السيرة النبوية - عرض وقائع",
+      "author": "علي الصلابي",
+      "pages": 950,
+      "coverImage": "https://m.media-amazon.com/images/I/61EAe0qn5GL._AC_UF1000,1000_QL80_.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 50,
+      "title": "أبو بكر الصديق",
+      "author": "علي الصلابي",
+      "pages": 400,
+      "coverImage": "https://m.media-amazon.com/images/I/81FjNnEPaxL._AC_UF1000,1000_QL80_.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 51,
+      "title": "عمر بن الخطاب",
+      "author": "علي الصلابي",
+      "pages": 500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/carton/243/243737.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 52,
+      "title": "عثمان بن عفان",
+      "author": "علي الصلابي",
+      "pages": 550,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/carton/243/243723.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 53,
+      "title": "علي بن أبي طالب",
+      "author": "علي الصلابي",
+      "pages": 700,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1262722883i/6721359.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 54,
+      "title": "الحسن بن علي",
+      "author": "علي الصلابي",
+      "pages": 350,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/carton/243/243586.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 55,
+      "title": "معاوية بن أبي سفيان",
+      "author": "علي الصلابي",
+      "pages": 650,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/243/243781.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 56,
+      "title": "صلاح الدين الأيوبي",
+      "author": "علي الصلابي",
+      "pages": 700,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/13/4/7/c/07203501e747c597df0b6c86f697aed9.png.webp",
+      "category": "السيرة"
+    },
+    {
+      "id": 57,
+      "title": "السيرة النبوية",
+      "author": "راغب السرجاني",
+      "pages": 1100,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/2/9/c/a/f6ff02f2979ca06f2699dbcaa85ee8e6.jpg.webp",
+      "category": "السيرة"
+    },
+    {
+      "id": 58,
+      "title": "سيرة ابن هشام",
+      "author": "عبد الملك بن هشام",
+      "pages": 520,
+      "coverImage": "https://m.media-amazon.com/images/I/81vSr9s6iYL.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 59,
+      "title": "زاد المعاد",
+      "author": "ابن قيم الجوزية",
+      "pages": 900,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1462646843i/30129052.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 60,
+      "title": "الشمائل المحمدية",
+      "author": "محمد بن عيسى الترمذي",
+      "pages": 300,
+      "coverImage": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/42544/uploads/urunresimleri/buyuk/es-semailul-muhammediyye-vel-hasailul--ab02f5.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 61,
+      "title": "زاد المعاد في هدي خير العباد",
+      "author": "ابن القيم",
+      "pages": 2600,
+      "coverImage": "https://media.zid.store/266058de-f9db-4f4a-874d-5bff2b8b1f5f/6f38f3f8-6516-4772-a636-9ae704fdf544.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 62,
+      "title": "فقه السيرة",
+      "author": "محمد الغزالي",
+      "pages": 480,
+      "coverImage": "https://m.media-amazon.com/images/I/A1KamVfXokL._AC_UF1000,1000_QL80_.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 63,
+      "title": "أسد الغابة في معرفة الصحابة",
+      "author": "ابن الأثير",
+      "pages": 3800,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/b/be/20170618045659%21%D8%A3%D8%B3%D8%AF_%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9_%D9%81%D9%8A_%D9%85%D8%B9%D8%B1%D9%81%D8%A9_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%A8%D8%A9.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 64,
+      "title": "السيرة النبوية",
+      "author": "ابن كثير",
+      "pages": 1600,
+      "coverImage": "https://www.ebnalarabe.com/cdn/shop/files/2024-05-07_200450.jpg?v=1715105687&width=1946",
+      "category": "السيرة"
+    },
+    {
+      "id": 65,
+      "title": "قصص الأنبياء",
+      "author": "ابن كثير",
+      "pages": 500,
+      "coverImage": "https://nasihaa.com/uploads/img/1679132575_2022-03-24-623c9c1b40f02.png",
+      "category": "السيرة"
+    },
+    {
+      "id": 66,
+      "title": "صفة الصفوة",
+      "author": "ابن الجوزي",
+      "pages": 1800,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzB0XaH7QOHr4AV4G8tUGDtaUnSBoBzEw-g&s",
+      "category": "السيرة"
+    },
+    {
+      "id": 67,
+      "title": "صحيح البخاري",
+      "author": "الإمام البخاري",
+      "pages": 2600,
+      "coverImage": "https://archive.org/download/79565_20220227_2311/%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 68,
+      "title": "النهاية في غريب الحديث والأثر",
+      "author": "ابن الأثير",
+      "pages": 2400,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICMABYdMreo-ZFIuOG5mnBI94ohnPfPvfPQ&s",
+      "category": "الحديث"
+    },
+    {
+      "id": 69,
+      "title": "جامع الأصول في أحاديث الرسول",
+      "author": "ابن الأثير",
+      "pages": 6500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/Jame3alosool.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 70,
+      "title": "جامع المسانيد والسنن",
+      "author": "ابن كثير",
+      "pages": 10000,
+      "coverImage": "https://assets.asfar.io/uploads/2022/04/25042825/jamie-almasanid-walsunan-abu-alfedaa-emadeddin.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 71,
+      "title": "الموضوعات",
+      "author": "ابن الجوزي",
+      "pages": 1200,
+      "coverImage": "https://pbs.twimg.com/media/EWJXFdrWoAEN6U0.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 72,
+      "title": "البداية والنهاية",
+      "author": "ابن كثير",
+      "pages": 8000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/fd/AlbidayaWalnihaya.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 73,
+      "title": "قصة الحضارة",
+      "author": "ويل ديورانت",
+      "pages": 11000,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1369964519i/15759610.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 74,
+      "title": "فن الحرب",
+      "author": "صن تزو",
+      "pages": 250,
+      "coverImage": "https://daralsaqi.com/uploads/books/image/fan_alharb_ED2_jpg.png",
+      "category": "التاريخ"
+    },
+    {
+      "id": 75,
+      "title": "الاستشراق",
+      "author": "إدوارد سعيد",
+      "pages": 400,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650531752i/60855309.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 76,
+      "title": "سير أعلام النبلاء",
+      "author": "الذهبي",
+      "pages": 9000,
+      "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/248/248031.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 77,
+      "title": "موسوعة تاريخ العالم",
+      "author": "فيليب باركر",
+      "pages": 1200,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498895423i/34350268.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 78,
+      "title": "هيروشيما",
+      "author": "عبد الله العجيري",
+      "pages": 287,
+      "coverImage": "https://m.media-amazon.com/images/I/51obtrR0M5L.UF1000,1000_QL80.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 79,
+      "title": "الدولة الأموية",
+      "author": "علي الصلابي",
+      "pages": 1200,
+      "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/12/OC60-1-scaled.jpg?fit=1747%2C2560&ssl=1",
+      "category": "التاريخ"
+    },
+    {
+      "id": 80,
+      "title": "الدولة العباسية",
+      "author": "علي الصلابي",
+      "pages": 900,
+      "coverImage": "https://tariq-library.com/wp-content/uploads/2021/12/BORE02-1332.webp",
+      "category": "التاريخ"
+    },
+    {
+      "id": 81,
+      "title": "الدولة العثمانية",
+      "author": "علي الصلابي",
+      "pages": 800,
+      "coverImage": "https://hunfaa.com/wp-content/uploads/2024/11/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%AB%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%AD%D9%86%D9%81%D8%A7%D8%A1-www.hunfaa.com_.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 82,
+      "title": "دولة السلاجقة",
+      "author": "علي الصلابي",
+      "pages": 550,
+      "coverImage": "https://www.alsalabi.com/media/uploads/booksimg/2022/12/08/a34.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 83,
+      "title": "الدولة الزنكية",
+      "author": "علي الصلابي",
+      "pages": 450,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRskES5PO_h2Rl9yYeE60Yp968B3SWMl5Kcxw&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 84,
+      "title": "قصة الأندلس",
+      "author": "راغب السرجاني",
+      "pages": 800,
+      "coverImage": "https://api.cezma.cloud/storage/thumbnails/products/web/1747970493temp370515557333051689.png",
+      "category": "التاريخ"
+    },
+    {
+      "id": 85,
+      "title": "قصة التتار",
+      "author": "راغب السرجاني",
+      "pages": 450,
+      "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/carton/262/262525.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 86,
+      "title": "قصة الحروب الصليبية",
+      "author": "راغب السرجاني",
+      "pages": 900,
+      "coverImage": "https://media.zid.store/thumbs/f7a07b8d-467a-43a4-a03d-168a5ccbf1e9/ec539d81-db9a-4ce8-9643-83215d169aff-thumbnail-370x370-70.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 87,
+      "title": "الموسوعة الميسرة في التاريخ الإسلامي",
+      "author": "راغب السرجاني",
+      "pages": 1200,
+      "coverImage": "https://turkistanilibrary.com/sites/default/files/tarix-islamiy-1.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 88,
+      "title": "ماذا قدم المسلمون للعالم؟",
+      "author": "راغب السرجاني",
+      "pages": 800,
+      "coverImage": "https://cdn.salla.sa/xwKaj/6213002e-8348-4891-a9c5-3af754ddbfce-636.875x1000-DtRwhfWpzIXqws8WvRiktMjmC2XpeZTT7Ra86ebo.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 89,
+      "title": "قصة العلوم الطبية في الحضارة الإسلامية",
+      "author": "راغب السرجاني",
+      "pages": 350,
+      "coverImage": "https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/563330.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 90,
+      "title": "قصة تونس ",
+      "author": "راغب السرجاني",
+      "pages": 600,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY1DKMQaTrkkeYSuuCbloI68SjXKzSM406RQ&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 91,
+      "title": "تاريخ الطبري",
+      "author": "محمد بن جرير الطبري",
+      "pages": 8000,
+      "coverImage": "https://assets.asfar.io/uploads/2023/05/13214304/tabaris-history-history-natiskgs-9782745132635.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 92,
+      "title": "العواصم من القواصم",
+      "author": "أبو بكر ابن العربي",
+      "pages": 2200,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1385653952i/6184275.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 93,
+      "title": "الكامل في التاريخ",
+      "author": "ابن الأثير",
+      "pages": 4500,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-OSRXHYRm5Al99yTsxb8bnxJqZBXDr3RAg&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 94,
+      "title": "اللباب في تهذيب الأنساب",
+      "author": "ابن الأثير",
+      "pages": 1400,
+      "coverImage": "https://cdn.salla.sa/pRgRp/93b48191-bc65-4b65-9213-66abfa898601-339.0625x500-kogZ8dMZm1f74aDQOCKHtQYpjU9tGZnIPUreKOHM.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 95,
+      "title": "طبقات الشافعية",
+      "author": "ابن كثير",
+      "pages": 900,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/c7/%D8%B7%D8%A8%D9%82%D8%A7%D8%AA_%D8%A7%D9%84%D8%B4%D8%A7%D9%81%D8%B9%D9%8A%D8%A9_%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 96,
+      "title": "المنتظم في تاريخ الملوك والأمم",
+      "author": "ابن الجوزي",
+      "pages": 6200,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgfnFKdVLlljEi5AcPGJeK9n-Vm09RN5g8A&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 97,
+      "title": "الأب الغني الأب الفقير",
+      "author": "روبرت كيوساكي",
+      "pages": 336,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/2/20/20231126105925%21%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D8%BA%D9%86%D9%8A.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 98,
+      "title": "فن اللامبالاة",
+      "author": "مارك مانسون",
+      "pages": 224,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D9%81%D9%86_%D8%A7%D9%84%D9%84%D8%A7%D9%85%D8%A8%D8%A7%D9%84%D8%A7%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 99,
+      "title": "قوة التفكير الإيجابي",
+      "author": "نورمان فينسنت بيل",
+      "pages": 288,
+      "coverImage": "https://daralkhayal.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-01-at-10.59.57-AM.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 100,
+      "title": "عالم صوفي",
+      "author": "يوستاين غاردر",
+      "pages": 518,
+      "coverImage": "https://m.media-amazon.com/images/I/61wABrw36CS.AC_UF1000,1000_QL80.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 101,
+      "title": "الماجريات",
+      "author": "إبراهيم السكران",
+      "pages": 343,
+      "coverImage": "https://m.media-amazon.com/images/I/61BumoSqGOS.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 102,
+      "title": "رقائق القرآن",
+      "author": "إبراهيم السكران",
+      "pages": 128,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386913381i/19408357.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 103,
+      "title": "مسلكيات",
+      "author": "إبراهيم السكران",
+      "pages": 187,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513880611i/22363984.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 104,
+      "title": "التأويل الحداثي للتراث",
+      "author": "إبراهيم السكران",
+      "pages": 300,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A-%D9%84%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%85%D8%B1%D9%83%D8%B2-%D8%AA%D9%81%D9%83%D8%B1-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 105,
+      "title": "سلطة الثقافة الغالبة",
+      "author": "إبراهيم السكران",
+      "pages": 248,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394395743i/21410657.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 106,
+      "title": "سرج رمضانية",
+      "author": "إبراهيم السكران",
+      "pages": 150,
+      "coverImage": "https://assets.asfar.io/uploads/2025/07/suruj-ramadaniya-ibrahim-assakran-8-scaled.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 107,
+      "title": "رحلة الحروف",
+      "author": "إبراهيم السكران",
+      "pages": 175,
+      "coverImage": "https://archive.org/services/img/20220125_20220125_1053/full/pct:200/0/default.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 108,
+      "title": "ميليشيا الإلحاد",
+      "author": "عبد الله العجيري",
+      "pages": 240,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZ7LSwmPOeLK_kKyamW0HhMJ6XI-9smWQ0A&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 109,
+      "title": "زخرف القول",
+      "author": "عبد الله العجيري",
+      "pages": 341,
+      "coverImage": "https://nasihaa.com/uploads/img/1688227735_528037.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 110,
+      "title": "شموع النهار",
+      "author": "عبد الله العجيري",
+      "pages": 450,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphA633p7praiBd0fFmTLEGnXHVdHZNaVfpg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 111,
+      "title": "المنشقون",
+      "author": "عبد الله العجيري",
+      "pages": 350,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7Ksy6xZ_LsMGWayL1izdg2vEaxnyGItw-g&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 112,
+      "title": "خرافة السر",
+      "author": "عبد الله العجيري",
+      "pages": 93,
+      "coverImage": "https://www.samawy.com/displayimg/1000836/2c8756d9864a4fcea2f3e705dcafc638.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 113,
+      "title": "ينبوع الغواية الفكرية",
+      "author": "عبد الله العجيري",
+      "pages": 620,
+      "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1400-file_11_46-e1648033515387-350x500.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 114,
+      "title": "في ظلال القرآن",
+      "author": "سيد قطب",
+      "pages": 5630,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/6/63/%D9%81%D9%8A_%D8%B8%D9%84%D8%A7%D9%84_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 115,
+      "title": "كتب وشخصيات",
+      "author": "سيد قطب",
+      "pages": 342,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf/page1-182px-%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 116,
+      "title": "السلام العالمي والإسلام",
+      "author": "سيد قطب",
+      "pages": 280,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/normal/264/264227.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 117,
+      "title": "خصائص التصور الإسلامي",
+      "author": "سيد قطب",
+      "pages": 200,
+      "coverImage": "https://books-library.website/files/books-library.online-03300601Lh4A2.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 118,
+      "title": "شروط النهضة",
+      "author": "مالك بن نبي",
+      "pages": 164,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHeUmoUvKWu4StDSyNwnvqSJHf91roUdvaw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 119,
+      "title": "وجهة العالم الإسلامي",
+      "author": "مالك بن نبي",
+      "pages": 186,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVY7p062EyBgs8ZAxy70O9Bnmmn1XIaegbA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 120,
+      "title": "مشكلة الثقافة",
+      "author": "مالك بن نبي",
+      "pages": 152,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 121,
+      "title": "مشكلات الحضارة",
+      "author": "مالك بن نبي",
+      "pages": 316,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEDe2J--OfkxM-lN8otgVbBXMZSyzKk2DDg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 122,
+      "title": "دور المسلم ورسالته",
+      "author": "مالك بن نبي",
+      "pages": 65,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%AA%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AB%D9%84%D8%AB-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%8A%D9%86-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 123,
+      "title": "مذكرات شاهد للقرن",
+      "author": "مالك بن نبي",
+      "pages": 460,
+      "coverImage": "https://cdn.abjjad.com/pub/e33f97e5-02c3-4dce-9ce1-67926f0d881b.png",
+      "category": "الفكر"
+    },
+    {
+      "id": 124,
+      "title": "بداية المجتهد",
+      "author": "ابن رشد",
+      "pages": 600,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1350895521i/16101628.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 125,
+      "title": "الحجاب في الشرع والفطرة",
+      "author": "عبد العزيز الطريفي",
+      "pages": 84,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/311/311850.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 126,
+      "title": "صفة وضوء النبي ﷺ",
+      "author": "عبد العزيز الطريفي",
+      "pages": 150,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46tD65e7o9ho9kprXe6dr3XfmXFkKQ5i-iA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 127,
+      "title": "الفصل بين النفس والعقل",
+      "author": "عبد العزيز الطريفي",
+      "pages": 209,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522199254i/39666869.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 128,
+      "title": "أذكار الصباح والمساء رواية ودراية",
+      "author": "عبد العزيز الطريفي",
+      "pages": 480,
+      "coverImage": "https://books.islamway.net//1/1223/906_eltrife_elfasl.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 129,
+      "title": "فصول في العقيدة",
+      "author": "عبد العزيز الطريفي",
+      "pages": 70,
+      "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/09/SEP480-1.jpg?fit=1901%2C2786&ssl=1",
+      "category": "الفكر"
+    },
+    {
+      "id": 130,
+      "title": "لا إله إلا الله",
+      "author": "محمد قطب",
+      "pages": 183,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_SeyJJ4-_dogFhSi7bW_HByk9NuTibXlwBw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 131,
+      "title": "الرحيق المختوم",
+      "author": "صفي الرحمن المباركفوري",
+      "pages": 500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/5c/Arraheek_Almakhtoom.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 132,
+      "title": "الآجرومية",
+      "author": "محمد بن داود الصنهاجي",
+      "pages": 80,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/89/Aj%C4%81r%C5%ABm%C4%ABya_book_cover.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 133,
+      "title": "ألفية ابن مالك",
+      "author": "محمد بن عبد الله ابن مالك",
+      "pages": 200,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrxXOMKLGziyHJhciLIYGRdqo75SwHG73MVg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 134,
+      "title": "شرح ابن عقيل",
+      "author": "عبد الله بن عقيل",
+      "pages": 600,
+      "coverImage": "https://ketabpedia.com/wp-content/uploads/2020/10/%D8%B4%D8%B1%D8%AD-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84-%D8%B9%D9%84%D9%89-%D8%A3%D9%84%D9%81%D9%8A%D8%A9-%D8%A7%D8%A8%D9%86-%D9%85%D8%A7%D9%84%D9%83-%D9%88%D9%85%D8%B9%D9%87-%D9%83%D8%AA%D8%A7%D8%A8-%D9%85%D9%86%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D9%84-%D8%A8%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D8%B4%D8%B1%D8%AD-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 135,
+      "title": "مغني اللبيب",
+      "author": "ابن هشام الأنصاري",
+      "pages": 700,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtxDOr43JgI0GFhi_zqkAQcESKwBmerrp1LA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 136,
+      "title": "دلائل الإعجاز",
+      "author": "عبد القاهر الجرجاني",
+      "pages": 300,
+      "coverImage": "https://cdn.salla.sa/YvENm/adc1459a-175a-4307-8432-b73db8476cfe-707.79220779221x1000-lJrFJwlvMYcvBCDNKOX74YNKaOq9DYU0rcGYVROr.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 137,
+      "title": "المنتظم",
+      "author": "ابن الجوزي",
+      "pages": 2000,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2SNbhUnR1HpziyfJdNtlx5laK_cXbU0BpDw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 138,
+      "title": "مدارج السالكين",
+      "author": "ابن قيم الجوزية",
+      "pages": 1400,
+      "coverImage": "https://cdn.salla.sa/YvENm/1fa2a432-aabd-4bdb-b859-e0c4a939f5f5-1000x1000-fscWAMpYdLVo0Bp6hfwTg31l5VxOUjkTc7upkV6d.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 139,
+      "title": "الفوائد",
+      "author": "ابن قيم الجوزية",
+      "pages": 420,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/72/20170619024021%21%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%A6%D8%AF.JPG",
+      "category": "الفكر"
+    },
+    {
+      "id": 140,
+      "title": "الوابل الصيب",
+      "author": "ابن قيم الجوزية",
+      "pages": 360,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/7/70/%D8%A7%D9%84%D9%88%D8%A7%D8%A8%D9%84_%D8%A7%D9%84%D8%B5%D9%8A%D8%A8_%D9%85%D9%86_%D8%A7%D9%84%D9%83%D9%84%D9%85_%D8%A7%D9%84%D8%B7%D9%8A%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 141,
+      "title": "عدة الصابرين",
+      "author": "ابن قيم الجوزية",
+      "pages": 240,
+      "coverImage": "https://nasihaa.com/uploads/img/1720508364_WhatsApp%20Image%202024-07-09%20at%209.57.34%20AM.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 142,
+      "title": "مختصر منهاج القاصدين",
+      "author": "ابن قدامة المقدسي",
+      "pages": 200,
+      "coverImage": "https://m.media-amazon.com/images/I/71BGJw8bHAL._AC_UF1000,1000_QL80_.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 143,
+      "title": "تفسير ابن كثير",
+      "author": "ابن كثير",
+      "pages": 4000,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/78/78196.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 144,
+      "title": "المنهاج من ميراث النبوة",
+      "author": "أحمد السيد",
+      "pages": 336,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D9%85%D9%86%D9%87%D8%A7%D8%AC-%D9%85%D9%86-%D9%85%D9%8A%D8%B1%D8%A7%D8%AB-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D8%A9-%D9%85%D8%AA%D9%86-%D9%81%D9%89-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%89-%D9%85%D9%86%D8%A7%D8%B1-%D8%A7%D9%84%D9%81%D9%83%D8%B1-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 145,
+      "title": "بوصلة المصلح",
+      "author": "أحمد السيد",
+      "pages": 192,
+      "coverImage": "https://www.mazribookstore.com/storage/uploads/products/images/79c6db8a-eaf7-4b54-bd3f-f10c2d110e84-66cc9bc2d89c4.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 146,
+      "title": "كامل الصورة",
+      "author": "أحمد السيد",
+      "pages": 81,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D9%86%D8%A7%D8%B1-%D8%A7%D9%84%D9%81%D9%83%D8%B1-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 147,
+      "title": "التفكير الناقد للجيل الصاعد",
+      "author": "أحمد السيد",
+      "pages": 55,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS988INSXDrxxGX16Ae866O6GKNw_qJHTHzAA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 148,
+      "title": "الى الجيل الصاعد",
+      "author": "أحمد السيد",
+      "pages": 128,
+      "coverImage": "https://www.tursbookstore.com/wp-content/uploads/2024/02/4V5A1206.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 149,
+      "title": "محاسن الإسلام",
+      "author": "أحمد السيد",
+      "pages": 60,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQem-yX0mfMR5ZlCSu-QYdqtoMQ8DdL9a_jcQ&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 150,
+      "title": "العقلية الليبرالية",
+      "author": "عبد العزيز الطريفي",
+      "pages": 350,
+      "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1410-img111-2-600x600h.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 151,
+      "title": "الاستقامة",
+      "author": "ابن تيمية",
+      "pages": 900,
+      "coverImage": "https://media.alreq.com/fe5c2505-90b2-4b4b-a097-313284b73f78-ManuscriptPrintCover.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 152,
+      "title": "مفتاح دار السعادة",
+      "author": "ابن القيم",
+      "pages": 1400,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/a1/%D9%85%D9%81%D8%AA%D8%A7%D8%AD_%D8%AF%D8%A7%D8%B1_%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 153,
+      "title": "تحفة المودود بأحكام المولود",
+      "author": "ابن القيم",
+      "pages": 350,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/cd/%D8%AA%D8%AD%D9%81%D8%A9_%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%88%D8%AF_%D8%A8%D8%A3%D8%AD%D9%83%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 154,
+      "title": "بدائع الفوائد",
+      "author": "ابن القيم",
+      "pages": 1300,
+      "coverImage": "https://assets.asfar.io/uploads/2022/10/16145235/badayie-alfawayid-abn-qiam-aljawzia.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 155,
+      "title": "مدارج السالكين",
+      "author": "ابن القيم",
+      "pages": 1800,
+      "coverImage": "https://archive.org/download/WAQ121892/cover.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 156,
+      "title": "الروح",
+      "author": "ابن القيم",
+      "pages": 600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/ec/%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B1%D9%88%D8%AD.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 157,
+      "title": "إغاثة اللهفان من مصائد الشيطان",
+      "author": "ابن القيم",
+      "pages": 1100,
+      "coverImage": "https://www.archive.org/download/waq60742/cover.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 158,
+      "title": "حادي الأرواح إلى بلاد الأفراح",
+      "author": "ابن القيم",
+      "pages": 500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/8/89/%D8%AD%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%A3%D8%B1%D9%88%D8%A7%D8%AD.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 159,
+      "title": "اجتماع الجيوش الإسلامية",
+      "author": "ابن القيم",
+      "pages": 300,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7a/20231126092037%21%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9_%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%B4_%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9_%D8%B9%D9%84%D9%89_%D8%BA%D8%B2%D9%88_%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%84%D8%A9_%D9%88%D8%A7%D9%84%D8%AC%D9%87%D9%85%D9%8A%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 160,
+      "title": "شفاء العليل",
+      "author": "ابن القيم",
+      "pages": 600,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytrzMNod7O426BFHmcxVdQJFN4fvIidv3Sg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 161,
+      "title": "الصواعق المرسلة",
+      "author": "ابن القيم",
+      "pages": 1600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/c/c0/20231126092950%21%D8%A7%D9%84%D8%B5%D9%88%D8%A7%D8%B9%D9%82_%D8%A7%D9%84%D9%85%D8%B1%D8%B3%D9%84%D8%A9_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D8%AC%D9%87%D9%85%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%84%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 162,
+      "title": "دستور الوحدة الثقافية",
+      "author": "محمد الغزالي",
+      "pages": 192,
+      "coverImage": "https://fastorder.store/img/offers/6531484c60d56.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 163,
+      "title": "مفاهيم ينبغي أن تصحح",
+      "author": "محمد قطب",
+      "pages": 380,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/6/4/a/596602003c64a51774baa671289b43c5.PNG.webp",
+      "category": "الفكر"
+    },
+    {
+      "id": 164,
+      "title": "واقعنا المعاصر",
+      "author": "محمد قطب",
+      "pages": 530,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGmyNXgKIYKyW0JXvNj4PrtErg8utkWzG0fA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 165,
+      "title": "جاهلية القرن العشرين",
+      "author": "محمد قطب",
+      "pages": 292,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-5Bq-na0IAJ0p-8YQW6_8LyTZs47_ucgaw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 166,
+      "title": "منهج الفن الإسلامي",
+      "author": "محمد قطب",
+      "pages": 228,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxpJXPWbEn6QBEPj4T2L1x-ZpHiJA_YLrtlw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 167,
+      "title": "زاد المسير في علم التفسير",
+      "author": "ابن الجوزي",
+      "pages": 3500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/96/96551.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 168,
+      "title": "تلبيس إبليس",
+      "author": "ابن الجوزي",
+      "pages": 450,
+      "coverImage": "https://www.alarabimag.com/images/thumbs/mid/20437.webp",
+      "category": "الفكر"
+    },
+    {
+      "id": 169,
+      "title": "صيد الخاطر",
+      "author": "ابن الجوزي",
+      "pages": 500,
+      "coverImage": "https://www.sifatusafwa.com/38198-large_default/saydul-khaatir-imam-ibn-al-jawzi.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 170,
+      "title": "التبصرة",
+      "author": "ابن الجوزي",
+      "pages": 700,
+      "coverImage": "https://quranonlinelibrary.com/book_images//images/books/1271/1271.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 171,
+      "title": "أخبار الحمقى والمغفلين",
+      "author": "ابن الجوزي",
+      "pages": 200,
+      "coverImage": "https://kotobon.com/uploads/products/22e3fe65c7d1b2371e1d.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 172,
+      "title": "ذم الهوى",
+      "author": "ابن الجوزي",
+      "pages": 600,
+      "coverImage": "https://ketabpedia.com/wp-content/uploads/2021/03/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%83%D8%AA%D8%A7%D8%A8-%D8%B0%D9%85-%D8%A7%D9%84%D9%87%D9%88%D9%89-%D8%A7%D8%A8%D9%86-%D8%A7%D9%84%D8%AC%D9%88%D8%B2%D9%8A-PDF.png",
+      "category": "الفكر"
+    },
+    {
+      "id": 173,
+      "title": "بر الوالدين",
+      "author": "ابن الجوزي",
+      "pages": 150,
+      "coverImage": "https://www.zakariyyabooks.com/wp-content/uploads/%D8%A8%D8%B1-%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D8%BA%D9%84%D8%A7%D9%81-scaled-510x713.jpg",
+      "category": "الفكر"
+    },
+
+  {
+    "id": 174,
+    "title": "الخيميائي",
+    "author": "باولو كويلو",
+    "pages": 208,
+    "coverImage": "https://m.media-amazon.com/images/I/61snwl0lyZL.UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 175,
+    "title": "1984",
+    "author": "جورج أورويل",
+    "pages": 328,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/e0/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_1984.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 176,
+    "title": "ألف شمس ساطعة",
+    "author": "خالد حسيني",
+    "pages": 384,
+    "coverImage": "https://cdn.abjjad.com/pub/f79f6e2a-b4c9-4069-a622-0354b302b54e.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 177,
+    "title": "بساتين عربستان",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://images-eu.ssl-images-amazon.com/images/I/71RMQU7yMeL.AC_UL165_SR165,165.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 178,
+    "title": "الثلاثية",
+    "author": "نجيب محفوظ",
+    "pages": 1500,
+    "coverImage": "https://baalbeck.com/Upload/baalbeck/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%86%D8%AC%D9%8A%D8%A8-%D9%85%D8%AD%D9%81%D9%88%D8%B8_118202318253.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 179,
+    "title": "زقاق المدق",
+    "author": "نجيب محفوظ",
+    "pages": 350,
+    "coverImage": "https://cdn.abjjad.com/pub/41fe6a65-7609-4423-a80f-8a0e136264f3.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 180,
+    "title": "خوف",
+    "author": "أسامة المسلم",
+    "pages": 400,
+    "coverImage": "https://m.media-amazon.com/images/I/41KCxxwkPDL.AC_UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 181,
+    "title": "الخبز الحافي",
+    "author": "محمد شكري",
+    "pages": 220,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/ec/%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%AE%D8%A8%D8%B2_%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%8A.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 182,
+    "title": "البؤساء",
+    "author": "فيكتور هوغو",
+    "pages": 1400,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7b/20170618060049%21%D8%A7%D9%84%D8%A8%D8%A4%D8%B3%D8%A7%D8%A12.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 183,
+    "title": "مدن الملح",
+    "author": "عبد الرحمن منيف",
+    "pages": 800,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysNaDdTiZlL4s4gyITqoVVsE6_yz_n_ORsQ&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 184,
+    "title": "رجال في الشمس",
+    "author": "غسان كنفاني",
+    "pages": 120,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/%D8%B5%D9%88%D8%B1%D8%A9_%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D8%B1%D8%AC%D8%A7%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D9%85%D8%B3.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 185,
+    "title": "الطريق",
+    "author": "كورماك مكارثي",
+    "pages": 287,
+    "coverImage": "https://www.zaadbooks.com/tempImage/img-30-11831-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%B2%D8%A7%D8%AF-1.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 186,
+    "title": "الحرافيش",
+    "author": "نجيب محفوظ",
+    "pages": 400,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%85%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%81%D9%8A%D8%B4.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 187,
+    "title": "اللص والكلاب",
+    "author": "نجيب محفوظ",
+    "pages": 200,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/5/53/20231126093409%21%D8%A7%D9%84%D9%84%D8%B5_%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 188,
+    "title": "وا إسلاماه",
+    "author": "علي أحمد باكثير",
+    "pages": 420,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/3/30/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7_%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D8%A7%D9%87.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 189,
+    "title": "عزازيل",
+    "author": "يوسف زيدان",
+    "pages": 320,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/aa/Azazel_novel_cover.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 190,
+    "title": "سمرقند",
+    "author": "أمين معلوف",
+    "pages": 300,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehZXDi48tj2GGqfyg8toVINUfzv71Bbvnw&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 191,
+    "title": "الحرب والسلام",
+    "author": "ليو تولستوي",
+    "pages": 1600,
+    "coverImage": "https://m.media-amazon.com/images/I/71t+aein-UL.AC_UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 192,
+    "title": "الطريق إلى عين جالوت",
+    "author": "جرجي زيدان",
+    "pages": 280,
+    "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%8A%D9%86-%D8%AC%D8%A7%D9%84%D9%88%D8%AA-27-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-658%D9%87-%D8%A7%D9%84%D9%88%D9%84-1260%D9%85-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D9%88-%D9%86%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D9%81-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 193,
+    "title": "يوتوبيا",
+    "author": "أحمد خالد توفيق",
+    "pages": 200,
+    "coverImage": "https://m.media-amazon.com/images/I/71T2mApcPJL.AC_UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 194,
+    "title": "عالم جديد شجاع",
+    "author": "ألدوس هكسلي",
+    "pages": 288,
+    "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%B9%D8%A7%D9%84%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B4%D8%AC%D8%A7%D8%B9-%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 195,
+    "title": "نحن",
+    "author": "يفغيني زامياتين",
+    "pages": 240,
+    "coverImage": "https://m.media-amazon.com/images/I/61DC4Km7zcL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 196,
+    "title": "إيكاروس",
+    "author": "أحمد خالد توفيق",
+    "pages": 220,
+    "coverImage": "https://m.media-amazon.com/images/I/61-ks4upYsL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 197,
+    "title": "أرض زيكولا",
+    "author": "عمرو عبد الحميد",
+    "pages": 280,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/98/%D8%A3%D8%B1%D8%B6_%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 198,
+    "title": "أماريتا",
+    "author": "عمرو عبد الحميد",
+    "pages": 320,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1453065317i/28590941.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 199,
+    "title": "سيد الخواتم",
+    "author": "ج.ر.ر تولكين",
+    "pages": 1200,
+    "coverImage": "https://foulabook.com/storage/photo/23039.2019-07-09.1562689719.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 200,
+    "title": "هاري بوتر وحجر الفيلسوف",
+    "author": "ج.ك رولينغ",
+    "pages": 330,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/2/2b/Harry_potter_and_the_philosophers_stone_%28Arabic%29.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 201,
+    "title": "أغنية الجليد والنار",
+    "author": "جورج ر.ر مارتن",
+    "pages": 850,
+    "coverImage": "https://apis.takweenkw.com/Attachments/book//2019121623173214961189.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 202,
+    "title": "خوف 2",
+    "author": "أسامة المسلم",
+    "pages": 312,
+    "coverImage": "https://m.media-amazon.com/images/I/61crbkaSpdL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 203,
+    "title": "خوف 3",
+    "author": "أسامة المسلم",
+    "pages": 320,
+    "coverImage": "https://m.media-amazon.com/images/I/51AtKzrf8jL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 204,
+    "title": "عصبة الشياطين",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://cdn.salla.sa/KAPdd/F29UUz93kLGPK9zZZAKxAqNM3cGb8S1OoyaaOcYG.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 205,
+    "title": "رياح هجر",
+    "author": "أسامة المسلم",
+    "pages": 502,
+    "coverImage": "https://m.media-amazon.com/images/I/71dybQIm0XL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 206,
+    "title": "لج",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://m.media-amazon.com/images/I/619magHdVeL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 207,
+    "title": "ملكة الغرانيق",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://imgv2-2-f.scribdassets.com/img/document/486250951/original/aea4fcf5b5/1?v=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 208,
+    "title": "ثورة الحور",
+    "author": "أسامة المسلم",
+    "pages": 502,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2018/10/22-108.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 209,
+    "title": "صراع الملكات",
+    "author": "أسامة المسلم",
+    "pages": 535,
+    "coverImage": "https://m.media-amazon.com/images/I/61y+zUbRtML._AC_UF894,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 210,
+    "title": "فجر السايرينات",
+    "author": "أسامة المسلم",
+    "pages": 528,
+    "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D9%84%D8%AD%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%B1-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A9-%D9%84%D8%AC-5-%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D9%8A%D8%B1%D9%8A%D9%86%D8%A7%D8%AA-%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%AF%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%89-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 211,
+    "title": "صخب الخسيف",
+    "author": "أسامة المسلم",
+    "pages": 528,
+    "coverImage": "https://ak-asset.jarir.com/akeneo-prod/asset/0/6/0/7/0607beb51a358fe28b76550d26eff346fdfbf044_478793.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 212,
+    "title": "اجيج",
+    "author": "أسامة المسلم",
+    "pages": 510,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkOo6YxH-vzXcMGLLxsi7-b_4R0chMu9Fgpg&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 213,
+    "title": "العرجاء",
+    "author": "أسامة المسلم",
+    "pages": 504,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1540569640i/42443531.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 214,
+    "title": "عرين الأسد",
+    "author": "أسامة المسلم",
+    "pages": 656,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/290421/conversions/%D8%B9%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%A3%D8%B3%D8%AF-22944-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 215,
+    "title": "الساحرة الهجينة",
+    "author": "أسامة المسلم",
+    "pages": 500,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581505389i/51197880.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 216,
+    "title": "هاذا ما حدث معي",
+    "author": "أسامة المسلم",
+    "pages": 420,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1628430092i/58725761.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 217,
+    "title": "أرض القرابين",
+    "author": "أسامة المسلم",
+    "pages": 117,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624975292i/58453527.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 218,
+    "title": "جحيم العابرين",
+    "author": "أسامة المسلم",
+    "pages": 112,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/268494/conversions/%D8%AC%D8%AD%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%B1%D9%8A%D9%86-18252-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 219,
+    "title": "شبكة العنكبوت",
+    "author": "أسامة المسلم",
+    "pages": 120,
+    "coverImage": "https://m.media-amazon.com/images/I/71O0-kOz-BL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 220,
+    "title": "سعد الدباس",
+    "author": "أسامة المسلم",
+    "pages": 112,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624975992i/58453595.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 221,
+    "title": "الغيهب",
+    "author": "أسامة المسلم",
+    "pages": 192,
+    "coverImage": "https://www.shoroukbookstores.com/images/Books/original/9786038411032.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 222,
+    "title": "النداء",
+    "author": "أسامة المسلم",
+    "pages": 144,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2U91RldptwSQupzxFKh1abEjcRFnOlHFyA&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 223,
+    "title": "الوليمة",
+    "author": "أسامة المسلم",
+    "pages": 245,
+    "coverImage": "https://m.media-amazon.com/images/I/610FuHVoX1L._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 224,
+    "title": "الانتهازي",
+    "author": "أسامة المسلم",
+    "pages": 208,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/347800/conversions/%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D9%87%D8%A7%D8%B2%D9%8A-35031-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 225,
+    "title": "ليلة ماطرة",
+    "author": "أسامة المسلم",
+    "pages": 160,
+    "coverImage": "https://m.media-amazon.com/images/I/71Y-HIuXHXL._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 226,
+    "title": "وهج البنفسج",
+    "author": "أسامة المسلم",
+    "pages": 232,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/283685/conversions/%D9%88%D9%87%D8%AC-%D8%A7%D9%84%D8%A8%D9%86%D9%81%D8%B3%D8%AC-1-21357-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 227,
+    "title": "الدوائر الخمس",
+    "author": "أسامة المسلم",
+    "pages": 352,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/137943/conversions/%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D8%AE%D9%85%D8%B3-3865-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 228,
+    "title": "الجزار",
+    "author": "حسن الجندي",
+    "pages": 322,
+    "coverImage": "https://cdn.abjjad.com/pub/c93498f2-893c-434d-99a9-e1b56c7e7449.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 229,
+    "title": "نصف ميت",
+    "author": "حسن الجندي",
+    "pages": 286,
+    "coverImage": "https://cdn.abjjad.com/pub/92639ba9-a1e7-40d2-a888-e46854c1cf92.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 230,
+    "title": "مدينة الموتى",
+    "author": "حسن الجندي",
+    "pages": 185,
+    "coverImage": "https://cdn.salla.sa/aaRKD/vy3EgqcqhteMRlSI5gRyF4I05n8ELLx9pmoWYzr7.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 231,
+    "title": "المرتد",
+    "author": "حسن الجندي",
+    "pages": 318,
+    "coverImage": "https://m.media-amazon.com/images/I/71EvcwTFRYL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 232,
+    "title": "العائد",
+    "author": "حسن الجندي",
+    "pages": 366,
+    "coverImage": "https://cdn.abjjad.com/pub/cf6b4452-21c9-4832-bc95-68c4a32c9a76.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 233,
+    "title": "ابتسم فأنت ميت",
+    "author": "حسن الجندي",
+    "pages": 321,
+    "coverImage": "https://m.media-amazon.com/images/I/71H+fCjG8sL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 234,
+    "title": "ليلة في جهنم منزل أبو خطوة",
+    "author": "حسن الجندي",
+    "pages": 272,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1669181649i/33949436.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 235,
+    "title": "الرصد",
+    "author": "حسن الجندي",
+    "pages": 311,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1504127535i/36153109.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 236,
+    "title": "ضريح عمرو بن الجن",
+    "author": "حسن الجندي",
+    "pages": 183,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/145215/conversions/%D8%B6%D8%B1%D9%8A%D8%AD-%D8%B9%D9%85%D8%B1%D9%88-%D8%A8%D9%86-%D8%A7%D9%84%D8%AC%D9%86-6458-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 237,
+    "title": "حكايات فرغلي المستكاوي",
+    "author": "حسن الجندي",
+    "pages": 132,
+    "coverImage": "https://m.media-amazon.com/images/I/61qsCddE8iL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 238,
+    "title": "صلاة الممسوس",
+    "author": "حسن الجندي",
+    "pages": 299,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1616958602i/57555713.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 239,
+    "title": "أذكار الموت",
+    "author": "حسن الجندي",
+    "pages": 256,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/501052/conversions/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D8%AA-55979-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 240,
+    "title": "لقاء مع كاتب رعب",
+    "author": "حسن الجندي",
+    "pages": 120,
+    "coverImage": "https://cdn.abjjad.com/pub/822521ce-f61e-4c3d-aa7c-df90f7c5076f.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 241,
+    "title": "ليلة في جهنم - أيام مع الباشا",
+    "author": "حسن الجندي",
+    "pages": 286,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1579558272i/50607589.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 242,
+    "title": "أبابيل",
+    "author": "أحمد آل حمدان",
+    "pages": 404,
+    "coverImage": "https://m.media-amazon.com/images/I/51Vyq7ni0iL._AC_UF894,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 243,
+    "title": "الجساسة",
+    "author": "أحمد آل حمدان",
+    "pages": 340,
+    "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/2/2/c/f/6813b646a52cf5e6f9cf1c4cd6a1fa24.webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 244,
+    "title": "السجيل",
+    "author": "أحمد آل حمدان",
+    "pages": 358,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1707862693i/208463921.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 245,
+    "title": "الزمهرير",
+    "author": "أحمد آل حمدان",
+    "pages": 380,
+    "coverImage": "https://i0.wp.com/yasmeenlibrary.com/upload/alzmehrir.webp?h=375&ssl=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 246,
+    "title": "آرسس",
+    "author": "أحمد آل حمدان",
+    "pages": 206,
+    "coverImage": "https://www.kutubypdf.com/wp-content/uploads/2023/08/arses.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 247,
+    "title": "آرسس 2",
+    "author": "أحمد آل حمدان",
+    "pages": 249,
+    "coverImage": "https://m.media-amazon.com/images/I/61mmMMrYPIL._AC_UF894,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 248,
+    "title": "جومانا",
+    "author": "أحمد آل حمدان",
+    "pages": 328,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1669305708i/63834290.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 249,
+    "title": "آزر",
+    "author": "أحمد آل حمدان",
+    "pages": 356,
+    "coverImage": "https://ketabpedia.com/wp-content/uploads/2025/04/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%A2%D8%B2%D8%B1-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A2%D9%84-%D8%AD%D9%85%D8%AF%D8%A7%D9%86-PDF-%D8%A7%D8%A8%D9%86-%D8%B0%D8%A6%D8%A8%D8%A9-%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D9%8A.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 250,
+    "title": "مدينة الحب لا يسكنها العقلاء",
+    "author": "أحمد آل حمدان",
+    "pages": 143,
+    "coverImage": "https://media.zid.store/thumbs/c3c80b9f-f176-496c-9f27-04187e1270f9/636e48fc-3351-4efb-a7bf-8faad60053a0-thumbnail-1000x1000-70.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 251,
+    "title": "أنت كل أشيائي الجميلة",
+    "author": "أحمد آل حمدان",
+    "pages": 222,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/137907/conversions/%D8%A7%D9%86%D8%AA-%D9%83%D9%84-%D8%A3%D8%B4%D9%8A%D8%A7%D8%A6%D9%8A-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D9%84%D8%A9-3853-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 252,
+    "title": "ردني إليك",
+    "author": "أحمد آل حمدان",
+    "pages": 296,
+    "coverImage": "https://almouradbooks.com/wp-content/uploads/2023/10/%D8%B1%D8%AF%D9%86%D9%8A-%D8%A5%D9%84%D9%8A%D9%83.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 253,
+    "title": "أنا قبل كل شيء",
+    "author": "الجوهرة الرمال",
+    "pages": 207,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737973367i/33793867.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 254,
+    "title": "لي أنا أولا",
+    "author": "الجوهرة الرمال",
+    "pages": 240,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2023/02/22-61.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 255,
+    "title": "العوسج",
+    "author": "الجوهرة الرمال",
+    "pages": 279,
+    "coverImage": "https://imgv2-1-f.scribdassets.com/img/document/779435969/original/d5cf4f093e/1?v=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 256,
+    "title": "حب في غفوته الأخيرة",
+    "author": "الجوهرة الرمال",
+    "pages": 104,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1508604893i/25882687.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 257,
+    "title": "ركض الخائفين",
+    "author": "الجوهرة الرمال",
+    "pages": 200,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2020/09/22.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 258,
+    "title": "ورد",
+    "author": "الجوهرة الرمال",
+    "pages": 175,
+    "coverImage": "https://i0.wp.com/8ghrb.com/wp-content/uploads/2022/05/22-818.jpg?w=250&format=webp&ssl=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 259,
+    "title": "دقات الشامو",
+    "author": "عمرو عبد الحميد",
+    "pages": 303,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/126834/conversions/%D8%AF%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%88-%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D8%AC%D8%A7%D8%B1%D8%AA%D9%8A%D9%862-41-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 260,
+    "title": "أرض السافلين",
+    "author": "أحمد خالد مصطفى",
+    "pages": 391,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/264228/conversions/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B3%D8%A7%D9%81%D9%84%D9%8A%D9%86-126-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 261,
+    "title": "أنتيخريستوس",
+    "author": "أحمد خالد مصطفى",
+    "pages": 311,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1418888619i/23935182.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 262,
+    "title": "ملائك نصيبين",
+    "author": "أحمد خالد مصطفى",
+    "pages": 400,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1547517963i/43566744.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 263,
+    "title": "الفيل الأزرق",
+    "author": "أحمد مراد",
+    "pages": 220,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f3/Al-Feel_al-Azraq.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 264,
+    "title": "صندوق الدمى",
+    "author": "شيرين هنائي",
+    "pages": 402,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFP-bi6ZfdSfbSMCvQwlCgcPnbEFZJprC0pw&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 265,
+    "title": "سر الغرفة 207",
+    "author": "أحمد خالد توفيق",
+    "pages": 220,
+    "coverImage": "https://m.media-amazon.com/images/I/71-eM8OYWmL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 266,
+    "title": "أكتب حتى لا يأكلني الشيطان",
+    "author": "مريم الحيسي",
+    "pages": 482,
+    "coverImage": "https://m.media-amazon.com/images/I/41XtpDjH3DL._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 267,
+    "title": "قواعد جارتين",
+    "author": "عمرو عبد الحميد",
+    "pages": 320,
+    "coverImage": "https://www.4readlib.com/uploads/images/1519238440.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 268,
+    "title": "أمواج أكما",
+    "author": "عمرو عبد الحميد",
+    "pages": 320,
+    "coverImage": "https://www.tirryaq.com/wp-content/uploads/2020/04/3120562-1.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 269,
+    "title": "كويكول",
+    "author": "حنان لاشين",
+    "pages": 379,
+    "coverImage": "https://www.rwaiaty.com/wp-content/uploads/2020/03/89622971_4198476213511236_7004981429440348160_o-318x450.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 270,
+    "title": "إيكادولي",
+    "author": "حنان لاشين",
+    "pages": 315,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/489459/conversions/%D8%A5%D9%8A%D9%83%D8%A7%D8%AF%D9%88%D9%84%D9%8A-136-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 271,
+    "title": "أوبال",
+    "author": "حنان لاشين",
+    "pages": 352,
+    "coverImage": "https://www.4readlib.com/uploads/images/1521455258.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 272,
+    "title": "امانوس",
+    "author": "حنان لاشين",
+    "pages": 328,
+    "coverImage": "https://almouradbooks.com/wp-content/uploads/2023/10/%D8%A3%D9%85%D8%A7%D9%86%D9%88%D8%B3-430x645.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 273,
+    "title": "الوحش الذي يسكنك يمكن أن يكون لطيفًا ",
+    "author": "ايناس سمير",
+    "pages": 200,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1674602641i/85120246.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 274,
+    "title": "الآن نفتح الصندوق",
+    "author": "أحمد خالد توفيق",
+    "pages": 249,
+    "coverImage": "https://cdn.abjjad.com/pub/3a125b60-03fa-456a-88ed-d8a4574a41a8.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 275,
+    "title": "في ممر الفئران",
+    "author": "أحمد خالد توفيق",
+    "pages": 380,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/97/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%81%D9%8A_%D9%85%D9%85%D8%B1_%D8%A7%D9%84%D9%81%D8%A6%D8%B1%D8%A7%D9%86.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 276,
+    "title": " 18 قصه ",
+    "author": "عبد الوهاب السد الرفاعي",
+    "pages": 200,
+    "coverImage": "https://i0.wp.com/8ghrb.com/wp-content/uploads/2023/11/22-11.jpg?h=375&ssl=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 277,
+    "title": "أرض الظلام",
+    "author": "يحيى عبد القادر",
+    "pages": 200,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2025/11/22-92.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 278,
+    "title": "الشيطان يحكى",
+    "author": "أحمد خالد مصطفى",
+    "pages": 390,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/307530/conversions/%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86-%D9%8A%D8%AD%D9%83%D9%89-26839-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 279,
+    "title": "فجر المرايا",
+    "author": "منار بدر الدين",
+    "pages": 364,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1600122448i/55338838.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 280,
+    "title": "أرض الغربان",
+    "author": "أحمد عصام الدين",
+    "pages": 168,
+    "coverImage": "https://cdn.abjjad.com/pub/8b3d4378-4d03-4dc3-b60a-fad7ee3b52c7.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 281,
+    "title": "بحر الرماد",
+    "author": "محمد البدري",
+    "pages": 364,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/363262/conversions/%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D8%AF-16940-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 282,
+    "title": "وادي الذئاب المنسيه",
+    "author": "عمرو عبد الحميد",
+    "pages": 335,
+    "coverImage": "https://m.media-amazon.com/images/I/51TissFYqNL._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 283,
+    "title": "الهول",
+    "author": "أحمد خالد توفيق",
+    "pages": 200,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1405348822i/20492184.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 284,
+    "title": "عرش من الرمال",
+    "author": "متعب بن ظمنه",
+    "pages": 144,
+    "coverImage": "https://www.samawy.com/displayimg/1009615/12f0fffbcb434b2eb930c5a68fa33f5c.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 285,
+    "title": "عرش من الرمال 2",
+    "author": "متعب بن ظمنه",
+    "pages": 150,
+    "coverImage": "https://www.alriyadh.com/media/article/2022/10/10/img/8065837345.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 286,
+    "title": "جسر إلى تيرابثيا",
+    "author": "كاثرين باترسون",
+    "pages": 200,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/570835/conversions/%D8%AC%D8%B3%D8%B1-%D8%A5%D9%84%D9%89-%D8%AA%D9%8A%D8%B1%D8%A7%D8%A8%D8%AB%D9%8A%D8%A7-66403-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 287,
+    "title": "فرانكشتاين",
+    "author": "ماري شيلي",
+    "pages": 271,
+    "coverImage": "https://cdn.abjjad.com/pub/71e6d4ad-faf2-482f-8453-706611164d88.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 288,
+    "title": "سقطرى",
+    "author": "حنان لاشين",
+    "pages": 200,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/257206/conversions/%D8%B3%D9%82%D8%B7%D8%B1%D9%89-16932-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 289,
+    "title": "بلاد تركب العنكبوت",
+    "author": "منى سلامة",
+    "pages": 356,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcBpIAz_C7sLw8kh1x4jA609w1y8E6dPa4Q&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 290,
+    "title": "كيغار",
+    "author": "منى سلامة",
+    "pages": 360,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/127047/conversions/%D9%83%D9%8A%D8%BA%D8%A7%D8%B1-114-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+
+
+
+
+    {
+      "id": 291,
+      "title": "ديوان أحمد شوقي",
+      "author": "أحمد شوقي",
+      "pages": 500,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386927540i/2028235.jpg",
+      "category": "الشعر"
+     },
+    {
+      "id": 292,
+      "title": "ديوان المتنبي",
+      "author": "أبو الطيب المتنبي",
+      "pages": 600,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/a/2/1/bb6449e969a2117cdc260159f9db1aa0.jpg.webp",
+      "category": "الشعر"
+    },
+    {
+      "id": 293,
+      "title": "ديوان الإمام الشافعي",
+      "author": "الإمام الشافعي",
+      "pages": 120,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/85/85700.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 294,
+      "title": "قصائد حب عربية",
+      "author": "نزار قباني",
+      "pages": 250,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1341605762i/13562483.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 295,
+      "title": "أغاني الحياة",
+      "author": "أبو القاسم الشابي",
+      "pages": 180,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1237597027i/6348442.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 296,
+      "title": "الأعمال الشعرية",
+      "author": "بدر شاكر السياب",
+      "pages": 450,
+      "coverImage": "https://cdn.salla.sa/PzXDG/8b2ab4be-8fe3-4088-8c95-1894de2feee5-764.82213438735x1000-wQwyU99e0ea9oUjBKVj7CTWWW2gpKV7HHOp6MNZx.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 297,
+      "title": "ديوان سيد قطب",
+      "author": "سيد قطب",
+      "pages": 299,
+      "coverImage": "https://www.odabasham.net/images/dewansayed388.jpg",
+      "category": "الشعر"
+    }
+  ],
+  "booksByCategory": {
+    "الفقه": [
+      {
+      "id": 1,
+      "title": "الورقات",
+      "author": "إمام الحرمين أبو المعالي الجويني",
+      "pages": 120,
+      "coverImage": "https://cdn.salla.sa/DDpXV/ReGymCWHCE3aKRicHLD9lNRdUqNX5qJh6XKFHOrO.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 2,
+      "title": "روضة الناظر",
+      "author": "ابن قدامة المقدسي",
+      "pages": 350,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/1/11/20170618195614%21%D8%B1%D9%88%D8%B6%D8%A9_%D8%A7%D9%84%D9%86%D8%A7%D8%B8%D8%B1_%D9%88%D8%AC%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B8%D8%B1.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 3,
+      "title": "إعلام الموقعين",
+      "author": "ابن قيم الجوزية",
+      "pages": 420,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ePFbjw0kaf36FYrE1tRw3cZRQlTlPsVbvw&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 4,
+      "title": "المستصفى",
+      "author": "أبو حامد الغزالي",
+      "pages": 700,
+      "coverImage": "https://assets.asfar.io/uploads/2023/11/11211138/almustasfa-min-eilm-alosoul-book-alghazaly.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 5,
+      "title": "أصول الفقه",
+      "author": "عبد الوهاب خلاف",
+      "pages": 480,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/314/314869.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 6,
+      "title": "الهداية",
+      "author": "علي بن محمد المرغيناني",
+      "pages": 1200,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/316/316117.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 7,
+      "title": "بدائع الصنائع",
+      "author": "علاء الدين الكاساني",
+      "pages": 3200,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/b/be/20231126094132%21%D8%A8%D8%AF%D8%A7%D8%A6%D8%B9_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%A6%D8%B9.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 8,
+      "title": "الاختيار لتعليل المختار",
+      "author": "عبد الله الموصلي",
+      "pages": 900,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/333/333065.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 9,
+      "title": "رد المحتار على الدر المختار",
+      "author": "ابن عابدين",
+      "pages": 3000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/c/cf/20231126100009%21%D8%B1%D8%AF_%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%A7%D8%B1.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 10,
+      "title": "الفقه الحنفي في ثوبه الجديد",
+      "author": "وهبة الزحيلي",
+      "pages": 850,
+      "coverImage": "https://kotobon.com/uploads/products/b8d5558299735ddf5819.jpeg",
+      "category": "الفقه"
+    },
+    {
+      "id": 11,
+      "title": "المدونة",
+      "author": "سحنون بن سعيد",
+      "pages": 600,
+      "coverImage": "https://cdn.salla.sa/YvENm/UO7eV0l1jPmUqA6O0QWoawEfVwfg0nOB11cJ8znA.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 12,
+      "title": "الشرح الكبير",
+      "author": "أحمد الدردير",
+      "pages": 1500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/371/371290.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 13,
+      "title": "القوانين الفقهية",
+      "author": "ابن جزي الكلبي",
+      "pages": 420,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1484569159i/33867835.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 14,
+      "title": "الذخيرة",
+      "author": "شهاب الدين القرافي",
+      "pages": 2200,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/f/9/5/4be7ab6726f9567485c30dcae7b343ed.jpg.webp",
+      "category": "الفقه"
+    },
+    {
+      "id": 15,
+      "title": "الأم",
+      "author": "محمد بن إدريس الشافعي",
+      "pages": 1000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/0/0c/Alomm.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 16,
+      "title": "المجموع شرح المهذب",
+      "author": "يحيى بن شرف النووي",
+      "pages": 3000,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/106/106150.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 17,
+      "title": "روضة الطالبين",
+      "author": "يحيى بن شرف النووي",
+      "pages": 1200,
+      "coverImage": "https://archive.org/download/FP44490/cover.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 18,
+      "title": "كفاية الأخيار",
+      "author": "تقي الدين الحصني",
+      "pages": 480,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl7pmfb7TbR9G-dBb-EHfirtRaK9cRFfRpYg&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 19,
+      "title": "فتح العزيز",
+      "author": "عبد الكريم الرافعي",
+      "pages": 700,
+      "coverImage": "https://cdn.salla.sa/YvENm/ad0016af-8496-4d76-b0ef-79106d3642ec-1000x1000-tn4dKZzwYvzvchpDF7KxiHTPbl5a2PqtYnGgsZuh.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 20,
+      "title": "المغني",
+      "author": "ابن قدامة المقدسي",
+      "pages": 4000,
+      "coverImage": "https://cdn.salla.sa/YvENm/23615923-081e-4e77-bfd7-fe01511228d7-703x1000-Y1Sg9SGNMhmkoYWs7RIeefi3Tpf0la0In62JdVyP.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 21,
+      "title": "الكافي",
+      "author": "ابن قدامة المقدسي",
+      "pages": 1800,
+      "coverImage": "https://alfeker.net/uploads/pictures/alfekerimgbk00852cvr.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 22,
+      "title": "زاد المستقنع",
+      "author": "موسى بن أحمد الحجاوي",
+      "pages": 600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/b/b5/%D8%B2%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%86%D8%B9.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 23,
+      "title": "الروض المربع",
+      "author": "منصور البهوتي",
+      "pages": 1600,
+      "coverImage": "https://static.ticimax.cloud/cdn-cgi/image/width=0,quality=0/42544/uploads/urunresimleri/buyuk/er-ravzul-murbi-serhu-zadil-mustakni-n-a992b1.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 24,
+      "title": "الإنصاف",
+      "author": "علاء الدين المرداوي",
+      "pages": 2000,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYtQZOetC_mhEKcYuur-zgHv7cvMH-Bh9hMQ&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 25,
+      "title": "الاعتصام",
+      "author": "أبو إسحاق الشاطبي",
+      "pages": 900,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/d/d4/%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B5%D8%A7%D9%85.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 26,
+      "title": "مجموع الفتاوى",
+      "author": "ابن تيمية",
+      "pages": 19500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/d/d9/%D9%85%D8%AC%D9%85%D9%88%D8%B9_%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D9%88%D9%8A_.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 27,
+      "title": "الصارم المسلول على شاتم الرسول",
+      "author": "ابن تيمية",
+      "pages": 600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%A7%D9%84%D8%B5%D8%A7%D8%B1%D9%85_%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%88%D9%84_%D8%B9%D9%84%D9%89_%D8%B4%D8%A7%D8%AA%D9%85_%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 28,
+      "title": "الفتاوى الكبرى",
+      "author": "ابن تيمية",
+      "pages": 3500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/291/291773.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 29,
+      "title": "اقتضاء الصراط المستقيم",
+      "author": "ابن تيمية",
+      "pages": 950,
+      "coverImage": "https://cdn.salla.sa/YvENm/pRYnjViAVxRW1CcuUgILYWIkGB3PGemw8Xzl9ZM8.jpg",
+      "category": "الفقه"
+    },
+    {
+      "id": 30,
+      "title": "إعلام الموقعين عن رب العالمين",
+      "author": "ابن القيم",
+      "pages": 2200,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ePFbjw0kaf36FYrE1tRw3cZRQlTlPsVbvw&s",
+      "category": "الفقه"
+    },
+    {
+      "id": 31,
+      "title": "الداء والدواء (الجواب الكافي)",
+      "author": "ابن القيم",
+      "pages": 400,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RHuIhDPFMpRJVNttpoidJglSVd7jYImUUA&s",
+      "category": "الفقه"
+    }
+    ],
+    "العقيدة": [
+       {
+      "id": 32,
+      "title": "العقيدة الطحاوية",
+      "author": "الإمام الطحاوي",
+      "pages": 120,
+      "coverImage": "https://www.nasihaa.com/uploads/img/1709396373_556.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 33,
+      "title": "كتاب التوحيد",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 200,
+      "coverImage": "https://cdn.salla.sa/onqRgX/hzzuZVoSoYLmvNNbZxmAXTy7l9saLn8SYmYbEcRP.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 34,
+      "title": "كشف الشبهات",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 50,
+      "coverImage": "https://media.zid.store/266058de-f9db-4f4a-874d-5bff2b8b1f5f/ded915a5-897a-46a6-b599-fec6dd483b31.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 35,
+      "title": "الأصول الثلاثة",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 30,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%B4%D8%B1%D8%AD_%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D9%84_%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A9.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 36,
+      "title": "القواعد الأربع",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 20,
+      "coverImage": "https://aqeedeh.com/img_book_files/20170612115040.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 37,
+      "title": "الملل والنحل",
+      "author": "محمد بن عبد الكريم الشهرستاني",
+      "pages": 520,
+      "coverImage": "https://resalah.com/egypt/image/cache/catalog/2022/07/%D8%A7%D9%84%D9%85%D9%84%D9%84-%D9%88%D8%A7%D9%84%D9%86%D8%AD%D9%84-1-scaled-575x575.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 38,
+      "title": "الفرق بين الفرق",
+      "author": "عبد القاهر البغدادي",
+      "pages": 380,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/359/359907.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 39,
+      "title": "السنة",
+      "author": "أبو بكر الخلال",
+      "pages": 260,
+      "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/93/93965.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 40,
+      "title": "الرد على الجهمية",
+      "author": "الإمام أحمد بن حنبل",
+      "pages": 240,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/91/%D8%A7%D9%84%D8%B3%D9%86%D8%A9_%D9%84%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A8%D9%86_%D8%A3%D8%AD%D9%85%D8%AF.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 41,
+      "title": "درء تعارض العقل والنقل",
+      "author": "ابن تيمية",
+      "pages": 4600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/b/bb/%D8%AF%D8%B1%D8%A1_%D8%AA%D8%B9%D8%A7%D8%B1%D8%B6_%D8%A7%D9%84%D8%B9%D9%82%D9%84_%D9%88%D8%A7%D9%84%D9%86%D9%82%D9%84.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 42,
+      "title": "منهاج السنة النبوية",
+      "author": "ابن تيمية",
+      "pages": 4200,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/4/44/20170619050219%21%D9%85%D9%86%D9%87%D8%A7%D8%AC_%D8%A7%D9%84%D8%B3%D9%91%D9%86%D8%A9_%D8%A7%D9%84%D9%86%D9%91%D8%A8%D9%88%D9%8A%D9%91%D8%A9.png",
+      "category": "العقيدة"
+    },
+    {
+      "id": 43,
+      "title": "بيان تلبيس الجهمية",
+      "author": "ابن تيمية",
+      "pages": 5000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/8/83/20170618171226%21%D8%A8%D9%8A%D8%A7%D9%86_%D8%AA%D9%84%D8%A8%D9%8A%D8%B3_%D8%A7%D9%84%D8%AC%D9%87%D9%85%D9%8A%D8%A9.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 44,
+      "title": "الجواب الصحيح لمن بدل دين المسيح",
+      "author": "ابن تيمية",
+      "pages": 3100,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/d/d8/%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD_%D9%84%D9%85%D9%86_%D8%A8%D8%AF%D9%84_%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 45,
+      "title": "شرح العقيدة الأصفهانية",
+      "author": "ابن تيمية",
+      "pages": 350,
+      "coverImage": "https://arabicpdfs.com/wp-content/uploads/2022/07/%D8%B4%D8%B1%D8%AD-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B5%D9%81%D9%87%D8%A7%D9%86%D9%8A%D8%A9.jpg",
+      "category": "العقيدة"
+    },
+    {
+      "id": 46,
+      "title": "النبوات",
+      "author": "ابن تيمية",
+      "pages": 1100,
+      "coverImage": "https://s2.ketabonline.com/uploads/2020/04/3337710979098679674.webp?1769756903",
+      "category": "العقيدة"
+    },
+    {
+      "id": 47,
+      "title": "ركائن الإيمان",
+      "author": "محمد قطب",
+      "pages": 435,
+      "coverImage": "https://cdn.salla.sa/EjbjB/RG8fYWje028Pot5kqRlnKkZ516PMGFjYGnlGXyfr.jpg",
+      "category": "العقيدة"
+    }
+    ],
+    "السيرة": [
+      {
+      "id": 48,
+      "title": "مختصر سيرة الرسول",
+      "author": "محمد بن عبد الوهاب",
+      "pages": 350,
+      "coverImage": "https://cdn.salla.sa/YvENm/7d398c2a-73e0-44c9-9315-0568aacecdb2-678.90625x1000-hdsTe0SiO1c4HIltDvEYSO8lUUK2yOnv0vw7hDLi.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 49,
+      "title": "السيرة النبوية - عرض وقائع",
+      "author": "علي الصلابي",
+      "pages": 950,
+      "coverImage": "https://m.media-amazon.com/images/I/61EAe0qn5GL._AC_UF1000,1000_QL80_.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 50,
+      "title": "أبو بكر الصديق",
+      "author": "علي الصلابي",
+      "pages": 400,
+      "coverImage": "https://m.media-amazon.com/images/I/81FjNnEPaxL._AC_UF1000,1000_QL80_.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 51,
+      "title": "عمر بن الخطاب",
+      "author": "علي الصلابي",
+      "pages": 500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/carton/243/243737.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 52,
+      "title": "عثمان بن عفان",
+      "author": "علي الصلابي",
+      "pages": 550,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/carton/243/243723.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 53,
+      "title": "علي بن أبي طالب",
+      "author": "علي الصلابي",
+      "pages": 700,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1262722883i/6721359.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 54,
+      "title": "الحسن بن علي",
+      "author": "علي الصلابي",
+      "pages": 350,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/carton/243/243586.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 55,
+      "title": "معاوية بن أبي سفيان",
+      "author": "علي الصلابي",
+      "pages": 650,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/243/243781.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 56,
+      "title": "صلاح الدين الأيوبي",
+      "author": "علي الصلابي",
+      "pages": 700,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/13/4/7/c/07203501e747c597df0b6c86f697aed9.png.webp",
+      "category": "السيرة"
+    },
+    {
+      "id": 57,
+      "title": "السيرة النبوية",
+      "author": "راغب السرجاني",
+      "pages": 1100,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/2/9/c/a/f6ff02f2979ca06f2699dbcaa85ee8e6.jpg.webp",
+      "category": "السيرة"
+    },
+    {
+      "id": 58,
+      "title": "سيرة ابن هشام",
+      "author": "عبد الملك بن هشام",
+      "pages": 520,
+      "coverImage": "https://m.media-amazon.com/images/I/81vSr9s6iYL.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 59,
+      "title": "زاد المعاد",
+      "author": "ابن قيم الجوزية",
+      "pages": 900,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1462646843i/30129052.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 60,
+      "title": "الشمائل المحمدية",
+      "author": "محمد بن عيسى الترمذي",
+      "pages": 300,
+      "coverImage": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/42544/uploads/urunresimleri/buyuk/es-semailul-muhammediyye-vel-hasailul--ab02f5.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 61,
+      "title": "زاد المعاد في هدي خير العباد",
+      "author": "ابن القيم",
+      "pages": 2600,
+      "coverImage": "https://media.zid.store/266058de-f9db-4f4a-874d-5bff2b8b1f5f/6f38f3f8-6516-4772-a636-9ae704fdf544.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 62,
+      "title": "فقه السيرة",
+      "author": "محمد الغزالي",
+      "pages": 480,
+      "coverImage": "https://m.media-amazon.com/images/I/A1KamVfXokL._AC_UF1000,1000_QL80_.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 63,
+      "title": "أسد الغابة في معرفة الصحابة",
+      "author": "ابن الأثير",
+      "pages": 3800,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/b/be/20170618045659%21%D8%A3%D8%B3%D8%AF_%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A9_%D9%81%D9%8A_%D9%85%D8%B9%D8%B1%D9%81%D8%A9_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%A8%D8%A9.jpg",
+      "category": "السيرة"
+    },
+    {
+      "id": 64,
+      "title": "السيرة النبوية",
+      "author": "ابن كثير",
+      "pages": 1600,
+      "coverImage": "https://www.ebnalarabe.com/cdn/shop/files/2024-05-07_200450.jpg?v=1715105687&width=1946",
+      "category": "السيرة"
+    },
+    {
+      "id": 65,
+      "title": "قصص الأنبياء",
+      "author": "ابن كثير",
+      "pages": 500,
+      "coverImage": "https://nasihaa.com/uploads/img/1679132575_2022-03-24-623c9c1b40f02.png",
+      "category": "السيرة"
+    },
+    {
+      "id": 66,
+      "title": "صفة الصفوة",
+      "author": "ابن الجوزي",
+      "pages": 1800,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzB0XaH7QOHr4AV4G8tUGDtaUnSBoBzEw-g&s",
+      "category": "السيرة"
+    }
+    ],
+    "الحديث": [
+      {
+      "id": 67,
+      "title": "صحيح البخاري",
+      "author": "الإمام البخاري",
+      "pages": 2600,
+      "coverImage": "https://archive.org/download/79565_20220227_2311/%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 68,
+      "title": "النهاية في غريب الحديث والأثر",
+      "author": "ابن الأثير",
+      "pages": 2400,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICMABYdMreo-ZFIuOG5mnBI94ohnPfPvfPQ&s",
+      "category": "الحديث"
+    },
+    {
+      "id": 69,
+      "title": "جامع الأصول في أحاديث الرسول",
+      "author": "ابن الأثير",
+      "pages": 6500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/Jame3alosool.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 70,
+      "title": "جامع المسانيد والسنن",
+      "author": "ابن كثير",
+      "pages": 10000,
+      "coverImage": "https://assets.asfar.io/uploads/2022/04/25042825/jamie-almasanid-walsunan-abu-alfedaa-emadeddin.jpg",
+      "category": "الحديث"
+    },
+    {
+      "id": 71,
+      "title": "الموضوعات",
+      "author": "ابن الجوزي",
+      "pages": 1200,
+      "coverImage": "https://pbs.twimg.com/media/EWJXFdrWoAEN6U0.jpg",
+      "category": "الحديث"
+    }
+    ],
+    "التاريخ": [
+      {
+      "id": 72,
+      "title": "البداية والنهاية",
+      "author": "ابن كثير",
+      "pages": 8000,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/fd/AlbidayaWalnihaya.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 73,
+      "title": "قصة الحضارة",
+      "author": "ويل ديورانت",
+      "pages": 11000,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1369964519i/15759610.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 74,
+      "title": "فن الحرب",
+      "author": "صن تزو",
+      "pages": 250,
+      "coverImage": "https://daralsaqi.com/uploads/books/image/fan_alharb_ED2_jpg.png",
+      "category": "التاريخ"
+    },
+    {
+      "id": 75,
+      "title": "الاستشراق",
+      "author": "إدوارد سعيد",
+      "pages": 400,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650531752i/60855309.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 76,
+      "title": "سير أعلام النبلاء",
+      "author": "الذهبي",
+      "pages": 9000,
+      "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/248/248031.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 77,
+      "title": "موسوعة تاريخ العالم",
+      "author": "فيليب باركر",
+      "pages": 1200,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498895423i/34350268.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 78,
+      "title": "هيروشيما",
+      "author": "عبد الله العجيري",
+      "pages": 287,
+      "coverImage": "https://m.media-amazon.com/images/I/51obtrR0M5L.UF1000,1000_QL80.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 79,
+      "title": "الدولة الأموية",
+      "author": "علي الصلابي",
+      "pages": 1200,
+      "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/12/OC60-1-scaled.jpg?fit=1747%2C2560&ssl=1",
+      "category": "التاريخ"
+    },
+    {
+      "id": 80,
+      "title": "الدولة العباسية",
+      "author": "علي الصلابي",
+      "pages": 900,
+      "coverImage": "https://tariq-library.com/wp-content/uploads/2021/12/BORE02-1332.webp",
+      "category": "التاريخ"
+    },
+    {
+      "id": 81,
+      "title": "الدولة العثمانية",
+      "author": "علي الصلابي",
+      "pages": 800,
+      "coverImage": "https://hunfaa.com/wp-content/uploads/2024/11/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%AB%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%AD%D9%86%D9%81%D8%A7%D8%A1-www.hunfaa.com_.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 82,
+      "title": "دولة السلاجقة",
+      "author": "علي الصلابي",
+      "pages": 550,
+      "coverImage": "https://www.alsalabi.com/media/uploads/booksimg/2022/12/08/a34.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 83,
+      "title": "الدولة الزنكية",
+      "author": "علي الصلابي",
+      "pages": 450,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRskES5PO_h2Rl9yYeE60Yp968B3SWMl5Kcxw&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 84,
+      "title": "قصة الأندلس",
+      "author": "راغب السرجاني",
+      "pages": 800,
+      "coverImage": "https://api.cezma.cloud/storage/thumbnails/products/web/1747970493temp370515557333051689.png",
+      "category": "التاريخ"
+    },
+    {
+      "id": 85,
+      "title": "قصة التتار",
+      "author": "راغب السرجاني",
+      "pages": 450,
+      "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/carton/262/262525.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 86,
+      "title": "قصة الحروب الصليبية",
+      "author": "راغب السرجاني",
+      "pages": 900,
+      "coverImage": "https://media.zid.store/thumbs/f7a07b8d-467a-43a4-a03d-168a5ccbf1e9/ec539d81-db9a-4ce8-9643-83215d169aff-thumbnail-370x370-70.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 87,
+      "title": "الموسوعة الميسرة في التاريخ الإسلامي",
+      "author": "راغب السرجاني",
+      "pages": 1200,
+      "coverImage": "https://turkistanilibrary.com/sites/default/files/tarix-islamiy-1.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 88,
+      "title": "ماذا قدم المسلمون للعالم؟",
+      "author": "راغب السرجاني",
+      "pages": 800,
+      "coverImage": "https://cdn.salla.sa/xwKaj/6213002e-8348-4891-a9c5-3af754ddbfce-636.875x1000-DtRwhfWpzIXqws8WvRiktMjmC2XpeZTT7Ra86ebo.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 89,
+      "title": "قصة العلوم الطبية في الحضارة الإسلامية",
+      "author": "راغب السرجاني",
+      "pages": 350,
+      "coverImage": "https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/563330.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 90,
+      "title": "قصة تونس ",
+      "author": "راغب السرجاني",
+      "pages": 600,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY1DKMQaTrkkeYSuuCbloI68SjXKzSM406RQ&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 91,
+      "title": "تاريخ الطبري",
+      "author": "محمد بن جرير الطبري",
+      "pages": 8000,
+      "coverImage": "https://assets.asfar.io/uploads/2023/05/13214304/tabaris-history-history-natiskgs-9782745132635.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 92,
+      "title": "العواصم من القواصم",
+      "author": "أبو بكر ابن العربي",
+      "pages": 2200,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1385653952i/6184275.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 93,
+      "title": "الكامل في التاريخ",
+      "author": "ابن الأثير",
+      "pages": 4500,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-OSRXHYRm5Al99yTsxb8bnxJqZBXDr3RAg&s",
+      "category": "التاريخ"
+    },
+    {
+      "id": 94,
+      "title": "اللباب في تهذيب الأنساب",
+      "author": "ابن الأثير",
+      "pages": 1400,
+      "coverImage": "https://cdn.salla.sa/pRgRp/93b48191-bc65-4b65-9213-66abfa898601-339.0625x500-kogZ8dMZm1f74aDQOCKHtQYpjU9tGZnIPUreKOHM.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 95,
+      "title": "طبقات الشافعية",
+      "author": "ابن كثير",
+      "pages": 900,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/c7/%D8%B7%D8%A8%D9%82%D8%A7%D8%AA_%D8%A7%D9%84%D8%B4%D8%A7%D9%81%D8%B9%D9%8A%D8%A9_%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89.jpg",
+      "category": "التاريخ"
+    },
+    {
+      "id": 96,
+      "title": "المنتظم في تاريخ الملوك والأمم",
+      "author": "ابن الجوزي",
+      "pages": 6200,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgfnFKdVLlljEi5AcPGJeK9n-Vm09RN5g8A&s",
+      "category": "التاريخ"
+    }
+    ],
+    "الفكر": [
+      {
+      "id": 97,
+      "title": "الأب الغني الأب الفقير",
+      "author": "روبرت كيوساكي",
+      "pages": 336,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/2/20/20231126105925%21%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D8%BA%D9%86%D9%8A.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 98,
+      "title": "فن اللامبالاة",
+      "author": "مارك مانسون",
+      "pages": 224,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D9%81%D9%86_%D8%A7%D9%84%D9%84%D8%A7%D9%85%D8%A8%D8%A7%D9%84%D8%A7%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 99,
+      "title": "قوة التفكير الإيجابي",
+      "author": "نورمان فينسنت بيل",
+      "pages": 288,
+      "coverImage": "https://daralkhayal.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-01-at-10.59.57-AM.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 100,
+      "title": "عالم صوفي",
+      "author": "يوستاين غاردر",
+      "pages": 518,
+      "coverImage": "https://m.media-amazon.com/images/I/61wABrw36CS.AC_UF1000,1000_QL80.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 101,
+      "title": "الماجريات",
+      "author": "إبراهيم السكران",
+      "pages": 343,
+      "coverImage": "https://m.media-amazon.com/images/I/61BumoSqGOS.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 102,
+      "title": "رقائق القرآن",
+      "author": "إبراهيم السكران",
+      "pages": 128,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386913381i/19408357.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 103,
+      "title": "مسلكيات",
+      "author": "إبراهيم السكران",
+      "pages": 187,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513880611i/22363984.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 104,
+      "title": "التأويل الحداثي للتراث",
+      "author": "إبراهيم السكران",
+      "pages": 300,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A-%D9%84%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%85%D8%B1%D9%83%D8%B2-%D8%AA%D9%81%D9%83%D8%B1-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 105,
+      "title": "سلطة الثقافة الغالبة",
+      "author": "إبراهيم السكران",
+      "pages": 248,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394395743i/21410657.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 106,
+      "title": "سرج رمضانية",
+      "author": "إبراهيم السكران",
+      "pages": 150,
+      "coverImage": "https://assets.asfar.io/uploads/2025/07/suruj-ramadaniya-ibrahim-assakran-8-scaled.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 107,
+      "title": "رحلة الحروف",
+      "author": "إبراهيم السكران",
+      "pages": 175,
+      "coverImage": "https://archive.org/services/img/20220125_20220125_1053/full/pct:200/0/default.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 108,
+      "title": "ميليشيا الإلحاد",
+      "author": "عبد الله العجيري",
+      "pages": 240,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZ7LSwmPOeLK_kKyamW0HhMJ6XI-9smWQ0A&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 109,
+      "title": "زخرف القول",
+      "author": "عبد الله العجيري",
+      "pages": 341,
+      "coverImage": "https://nasihaa.com/uploads/img/1688227735_528037.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 110,
+      "title": "شموع النهار",
+      "author": "عبد الله العجيري",
+      "pages": 450,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphA633p7praiBd0fFmTLEGnXHVdHZNaVfpg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 111,
+      "title": "المنشقون",
+      "author": "عبد الله العجيري",
+      "pages": 350,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7Ksy6xZ_LsMGWayL1izdg2vEaxnyGItw-g&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 112,
+      "title": "خرافة السر",
+      "author": "عبد الله العجيري",
+      "pages": 93,
+      "coverImage": "https://www.samawy.com/displayimg/1000836/2c8756d9864a4fcea2f3e705dcafc638.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 113,
+      "title": "ينبوع الغواية الفكرية",
+      "author": "عبد الله العجيري",
+      "pages": 620,
+      "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1400-file_11_46-e1648033515387-350x500.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 114,
+      "title": "في ظلال القرآن",
+      "author": "سيد قطب",
+      "pages": 5630,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/6/63/%D9%81%D9%8A_%D8%B8%D9%84%D8%A7%D9%84_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 115,
+      "title": "كتب وشخصيات",
+      "author": "سيد قطب",
+      "pages": 342,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf/page1-182px-%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 116,
+      "title": "السلام العالمي والإسلام",
+      "author": "سيد قطب",
+      "pages": 280,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/normal/264/264227.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 117,
+      "title": "خصائص التصور الإسلامي",
+      "author": "سيد قطب",
+      "pages": 200,
+      "coverImage": "https://books-library.website/files/books-library.online-03300601Lh4A2.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 118,
+      "title": "شروط النهضة",
+      "author": "مالك بن نبي",
+      "pages": 164,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHeUmoUvKWu4StDSyNwnvqSJHf91roUdvaw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 119,
+      "title": "وجهة العالم الإسلامي",
+      "author": "مالك بن نبي",
+      "pages": 186,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVY7p062EyBgs8ZAxy70O9Bnmmn1XIaegbA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 120,
+      "title": "مشكلة الثقافة",
+      "author": "مالك بن نبي",
+      "pages": 152,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 121,
+      "title": "مشكلات الحضارة",
+      "author": "مالك بن نبي",
+      "pages": 316,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEDe2J--OfkxM-lN8otgVbBXMZSyzKk2DDg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 122,
+      "title": "دور المسلم ورسالته",
+      "author": "مالك بن نبي",
+      "pages": 65,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%AA%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AB%D9%84%D8%AB-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%8A%D9%86-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 123,
+      "title": "مذكرات شاهد للقرن",
+      "author": "مالك بن نبي",
+      "pages": 460,
+      "coverImage": "https://cdn.abjjad.com/pub/e33f97e5-02c3-4dce-9ce1-67926f0d881b.png",
+      "category": "الفكر"
+    },
+    {
+      "id": 124,
+      "title": "بداية المجتهد",
+      "author": "ابن رشد",
+      "pages": 600,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1350895521i/16101628.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 125,
+      "title": "الحجاب في الشرع والفطرة",
+      "author": "عبد العزيز الطريفي",
+      "pages": 84,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/311/311850.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 126,
+      "title": "صفة وضوء النبي ﷺ",
+      "author": "عبد العزيز الطريفي",
+      "pages": 150,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46tD65e7o9ho9kprXe6dr3XfmXFkKQ5i-iA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 127,
+      "title": "الفصل بين النفس والعقل",
+      "author": "عبد العزيز الطريفي",
+      "pages": 209,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522199254i/39666869.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 128,
+      "title": "أذكار الصباح والمساء رواية ودراية",
+      "author": "عبد العزيز الطريفي",
+      "pages": 480,
+      "coverImage": "https://books.islamway.net//1/1223/906_eltrife_elfasl.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 129,
+      "title": "فصول في العقيدة",
+      "author": "عبد العزيز الطريفي",
+      "pages": 70,
+      "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/09/SEP480-1.jpg?fit=1901%2C2786&ssl=1",
+      "category": "الفكر"
+    },
+    {
+      "id": 130,
+      "title": "لا إله إلا الله",
+      "author": "محمد قطب",
+      "pages": 183,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_SeyJJ4-_dogFhSi7bW_HByk9NuTibXlwBw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 131,
+      "title": "الرحيق المختوم",
+      "author": "صفي الرحمن المباركفوري",
+      "pages": 500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/5c/Arraheek_Almakhtoom.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 132,
+      "title": "الآجرومية",
+      "author": "محمد بن داود الصنهاجي",
+      "pages": 80,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/8/89/Aj%C4%81r%C5%ABm%C4%ABya_book_cover.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 133,
+      "title": "ألفية ابن مالك",
+      "author": "محمد بن عبد الله ابن مالك",
+      "pages": 200,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrxXOMKLGziyHJhciLIYGRdqo75SwHG73MVg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 134,
+      "title": "شرح ابن عقيل",
+      "author": "عبد الله بن عقيل",
+      "pages": 600,
+      "coverImage": "https://ketabpedia.com/wp-content/uploads/2020/10/%D8%B4%D8%B1%D8%AD-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84-%D8%B9%D9%84%D9%89-%D8%A3%D9%84%D9%81%D9%8A%D8%A9-%D8%A7%D8%A8%D9%86-%D9%85%D8%A7%D9%84%D9%83-%D9%88%D9%85%D8%B9%D9%87-%D9%83%D8%AA%D8%A7%D8%A8-%D9%85%D9%86%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D9%84%D9%8A%D9%84-%D8%A8%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D8%B4%D8%B1%D8%AD-%D8%A7%D8%A8%D9%86-%D8%B9%D9%82%D9%8A%D9%84.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 135,
+      "title": "مغني اللبيب",
+      "author": "ابن هشام الأنصاري",
+      "pages": 700,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtxDOr43JgI0GFhi_zqkAQcESKwBmerrp1LA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 136,
+      "title": "دلائل الإعجاز",
+      "author": "عبد القاهر الجرجاني",
+      "pages": 300,
+      "coverImage": "https://cdn.salla.sa/YvENm/adc1459a-175a-4307-8432-b73db8476cfe-707.79220779221x1000-lJrFJwlvMYcvBCDNKOX74YNKaOq9DYU0rcGYVROr.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 137,
+      "title": "المنتظم",
+      "author": "ابن الجوزي",
+      "pages": 2000,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2SNbhUnR1HpziyfJdNtlx5laK_cXbU0BpDw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 138,
+      "title": "مدارج السالكين",
+      "author": "ابن قيم الجوزية",
+      "pages": 1400,
+      "coverImage": "https://cdn.salla.sa/YvENm/1fa2a432-aabd-4bdb-b859-e0c4a939f5f5-1000x1000-fscWAMpYdLVo0Bp6hfwTg31l5VxOUjkTc7upkV6d.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 139,
+      "title": "الفوائد",
+      "author": "ابن قيم الجوزية",
+      "pages": 420,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/72/20170619024021%21%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D9%81%D9%88%D8%A7%D8%A6%D8%AF.JPG",
+      "category": "الفكر"
+    },
+    {
+      "id": 140,
+      "title": "الوابل الصيب",
+      "author": "ابن قيم الجوزية",
+      "pages": 360,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/7/70/%D8%A7%D9%84%D9%88%D8%A7%D8%A8%D9%84_%D8%A7%D9%84%D8%B5%D9%8A%D8%A8_%D9%85%D9%86_%D8%A7%D9%84%D9%83%D9%84%D9%85_%D8%A7%D9%84%D8%B7%D9%8A%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 141,
+      "title": "عدة الصابرين",
+      "author": "ابن قيم الجوزية",
+      "pages": 240,
+      "coverImage": "https://nasihaa.com/uploads/img/1720508364_WhatsApp%20Image%202024-07-09%20at%209.57.34%20AM.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 142,
+      "title": "مختصر منهاج القاصدين",
+      "author": "ابن قدامة المقدسي",
+      "pages": 200,
+      "coverImage": "https://m.media-amazon.com/images/I/71BGJw8bHAL._AC_UF1000,1000_QL80_.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 143,
+      "title": "تفسير ابن كثير",
+      "author": "ابن كثير",
+      "pages": 4000,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/78/78196.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 144,
+      "title": "المنهاج من ميراث النبوة",
+      "author": "أحمد السيد",
+      "pages": 336,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D9%85%D9%86%D9%87%D8%A7%D8%AC-%D9%85%D9%86-%D9%85%D9%8A%D8%B1%D8%A7%D8%AB-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D8%A9-%D9%85%D8%AA%D9%86-%D9%81%D9%89-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%89-%D9%85%D9%86%D8%A7%D8%B1-%D8%A7%D9%84%D9%81%D9%83%D8%B1-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 145,
+      "title": "بوصلة المصلح",
+      "author": "أحمد السيد",
+      "pages": 192,
+      "coverImage": "https://www.mazribookstore.com/storage/uploads/products/images/79c6db8a-eaf7-4b54-bd3f-f10c2d110e84-66cc9bc2d89c4.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 146,
+      "title": "كامل الصورة",
+      "author": "أحمد السيد",
+      "pages": 81,
+      "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D9%86%D8%A7%D8%B1-%D8%A7%D9%84%D9%81%D9%83%D8%B1-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 147,
+      "title": "التفكير الناقد للجيل الصاعد",
+      "author": "أحمد السيد",
+      "pages": 55,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS988INSXDrxxGX16Ae866O6GKNw_qJHTHzAA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 148,
+      "title": "الى الجيل الصاعد",
+      "author": "أحمد السيد",
+      "pages": 128,
+      "coverImage": "https://www.tursbookstore.com/wp-content/uploads/2024/02/4V5A1206.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 149,
+      "title": "محاسن الإسلام",
+      "author": "أحمد السيد",
+      "pages": 60,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQem-yX0mfMR5ZlCSu-QYdqtoMQ8DdL9a_jcQ&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 150,
+      "title": "العقلية الليبرالية",
+      "author": "عبد العزيز الطريفي",
+      "pages": 350,
+      "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1410-img111-2-600x600h.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 151,
+      "title": "الاستقامة",
+      "author": "ابن تيمية",
+      "pages": 900,
+      "coverImage": "https://media.alreq.com/fe5c2505-90b2-4b4b-a097-313284b73f78-ManuscriptPrintCover.jpeg",
+      "category": "الفكر"
+    },
+    {
+      "id": 152,
+      "title": "مفتاح دار السعادة",
+      "author": "ابن القيم",
+      "pages": 1400,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/a1/%D9%85%D9%81%D8%AA%D8%A7%D8%AD_%D8%AF%D8%A7%D8%B1_%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 153,
+      "title": "تحفة المودود بأحكام المولود",
+      "author": "ابن القيم",
+      "pages": 350,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/cd/%D8%AA%D8%AD%D9%81%D8%A9_%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%88%D8%AF_%D8%A8%D8%A3%D8%AD%D9%83%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 154,
+      "title": "بدائع الفوائد",
+      "author": "ابن القيم",
+      "pages": 1300,
+      "coverImage": "https://assets.asfar.io/uploads/2022/10/16145235/badayie-alfawayid-abn-qiam-aljawzia.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 155,
+      "title": "مدارج السالكين",
+      "author": "ابن القيم",
+      "pages": 1800,
+      "coverImage": "https://archive.org/download/WAQ121892/cover.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 156,
+      "title": "الروح",
+      "author": "ابن القيم",
+      "pages": 600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/e/ec/%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B1%D9%88%D8%AD.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 157,
+      "title": "إغاثة اللهفان من مصائد الشيطان",
+      "author": "ابن القيم",
+      "pages": 1100,
+      "coverImage": "https://www.archive.org/download/waq60742/cover.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 158,
+      "title": "حادي الأرواح إلى بلاد الأفراح",
+      "author": "ابن القيم",
+      "pages": 500,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/8/89/%D8%AD%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%A3%D8%B1%D9%88%D8%A7%D8%AD.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 159,
+      "title": "اجتماع الجيوش الإسلامية",
+      "author": "ابن القيم",
+      "pages": 300,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7a/20231126092037%21%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9_%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%B4_%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9_%D8%B9%D9%84%D9%89_%D8%BA%D8%B2%D9%88_%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%84%D8%A9_%D9%88%D8%A7%D9%84%D8%AC%D9%87%D9%85%D9%8A%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 160,
+      "title": "شفاء العليل",
+      "author": "ابن القيم",
+      "pages": 600,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytrzMNod7O426BFHmcxVdQJFN4fvIidv3Sg&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 161,
+      "title": "الصواعق المرسلة",
+      "author": "ابن القيم",
+      "pages": 1600,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/c/c0/20231126092950%21%D8%A7%D9%84%D8%B5%D9%88%D8%A7%D8%B9%D9%82_%D8%A7%D9%84%D9%85%D8%B1%D8%B3%D9%84%D8%A9_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D8%AC%D9%87%D9%85%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%84%D8%A9.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 162,
+      "title": "دستور الوحدة الثقافية",
+      "author": "محمد الغزالي",
+      "pages": 192,
+      "coverImage": "https://fastorder.store/img/offers/6531484c60d56.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 163,
+      "title": "مفاهيم ينبغي أن تصحح",
+      "author": "محمد قطب",
+      "pages": 380,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/6/4/a/596602003c64a51774baa671289b43c5.PNG.webp",
+      "category": "الفكر"
+    },
+    {
+      "id": 164,
+      "title": "واقعنا المعاصر",
+      "author": "محمد قطب",
+      "pages": 530,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGmyNXgKIYKyW0JXvNj4PrtErg8utkWzG0fA&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 165,
+      "title": "جاهلية القرن العشرين",
+      "author": "محمد قطب",
+      "pages": 292,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-5Bq-na0IAJ0p-8YQW6_8LyTZs47_ucgaw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 166,
+      "title": "منهج الفن الإسلامي",
+      "author": "محمد قطب",
+      "pages": 228,
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxpJXPWbEn6QBEPj4T2L1x-ZpHiJA_YLrtlw&s",
+      "category": "الفكر"
+    },
+    {
+      "id": 167,
+      "title": "زاد المسير في علم التفسير",
+      "author": "ابن الجوزي",
+      "pages": 3500,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/96/96551.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 168,
+      "title": "تلبيس إبليس",
+      "author": "ابن الجوزي",
+      "pages": 450,
+      "coverImage": "https://www.alarabimag.com/images/thumbs/mid/20437.webp",
+      "category": "الفكر"
+    },
+    {
+      "id": 169,
+      "title": "صيد الخاطر",
+      "author": "ابن الجوزي",
+      "pages": 500,
+      "coverImage": "https://www.sifatusafwa.com/38198-large_default/saydul-khaatir-imam-ibn-al-jawzi.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 170,
+      "title": "التبصرة",
+      "author": "ابن الجوزي",
+      "pages": 700,
+      "coverImage": "https://quranonlinelibrary.com/book_images//images/books/1271/1271.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 171,
+      "title": "أخبار الحمقى والمغفلين",
+      "author": "ابن الجوزي",
+      "pages": 200,
+      "coverImage": "https://kotobon.com/uploads/products/22e3fe65c7d1b2371e1d.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 172,
+      "title": "ذم الهوى",
+      "author": "ابن الجوزي",
+      "pages": 600,
+      "coverImage": "https://ketabpedia.com/wp-content/uploads/2021/03/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%83%D8%AA%D8%A7%D8%A8-%D8%B0%D9%85-%D8%A7%D9%84%D9%87%D9%88%D9%89-%D8%A7%D8%A8%D9%86-%D8%A7%D9%84%D8%AC%D9%88%D8%B2%D9%8A-PDF.png",
+      "category": "الفكر"
+    },
+    {
+      "id": 173,
+      "title": "بر الوالدين",
+      "author": "ابن الجوزي",
+      "pages": 150,
+      "coverImage": "https://www.zakariyyabooks.com/wp-content/uploads/%D8%A8%D8%B1-%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D8%BA%D9%84%D8%A7%D9%81-scaled-510x713.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 202,
+      "title": "الطريق إلى القرآن",
+      "author": "إبراهيم السكران",
+      "pages": 117,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1333014209i/13565003.jpg",
+      "category": "الفكر"
+    },
+    {
+      "id": 203,
+      "title": "معالم في الطريق",
+      "author": "سيد قطب",
+      "pages": 225,
+      "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/c9/%D9%85%D8%B9%D8%A7%D9%84%D9%85_%D9%81%D9%8A_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82.jpg",
+      "category": "الفكر"
+    }
+    ],
+    "الرواية": [
+
+  {
+    "id": 174,
+    "title": "الخيميائي",
+    "author": "باولو كويلو",
+    "pages": 208,
+    "coverImage": "https://m.media-amazon.com/images/I/61snwl0lyZL.UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 175,
+    "title": "1984",
+    "author": "جورج أورويل",
+    "pages": 328,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/e0/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_1984.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 176,
+    "title": "ألف شمس ساطعة",
+    "author": "خالد حسيني",
+    "pages": 384,
+    "coverImage": "https://cdn.abjjad.com/pub/f79f6e2a-b4c9-4069-a622-0354b302b54e.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 177,
+    "title": "بساتين عربستان",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://images-eu.ssl-images-amazon.com/images/I/71RMQU7yMeL.AC_UL165_SR165,165.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 178,
+    "title": "الثلاثية",
+    "author": "نجيب محفوظ",
+    "pages": 1500,
+    "coverImage": "https://baalbeck.com/Upload/baalbeck/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%86%D8%AC%D9%8A%D8%A8-%D9%85%D8%AD%D9%81%D9%88%D8%B8_118202318253.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 179,
+    "title": "زقاق المدق",
+    "author": "نجيب محفوظ",
+    "pages": 350,
+    "coverImage": "https://cdn.abjjad.com/pub/41fe6a65-7609-4423-a80f-8a0e136264f3.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 180,
+    "title": "خوف",
+    "author": "أسامة المسلم",
+    "pages": 400,
+    "coverImage": "https://m.media-amazon.com/images/I/41KCxxwkPDL.AC_UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 181,
+    "title": "الخبز الحافي",
+    "author": "محمد شكري",
+    "pages": 220,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/ec/%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%AE%D8%A8%D8%B2_%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%8A.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 182,
+    "title": "البؤساء",
+    "author": "فيكتور هوغو",
+    "pages": 1400,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7b/20170618060049%21%D8%A7%D9%84%D8%A8%D8%A4%D8%B3%D8%A7%D8%A12.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 183,
+    "title": "مدن الملح",
+    "author": "عبد الرحمن منيف",
+    "pages": 800,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysNaDdTiZlL4s4gyITqoVVsE6_yz_n_ORsQ&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 184,
+    "title": "رجال في الشمس",
+    "author": "غسان كنفاني",
+    "pages": 120,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/%D8%B5%D9%88%D8%B1%D8%A9_%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D8%B1%D8%AC%D8%A7%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D9%85%D8%B3.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 185,
+    "title": "الطريق",
+    "author": "كورماك مكارثي",
+    "pages": 287,
+    "coverImage": "https://www.zaadbooks.com/tempImage/img-30-11831-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%B2%D8%A7%D8%AF-1.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 186,
+    "title": "الحرافيش",
+    "author": "نجيب محفوظ",
+    "pages": 400,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%85%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%81%D9%8A%D8%B4.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 187,
+    "title": "اللص والكلاب",
+    "author": "نجيب محفوظ",
+    "pages": 200,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/5/53/20231126093409%21%D8%A7%D9%84%D9%84%D8%B5_%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 188,
+    "title": "وا إسلاماه",
+    "author": "علي أحمد باكثير",
+    "pages": 420,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/3/30/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7_%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D8%A7%D9%87.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 189,
+    "title": "عزازيل",
+    "author": "يوسف زيدان",
+    "pages": 320,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/aa/Azazel_novel_cover.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 190,
+    "title": "سمرقند",
+    "author": "أمين معلوف",
+    "pages": 300,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehZXDi48tj2GGqfyg8toVINUfzv71Bbvnw&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 191,
+    "title": "الحرب والسلام",
+    "author": "ليو تولستوي",
+    "pages": 1600,
+    "coverImage": "https://m.media-amazon.com/images/I/71t+aein-UL.AC_UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 192,
+    "title": "الطريق إلى عين جالوت",
+    "author": "جرجي زيدان",
+    "pages": 280,
+    "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%8A%D9%86-%D8%AC%D8%A7%D9%84%D9%88%D8%AA-27-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-658%D9%87-%D8%A7%D9%84%D9%88%D9%84-1260%D9%85-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D9%88-%D9%86%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D9%81-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 193,
+    "title": "يوتوبيا",
+    "author": "أحمد خالد توفيق",
+    "pages": 200,
+    "coverImage": "https://m.media-amazon.com/images/I/71T2mApcPJL.AC_UF1000,1000_QL80.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 194,
+    "title": "عالم جديد شجاع",
+    "author": "ألدوس هكسلي",
+    "pages": 288,
+    "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%B9%D8%A7%D9%84%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B4%D8%AC%D8%A7%D8%B9-%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 195,
+    "title": "نحن",
+    "author": "يفغيني زامياتين",
+    "pages": 240,
+    "coverImage": "https://m.media-amazon.com/images/I/61DC4Km7zcL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 196,
+    "title": "إيكاروس",
+    "author": "أحمد خالد توفيق",
+    "pages": 220,
+    "coverImage": "https://m.media-amazon.com/images/I/61-ks4upYsL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 197,
+    "title": "أرض زيكولا",
+    "author": "عمرو عبد الحميد",
+    "pages": 280,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/98/%D8%A3%D8%B1%D8%B6_%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 198,
+    "title": "أماريتا",
+    "author": "عمرو عبد الحميد",
+    "pages": 320,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1453065317i/28590941.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 199,
+    "title": "سيد الخواتم",
+    "author": "ج.ر.ر تولكين",
+    "pages": 1200,
+    "coverImage": "https://foulabook.com/storage/photo/23039.2019-07-09.1562689719.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 200,
+    "title": "هاري بوتر وحجر الفيلسوف",
+    "author": "ج.ك رولينغ",
+    "pages": 330,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/2/2b/Harry_potter_and_the_philosophers_stone_%28Arabic%29.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 201,
+    "title": "أغنية الجليد والنار",
+    "author": "جورج ر.ر مارتن",
+    "pages": 850,
+    "coverImage": "https://apis.takweenkw.com/Attachments/book//2019121623173214961189.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 202,
+    "title": "خوف 2",
+    "author": "أسامة المسلم",
+    "pages": 312,
+    "coverImage": "https://m.media-amazon.com/images/I/61crbkaSpdL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 203,
+    "title": "خوف 3",
+    "author": "أسامة المسلم",
+    "pages": 320,
+    "coverImage": "https://m.media-amazon.com/images/I/51AtKzrf8jL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 204,
+    "title": "عصبة الشياطين",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://cdn.salla.sa/KAPdd/F29UUz93kLGPK9zZZAKxAqNM3cGb8S1OoyaaOcYG.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 205,
+    "title": "رياح هجر",
+    "author": "أسامة المسلم",
+    "pages": 502,
+    "coverImage": "https://m.media-amazon.com/images/I/71dybQIm0XL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 206,
+    "title": "لج",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://m.media-amazon.com/images/I/619magHdVeL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 207,
+    "title": "ملكة الغرانيق",
+    "author": "أسامة المسلم",
+    "pages": 512,
+    "coverImage": "https://imgv2-2-f.scribdassets.com/img/document/486250951/original/aea4fcf5b5/1?v=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 208,
+    "title": "ثورة الحور",
+    "author": "أسامة المسلم",
+    "pages": 502,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2018/10/22-108.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 209,
+    "title": "صراع الملكات",
+    "author": "أسامة المسلم",
+    "pages": 535,
+    "coverImage": "https://m.media-amazon.com/images/I/61y+zUbRtML._AC_UF894,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 210,
+    "title": "فجر السايرينات",
+    "author": "أسامة المسلم",
+    "pages": 528,
+    "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D9%84%D8%AD%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%B1-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%A9-%D9%84%D8%AC-5-%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D9%8A%D8%B1%D9%8A%D9%86%D8%A7%D8%AA-%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%AF%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%89-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 211,
+    "title": "صخب الخسيف",
+    "author": "أسامة المسلم",
+    "pages": 528,
+    "coverImage": "https://ak-asset.jarir.com/akeneo-prod/asset/0/6/0/7/0607beb51a358fe28b76550d26eff346fdfbf044_478793.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 212,
+    "title": "اجيج",
+    "author": "أسامة المسلم",
+    "pages": 510,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkOo6YxH-vzXcMGLLxsi7-b_4R0chMu9Fgpg&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 213,
+    "title": "العرجاء",
+    "author": "أسامة المسلم",
+    "pages": 504,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1540569640i/42443531.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 214,
+    "title": "عرين الأسد",
+    "author": "أسامة المسلم",
+    "pages": 656,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/290421/conversions/%D8%B9%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%A3%D8%B3%D8%AF-22944-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 215,
+    "title": "الساحرة الهجينة",
+    "author": "أسامة المسلم",
+    "pages": 500,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581505389i/51197880.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 216,
+    "title": "هاذا ما حدث معي",
+    "author": "أسامة المسلم",
+    "pages": 420,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1628430092i/58725761.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 217,
+    "title": "أرض القرابين",
+    "author": "أسامة المسلم",
+    "pages": 117,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624975292i/58453527.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 218,
+    "title": "جحيم العابرين",
+    "author": "أسامة المسلم",
+    "pages": 112,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/268494/conversions/%D8%AC%D8%AD%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%B1%D9%8A%D9%86-18252-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 219,
+    "title": "شبكة العنكبوت",
+    "author": "أسامة المسلم",
+    "pages": 120,
+    "coverImage": "https://m.media-amazon.com/images/I/71O0-kOz-BL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 220,
+    "title": "سعد الدباس",
+    "author": "أسامة المسلم",
+    "pages": 112,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624975992i/58453595.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 221,
+    "title": "الغيهب",
+    "author": "أسامة المسلم",
+    "pages": 192,
+    "coverImage": "https://www.shoroukbookstores.com/images/Books/original/9786038411032.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 222,
+    "title": "النداء",
+    "author": "أسامة المسلم",
+    "pages": 144,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2U91RldptwSQupzxFKh1abEjcRFnOlHFyA&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 223,
+    "title": "الوليمة",
+    "author": "أسامة المسلم",
+    "pages": 245,
+    "coverImage": "https://m.media-amazon.com/images/I/610FuHVoX1L._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 224,
+    "title": "الانتهازي",
+    "author": "أسامة المسلم",
+    "pages": 208,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/347800/conversions/%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D9%87%D8%A7%D8%B2%D9%8A-35031-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 225,
+    "title": "ليلة ماطرة",
+    "author": "أسامة المسلم",
+    "pages": 160,
+    "coverImage": "https://m.media-amazon.com/images/I/71Y-HIuXHXL._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 226,
+    "title": "وهج البنفسج",
+    "author": "أسامة المسلم",
+    "pages": 232,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/283685/conversions/%D9%88%D9%87%D8%AC-%D8%A7%D9%84%D8%A8%D9%86%D9%81%D8%B3%D8%AC-1-21357-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 227,
+    "title": "الدوائر الخمس",
+    "author": "أسامة المسلم",
+    "pages": 352,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/137943/conversions/%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D8%AE%D9%85%D8%B3-3865-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 228,
+    "title": "الجزار",
+    "author": "حسن الجندي",
+    "pages": 322,
+    "coverImage": "https://cdn.abjjad.com/pub/c93498f2-893c-434d-99a9-e1b56c7e7449.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 229,
+    "title": "نصف ميت",
+    "author": "حسن الجندي",
+    "pages": 286,
+    "coverImage": "https://cdn.abjjad.com/pub/92639ba9-a1e7-40d2-a888-e46854c1cf92.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 230,
+    "title": "مدينة الموتى",
+    "author": "حسن الجندي",
+    "pages": 185,
+    "coverImage": "https://cdn.salla.sa/aaRKD/vy3EgqcqhteMRlSI5gRyF4I05n8ELLx9pmoWYzr7.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 231,
+    "title": "المرتد",
+    "author": "حسن الجندي",
+    "pages": 318,
+    "coverImage": "https://m.media-amazon.com/images/I/71EvcwTFRYL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 232,
+    "title": "العائد",
+    "author": "حسن الجندي",
+    "pages": 366,
+    "coverImage": "https://cdn.abjjad.com/pub/cf6b4452-21c9-4832-bc95-68c4a32c9a76.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 233,
+    "title": "ابتسم فأنت ميت",
+    "author": "حسن الجندي",
+    "pages": 321,
+    "coverImage": "https://m.media-amazon.com/images/I/71H+fCjG8sL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 234,
+    "title": "ليلة في جهنم منزل أبو خطوة",
+    "author": "حسن الجندي",
+    "pages": 272,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1669181649i/33949436.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 235,
+    "title": "الرصد",
+    "author": "حسن الجندي",
+    "pages": 311,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1504127535i/36153109.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 236,
+    "title": "ضريح عمرو بن الجن",
+    "author": "حسن الجندي",
+    "pages": 183,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/145215/conversions/%D8%B6%D8%B1%D9%8A%D8%AD-%D8%B9%D9%85%D8%B1%D9%88-%D8%A8%D9%86-%D8%A7%D9%84%D8%AC%D9%86-6458-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 237,
+    "title": "حكايات فرغلي المستكاوي",
+    "author": "حسن الجندي",
+    "pages": 132,
+    "coverImage": "https://m.media-amazon.com/images/I/61qsCddE8iL._AC_UF1000,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 238,
+    "title": "صلاة الممسوس",
+    "author": "حسن الجندي",
+    "pages": 299,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1616958602i/57555713.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 239,
+    "title": "أذكار الموت",
+    "author": "حسن الجندي",
+    "pages": 256,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/501052/conversions/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D8%AA-55979-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 240,
+    "title": "لقاء مع كاتب رعب",
+    "author": "حسن الجندي",
+    "pages": 120,
+    "coverImage": "https://cdn.abjjad.com/pub/822521ce-f61e-4c3d-aa7c-df90f7c5076f.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 241,
+    "title": "ليلة في جهنم - أيام مع الباشا",
+    "author": "حسن الجندي",
+    "pages": 286,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1579558272i/50607589.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 242,
+    "title": "أبابيل",
+    "author": "أحمد آل حمدان",
+    "pages": 404,
+    "coverImage": "https://m.media-amazon.com/images/I/51Vyq7ni0iL._AC_UF894,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 243,
+    "title": "الجساسة",
+    "author": "أحمد آل حمدان",
+    "pages": 340,
+    "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/2/2/c/f/6813b646a52cf5e6f9cf1c4cd6a1fa24.webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 244,
+    "title": "السجيل",
+    "author": "أحمد آل حمدان",
+    "pages": 358,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1707862693i/208463921.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 245,
+    "title": "الزمهرير",
+    "author": "أحمد آل حمدان",
+    "pages": 380,
+    "coverImage": "https://i0.wp.com/yasmeenlibrary.com/upload/alzmehrir.webp?h=375&ssl=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 246,
+    "title": "آرسس",
+    "author": "أحمد آل حمدان",
+    "pages": 206,
+    "coverImage": "https://www.kutubypdf.com/wp-content/uploads/2023/08/arses.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 247,
+    "title": "آرسس 2",
+    "author": "أحمد آل حمدان",
+    "pages": 249,
+    "coverImage": "https://m.media-amazon.com/images/I/61mmMMrYPIL._AC_UF894,1000_QL80_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 248,
+    "title": "جومانا",
+    "author": "أحمد آل حمدان",
+    "pages": 328,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1669305708i/63834290.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 249,
+    "title": "آزر",
+    "author": "أحمد آل حمدان",
+    "pages": 356,
+    "coverImage": "https://ketabpedia.com/wp-content/uploads/2025/04/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%A2%D8%B2%D8%B1-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A2%D9%84-%D8%AD%D9%85%D8%AF%D8%A7%D9%86-PDF-%D8%A7%D8%A8%D9%86-%D8%B0%D8%A6%D8%A8%D8%A9-%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D9%8A.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 250,
+    "title": "مدينة الحب لا يسكنها العقلاء",
+    "author": "أحمد آل حمدان",
+    "pages": 143,
+    "coverImage": "https://media.zid.store/thumbs/c3c80b9f-f176-496c-9f27-04187e1270f9/636e48fc-3351-4efb-a7bf-8faad60053a0-thumbnail-1000x1000-70.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 251,
+    "title": "أنت كل أشيائي الجميلة",
+    "author": "أحمد آل حمدان",
+    "pages": 222,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/137907/conversions/%D8%A7%D9%86%D8%AA-%D9%83%D9%84-%D8%A3%D8%B4%D9%8A%D8%A7%D8%A6%D9%8A-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D9%84%D8%A9-3853-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 252,
+    "title": "ردني إليك",
+    "author": "أحمد آل حمدان",
+    "pages": 296,
+    "coverImage": "https://almouradbooks.com/wp-content/uploads/2023/10/%D8%B1%D8%AF%D9%86%D9%8A-%D8%A5%D9%84%D9%8A%D9%83.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 253,
+    "title": "أنا قبل كل شيء",
+    "author": "الجوهرة الرمال",
+    "pages": 207,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737973367i/33793867.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 254,
+    "title": "لي أنا أولا",
+    "author": "الجوهرة الرمال",
+    "pages": 240,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2023/02/22-61.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 255,
+    "title": "العوسج",
+    "author": "الجوهرة الرمال",
+    "pages": 279,
+    "coverImage": "https://imgv2-1-f.scribdassets.com/img/document/779435969/original/d5cf4f093e/1?v=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 256,
+    "title": "حب في غفوته الأخيرة",
+    "author": "الجوهرة الرمال",
+    "pages": 104,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1508604893i/25882687.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 257,
+    "title": "ركض الخائفين",
+    "author": "الجوهرة الرمال",
+    "pages": 200,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2020/09/22.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 258,
+    "title": "ورد",
+    "author": "الجوهرة الرمال",
+    "pages": 175,
+    "coverImage": "https://i0.wp.com/8ghrb.com/wp-content/uploads/2022/05/22-818.jpg?w=250&format=webp&ssl=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 259,
+    "title": "دقات الشامو",
+    "author": "عمرو عبد الحميد",
+    "pages": 303,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/126834/conversions/%D8%AF%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%88-%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D8%AC%D8%A7%D8%B1%D8%AA%D9%8A%D9%862-41-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 260,
+    "title": "أرض السافلين",
+    "author": "أحمد خالد مصطفى",
+    "pages": 391,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/264228/conversions/%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D8%B3%D8%A7%D9%81%D9%84%D9%8A%D9%86-126-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 261,
+    "title": "أنتيخريستوس",
+    "author": "أحمد خالد مصطفى",
+    "pages": 311,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1418888619i/23935182.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 262,
+    "title": "ملائك نصيبين",
+    "author": "أحمد خالد مصطفى",
+    "pages": 400,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1547517963i/43566744.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 263,
+    "title": "الفيل الأزرق",
+    "author": "أحمد مراد",
+    "pages": 220,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f3/Al-Feel_al-Azraq.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 264,
+    "title": "صندوق الدمى",
+    "author": "شيرين هنائي",
+    "pages": 402,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFP-bi6ZfdSfbSMCvQwlCgcPnbEFZJprC0pw&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 265,
+    "title": "سر الغرفة 207",
+    "author": "أحمد خالد توفيق",
+    "pages": 220,
+    "coverImage": "https://m.media-amazon.com/images/I/71-eM8OYWmL.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 266,
+    "title": "أكتب حتى لا يأكلني الشيطان",
+    "author": "مريم الحيسي",
+    "pages": 482,
+    "coverImage": "https://m.media-amazon.com/images/I/41XtpDjH3DL._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 267,
+    "title": "قواعد جارتين",
+    "author": "عمرو عبد الحميد",
+    "pages": 320,
+    "coverImage": "https://www.4readlib.com/uploads/images/1519238440.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 268,
+    "title": "أمواج أكما",
+    "author": "عمرو عبد الحميد",
+    "pages": 320,
+    "coverImage": "https://www.tirryaq.com/wp-content/uploads/2020/04/3120562-1.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 269,
+    "title": "كويكول",
+    "author": "حنان لاشين",
+    "pages": 379,
+    "coverImage": "https://www.rwaiaty.com/wp-content/uploads/2020/03/89622971_4198476213511236_7004981429440348160_o-318x450.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 270,
+    "title": "إيكادولي",
+    "author": "حنان لاشين",
+    "pages": 315,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/489459/conversions/%D8%A5%D9%8A%D9%83%D8%A7%D8%AF%D9%88%D9%84%D9%8A-136-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 271,
+    "title": "أوبال",
+    "author": "حنان لاشين",
+    "pages": 352,
+    "coverImage": "https://www.4readlib.com/uploads/images/1521455258.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 272,
+    "title": "امانوس",
+    "author": "حنان لاشين",
+    "pages": 328,
+    "coverImage": "https://almouradbooks.com/wp-content/uploads/2023/10/%D8%A3%D9%85%D8%A7%D9%86%D9%88%D8%B3-430x645.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 273,
+    "title": "الوحش الذي يسكنك يمكن أن يكون لطيفًا ",
+    "author": "ايناس سمير",
+    "pages": 200,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1674602641i/85120246.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 274,
+    "title": "الآن نفتح الصندوق",
+    "author": "أحمد خالد توفيق",
+    "pages": 249,
+    "coverImage": "https://cdn.abjjad.com/pub/3a125b60-03fa-456a-88ed-d8a4574a41a8.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 275,
+    "title": "في ممر الفئران",
+    "author": "أحمد خالد توفيق",
+    "pages": 380,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/97/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%81%D9%8A_%D9%85%D9%85%D8%B1_%D8%A7%D9%84%D9%81%D8%A6%D8%B1%D8%A7%D9%86.jpeg",
+    "category": "الرواية"
+  },
+  {
+    "id": 276,
+    "title": " 18 قصه ",
+    "author": "عبد الوهاب السد الرفاعي",
+    "pages": 200,
+    "coverImage": "https://i0.wp.com/8ghrb.com/wp-content/uploads/2023/11/22-11.jpg?h=375&ssl=1",
+    "category": "الرواية"
+  },
+  {
+    "id": 277,
+    "title": "أرض الظلام",
+    "author": "يحيى عبد القادر",
+    "pages": 200,
+    "coverImage": "https://8ghrb.com/wp-content/uploads/2025/11/22-92.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 278,
+    "title": "الشيطان يحكى",
+    "author": "أحمد خالد مصطفى",
+    "pages": 390,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/307530/conversions/%D8%A7%D9%84%D8%B4%D9%8A%D8%B7%D8%A7%D9%86-%D9%8A%D8%AD%D9%83%D9%89-26839-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 279,
+    "title": "فجر المرايا",
+    "author": "منار بدر الدين",
+    "pages": 364,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1600122448i/55338838.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 280,
+    "title": "أرض الغربان",
+    "author": "أحمد عصام الدين",
+    "pages": 168,
+    "coverImage": "https://cdn.abjjad.com/pub/8b3d4378-4d03-4dc3-b60a-fad7ee3b52c7.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 281,
+    "title": "بحر الرماد",
+    "author": "محمد البدري",
+    "pages": 364,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/363262/conversions/%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D8%AF-16940-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 282,
+    "title": "وادي الذئاب المنسيه",
+    "author": "عمرو عبد الحميد",
+    "pages": 335,
+    "coverImage": "https://m.media-amazon.com/images/I/51TissFYqNL._AC_UF350,350_QL50_.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 283,
+    "title": "الهول",
+    "author": "أحمد خالد توفيق",
+    "pages": 200,
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1405348822i/20492184.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 284,
+    "title": "عرش من الرمال",
+    "author": "متعب بن ظمنه",
+    "pages": 144,
+    "coverImage": "https://www.samawy.com/displayimg/1009615/12f0fffbcb434b2eb930c5a68fa33f5c.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 285,
+    "title": "عرش من الرمال 2",
+    "author": "متعب بن ظمنه",
+    "pages": 150,
+    "coverImage": "https://www.alriyadh.com/media/article/2022/10/10/img/8065837345.jpg",
+    "category": "الرواية"
+  },
+  {
+    "id": 286,
+    "title": "جسر إلى تيرابثيا",
+    "author": "كاثرين باترسون",
+    "pages": 200,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/570835/conversions/%D8%AC%D8%B3%D8%B1-%D8%A5%D9%84%D9%89-%D8%AA%D9%8A%D8%B1%D8%A7%D8%A8%D8%AB%D9%8A%D8%A7-66403-1000x1500-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 287,
+    "title": "فرانكشتاين",
+    "author": "ماري شيلي",
+    "pages": 271,
+    "coverImage": "https://cdn.abjjad.com/pub/71e6d4ad-faf2-482f-8453-706611164d88.png",
+    "category": "الرواية"
+  },
+  {
+    "id": 288,
+    "title": "سقطرى",
+    "author": "حنان لاشين",
+    "pages": 200,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/257206/conversions/%D8%B3%D9%82%D8%B7%D8%B1%D9%89-16932-250x375-webp.webp",
+    "category": "الرواية"
+  },
+  {
+    "id": 289,
+    "title": "بلاد تركب العنكبوت",
+    "author": "منى سلامة",
+    "pages": 356,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcBpIAz_C7sLw8kh1x4jA609w1y8E6dPa4Q&s",
+    "category": "الرواية"
+  },
+  {
+    "id": 290,
+    "title": "كيغار",
+    "author": "منى سلامة",
+    "pages": 360,
+    "coverImage": "https://cdn.aseeralkotb.com/storage/media/127047/conversions/%D9%83%D9%8A%D8%BA%D8%A7%D8%B1-114-1000x1500-webp.webp",
+    "category": "الرواية"
+  }
+
+
+    ],
+    "الشعر": [
+      {
+      "id": 291,
+      "title": "ديوان أحمد شوقي",
+      "author": "أحمد شوقي",
+      "pages": 500,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386927540i/2028235.jpg",
+      "category": "الشعر"
+     },
+    {
+      "id": 292,
+      "title": "ديوان المتنبي",
+      "author": "أبو الطيب المتنبي",
+      "pages": 600,
+      "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/a/2/1/bb6449e969a2117cdc260159f9db1aa0.jpg.webp",
+      "category": "الشعر"
+    },
+    {
+      "id": 293,
+      "title": "ديوان الإمام الشافعي",
+      "author": "الإمام الشافعي",
+      "pages": 120,
+      "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/85/85700.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 294,
+      "title": "قصائد حب عربية",
+      "author": "نزار قباني",
+      "pages": 250,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1341605762i/13562483.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 295,
+      "title": "أغاني الحياة",
+      "author": "أبو القاسم الشابي",
+      "pages": 180,
+      "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1237597027i/6348442.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 296,
+      "title": "الأعمال الشعرية",
+      "author": "بدر شاكر السياب",
+      "pages": 450,
+      "coverImage": "https://cdn.salla.sa/PzXDG/8b2ab4be-8fe3-4088-8c95-1894de2feee5-764.82213438735x1000-wQwyU99e0ea9oUjBKVj7CTWWW2gpKV7HHOp6MNZx.jpg",
+      "category": "الشعر"
+    },
+    {
+      "id": 297,
+      "title": "ديوان سيد قطب",
+      "author": "سيد قطب",
+      "pages": 299,
+      "coverImage": "https://www.odabasham.net/images/dewansayed388.jpg",
+      "category": "الشعر"
+    }
+    ]
+  }
+}
