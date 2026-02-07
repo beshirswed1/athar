@@ -77,7 +77,7 @@ export default function LoginPage() {
     const result = await dispatch(loginUser(formData));
     
     if (loginUser.fulfilled.match(result)) {
-      router.push('/dashboard');
+      router.push('/');
     } else {
       // Show friendly error message based on error code
       const errorMsg = result.payload || error;
@@ -101,7 +101,7 @@ export default function LoginPage() {
     const result = await dispatch(loginWithGoogleAccount());
     
     if (loginWithGoogleAccount.fulfilled.match(result)) {
-      router.push('/dashboard');
+      router.push('/');
     }
   };
   
