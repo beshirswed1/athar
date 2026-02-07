@@ -1,0 +1,220 @@
+rules_version = '2';
+
+// ═══════════════════════════════════════════════════════════════════
+// Firebase Security Rules for ATHAR Library App
+// Advanced Security with Cloud Functions Integration
+// ═══════════════════════════════════════════════════════════════════
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Helper Functions
+    // ═══════════════════════════════════════════════════════════════
+    
+    // Check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Check if user owns the resource
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Validate email is verified (requires Cloud Functions setup)
+    function isEmailVerified() {
+      return isAuthenticated() && 
+        request.auth.token.email_verified == true;
+    }
+    
+    // Check if request comes from a valid client
+    function isValidClient() {
+      return isAuthenticated() && 
+        request.auth.token.firebase.sign_in_provider in 
+        ['password', 'google.com'];
+    }
+    
+    // Validate string fields with length limits
+    function isValidString(field, maxLength) {
+      return request.resource.data[field] is string
+        && request.resource.data[field].size() > 0
+        && request.resource.data[field].size() <= maxLength;
+    }
+    
+    // Validate optional string field
+    function isValidOptionalString(field, maxLength) {
+      return !request.resource.data.keys().hasAny([field]) 
+        || (request.resource.data[field] is string
+            && request.resource.data[field].size() <= maxLength);
+    }
+    
+    // Validate rating (1-5 or null)
+    function isValidRating(rating) {
+      return rating == null || (rating is number && rating >= 1 && rating <= 5);
+    }
+    
+    // Validate status enum
+    function isValidStatus(status) {
+      return status in ['planned', 'reading', 'completed', 'on-hold', 'dropped'];
+    }
+    
+    // Validate book data structure
+    function isValidBookData() {
+      let data = request.resource.data;
+      return data.keys().hasAll(['title', 'author', 'userId'])
+        && data.title is string
+        && data.title.size() <= 500
+        && data.author is string
+        && data.author.size() <= 200
+        && isValidStatus(data.status);
+    }
+    
+    // Prevent NoSQL injection
+    function isCleanData() {
+      let data = request.resource.data;
+      // Reject keys starting with $
+      return !data.keys().hasAny(data.keys().filter(k, k[0:1] == '$'));
+    }
+    
+    // Rate limiting status check
+    function isRateLimited() {
+      return isAuthenticated() && 
+        get(/databases/$(database)/documents/rateLimits/$(request.auth.uid)).data.count >= 10;
+    }
+    
+    // Check if this is an admin operation
+    function isAdmin() {
+      return isAuthenticated() && 
+        request.auth.token.admin == true;
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Users Collection
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /users/{userId} {
+      // Read own profile
+      allow read: if isOwner(userId);
+      
+      // Create own profile with validation
+      allow create: if isAuthenticated() 
+        && request.auth.uid == userId
+        && request.resource.data.email == request.auth.token.email
+        && isValidString('displayName', 100);
+      
+      // Update own profile
+      allow update: if isOwner(userId)
+        && isValidOptionalString('displayName', 100)
+        && !request.resource.data.keys().hasAny(['email', 'uid', 'admin']);
+      
+      // Delete own profile
+      allow delete: if isOwner(userId);
+      
+      // Subcollection: user stats (updated by Cloud Functions)
+      match /stats/{document=**} {
+        allow read: if isOwner(userId);
+        allow write: if false; // Only Cloud Functions can write
+      }
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Books Collection
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /books/{bookId} {
+      // Read books - only authenticated users can read their own books
+      allow read: if isAuthenticated() 
+        && resource.data.userId == request.auth.uid;
+      
+      // Create book - requires authentication and valid data
+      // Note: Rate limiting handled by Cloud Functions
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid
+        && isValidBookData()
+        && isCleanData()
+        && isValidRating(request.resource.data.rating)
+        && isValidOptionalString('coverImage', 2000)
+        && isValidOptionalString('summary', 5000)
+        && isValidOptionalString('subcategory', 100)
+        && isValidOptionalString('genre', 50);
+        // Note: createdAt is set server-side via serverTimestamp()
+      
+      // Update book - only owner can update their books
+      // Cannot change userId (ownership transfer not allowed)
+      allow update: if isAuthenticated()
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid
+        && isValidOptionalString('title', 500)
+        && isValidOptionalString('author', 200)
+        && isValidStatus(request.resource.data.status)
+        && isValidRating(request.resource.data.rating)
+        && isCleanData();
+      
+      // Delete book - only owner can delete
+      allow delete: if isAuthenticated()
+        && resource.data.userId == request.auth.uid;
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Suggested Books Collection (Public Library)
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /suggestedBooks/{bookId} {
+      // Anyone can read suggested books (public)
+      allow read: if true;
+      
+      // Authenticated users can create suggestions
+      allow create: if isAuthenticated()
+        && isValidString('title', 500)
+        && isValidString('author', 200)
+        && request.resource.data.userId == request.auth.uid;
+      
+      // Only owners can update/delete their suggestions
+      allow update, delete: if isAuthenticated() 
+        && resource.data.userId == request.auth.uid;
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Rate Limits Collection (Internal - Cloud Functions)
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /rateLimits/{userId} {
+      // Users can read their own rate limit status
+      allow read: if isOwner(userId);
+      
+      // Only Cloud Functions can update rate limits
+      allow write: if false;
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Security Logs Collection (Internal)
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /securityLogs/{logId} {
+      // Users can read their own security logs
+      allow read: if isOwner(request.auth.uid);
+      
+      // Only Cloud Functions can create security logs
+      allow create: if false;
+      allow update, delete: if false;
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Analytics Collection (Future Use - Admin Only)
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /analytics/{document=**} {
+      // Admin only - requires custom admin claims
+      allow read, write: if isAdmin();
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // System Collections (Emergency Access)
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /{path=**}/_{shard} {
+      allow read, write: if false;
+    }
+  }
+}

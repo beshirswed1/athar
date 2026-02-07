@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookOpen, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faBookOpen, faPlus, faSpinner } from '@fortawesome/free-solid-svg-icons';
 
-export default function QuickActions({ myBooksCount }) {
+export default function QuickActions({ myBooksCount, isLoading }) {
   return (
     <div className="flex flex-col sm:flex-row gap-4 justify-center py-8">
       <Link
@@ -13,7 +13,16 @@ export default function QuickActions({ myBooksCount }) {
       >
         <span className="absolute inset-0 bg-white/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-2xl"></span>
         <FontAwesomeIcon icon={faBookOpen} className="relative z-10 text-xl" />
-        <span className="relative z-10">مكتبتي ({myBooksCount})</span>
+        <span className="relative z-10">
+          {isLoading ? (
+            <>
+              <FontAwesomeIcon icon={faSpinner} spin className="ml-2" />
+              جاري التحميل...
+            </>
+          ) : (
+            `مكتبتي (${myBooksCount})`
+          )}
+        </span>
       </Link>
 
       <Link

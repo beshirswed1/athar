@@ -31,7 +31,7 @@ export default function BookCard({ book }) {
           <span className={`px-3 py-1 rounded-full text-sm ${statusConfig[book.status].color}`}>
             {statusConfig[book.status].label}
           </span>
-          {book.rating && (
+          {/* {book.rating && (
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <FontAwesomeIcon
@@ -41,7 +41,10 @@ export default function BookCard({ book }) {
                 />
               ))}
             </div>
-          )}
+          )} */}
+          <div>
+            <h3 className="text-sm text-gray-600"> الصفحات: {book.pages}</h3>
+          </div>
         </div>
       </div>
     </div>

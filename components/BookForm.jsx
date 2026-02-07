@@ -10,7 +10,7 @@
 import React, { useState, useEffect, useRef, forwardRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import { addBook, updateBook } from '@/store/booksSlice';
+import { addBookAsync, updateBookAsync, fetchBooks } from '@/store/booksSlice';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBook,
@@ -22,7 +22,8 @@ import {
   faTriangleExclamation,
   faArrowRight,
   faArrowLeft,
-  faSave
+  faSave,
+  faCircleNotch
 } from '@fortawesome/free-solid-svg-icons';
 
 const CATEGORIES = [
@@ -58,6 +59,7 @@ export default function BookForm({ book = null }) {
   const router = useRouter();
   const dispatch = useDispatch();
   const books = useSelector((state) => state.books?.items ?? []);
+  const userId = useSelector((state) => state.auth?.user?.uid);
 
   const isEdit = Boolean(book);
   const firstInputRef = useRef(null);
@@ -67,6 +69,7 @@ export default function BookForm({ book = null }) {
   const [error, setError] = useState('');
   const [inlineErrors, setInlineErrors] = useState({});
   const [formData, setFormData] = useState(null);
+  const [saving, setSaving] = useState(false);
   const initialSnapshot = useRef(null); // JSON snapshot of initial state
 
   // init
@@ -76,10 +79,9 @@ export default function BookForm({ book = null }) {
       setFormData(initial);
       initialSnapshot.current = JSON.stringify(sanitizeForCompare(initial));
     } else {
-      const draft = typeof window !== 'undefined' ? localStorage.getItem('book-draft') : null;
-      const initial = draft ? { ...DEFAULT_FORM_STATE, ...JSON.parse(draft) } : DEFAULT_FORM_STATE;
-      setFormData(initial);
-      initialSnapshot.current = JSON.stringify(sanitizeForCompare(initial));
+      // Start with default state (no localStorage)
+      setFormData(DEFAULT_FORM_STATE);
+      initialSnapshot.current = JSON.stringify(sanitizeForCompare(DEFAULT_FORM_STATE));
     }
     // focus after mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -89,18 +91,17 @@ export default function BookForm({ book = null }) {
     firstInputRef.current?.focus();
   }, []);
 
-  // auto-save (debounced) only when creating (not edit) and when form exists
+  // Auto-submit when reaching the last step
   useEffect(() => {
-    if (!formData || isEdit) return;
-    const id = setTimeout(() => {
-      try {
-        localStorage.setItem('book-draft', JSON.stringify(formData));
-      } catch (e) {
-        // ignore storage errors
+    if (step === STEPS.length - 1 && !saving && !savedInfo) {
+      // Trigger form submission when reaching last step
+      const form = document.querySelector('form');
+      if (form) {
+        form.requestSubmit();
       }
-    }, 600);
-    return () => clearTimeout(id);
-  }, [formData, isEdit]);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step]);
 
   // warn before unload only if there are unsaved changes
   useEffect(() => {
@@ -165,19 +166,26 @@ export default function BookForm({ book = null }) {
     return null;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     setInlineErrors({});
+    setSaving(true);
 
     const stepErr = validateStep();
     if (stepErr) return setError(stepErr);
+
+    if (!userId) {
+      setError('يرجى تسجيل الدخول أولاً لإضافة كتاب');
+      console.error('User ID not found in auth state');
+      return;
+    }
 
     const exists = books.find(
       (b) =>
         b.title.trim().toLowerCase() === formData.title.trim().toLowerCase() &&
         b.author.trim().toLowerCase() === formData.author.trim().toLowerCase() &&
-        b.id !== book?.id
+        (book?.id && b.id !== book.id)
     );
 
     if (exists) {
@@ -187,11 +195,13 @@ export default function BookForm({ book = null }) {
 
     const payload = {
       ...formData,
-      id: book?.id || Date.now().toString(),
+      id: book?.id || undefined, // Don't send local ID to Firestore, let it generate its own
       pages: Number(formData.pages) || 0,
       title: formData.title.trim(),
       author: formData.author.trim(),
-      createdAt: book?.createdAt || new Date().toISOString(),
+      userId: userId, // Ensure userId is explicitly included
+      status: formData.status || 'planned', // Ensure status has default
+      createdAt: book?.createdAt || undefined, // Let Firestore handle timestamps
       updatedAt: new Date().toISOString(),
     };
 
@@ -205,12 +215,24 @@ export default function BookForm({ book = null }) {
       if (a !== b) diffCount++;
     });
 
-    if (isEdit) dispatch(updateBook(payload));
-    else dispatch(addBook(payload));
-
+    // Await the async dispatch
     try {
-      localStorage.removeItem('book-draft');
-    } catch (e) {}
+      console.log('Submitting book with payload:', JSON.stringify(payload, null, 2));
+      if (isEdit) {
+        await dispatch(updateBookAsync({ bookId: book.id, bookData: payload, userId })).unwrap();
+      } else {
+        await dispatch(addBookAsync({ userId, bookData: payload })).unwrap();
+      }
+      console.log('Book saved successfully!');
+      
+      // جلب الكتب المحدثة من Firestore
+      await dispatch(fetchBooks(userId)).unwrap();
+    } catch (err) {
+      console.error('Error saving book:', err);
+      setError('حدث خطأ أثناء حفظ الكتاب: ' + (err?.message || err || '未知错误'));
+      setSaving(false);
+      return;
+    }
 
     // تحديث الـ snapshot حتى يعتبر النموذج "نظيف" الآن
     initialSnapshot.current = JSON.stringify(sanitizeForCompare(payload));
@@ -220,7 +242,7 @@ export default function BookForm({ book = null }) {
       details: isEdit ? [`تم تعديل ${diffCount} حقل بنجاح`] : ['يمكنك الآن تصفحه في مكتبتك'],
     });
 
-    // الانتقال مباشرة — لا نستخدم مؤقتات غير ضرورية
+    // الانتقال مباشرة بعد التأكد من الحفظ
     router.push('/library');
   };
 
@@ -490,14 +512,16 @@ export default function BookForm({ book = null }) {
                 <span>التالي</span>
                 <FontAwesomeIcon icon={faArrowLeft} className="group-hover:-translate-x-1 transition-transform" />
               </button>
+            ) : saving ? (
+              <div className="flex items-center gap-3 px-8 py-3 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl font-bold shadow-lg shadow-amber-500/30 transition-all duration-300">
+                <FontAwesomeIcon icon={faCircleNotch} spin className="text-white" />
+                <span>جاري الحفظ...</span>
+              </div>
             ) : (
-              <button 
-                type="submit" 
-                className="group flex items-center gap-3 px-8 py-3 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl font-bold shadow-lg shadow-amber-500/30 hover:shadow-amber-600/40 hover:-translate-y-0.5 transition-all duration-300"
-              >
-                <FontAwesomeIcon icon={faSave} />
-                <span>حفظ الكتاب</span>
-              </button>
+              <div className="flex items-center gap-3 px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-xl font-bold shadow-lg shadow-amber-500/30 opacity-70">
+                <FontAwesomeIcon icon={faSave} className="text-white" />
+                <span>تم الحفظ</span>
+              </div>
             )}
           </div>
 

@@ -1,0 +1,116 @@
+rules_version = '2';
+
+// ═══════════════════════════════════════════════════════════════════
+// Firebase Storage Security Rules for ATHAR Library App
+// ═══════════════════════════════════════════════════════════════════
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Helper Functions
+    // ═══════════════════════════════════════════════════════════════
+    
+    // Check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Check if user owns the resource
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Validate file type
+    function isValidFileType() {
+      return request.resource.contentType.matches('image/.*')
+        || request.resource.contentType == 'application/pdf';
+    }
+    
+    // Validate file size (max 5MB for images, 10MB for PDFs)
+    function isValidFileSize() {
+      return request.resource.size < 10 * 1024 * 1024;
+    }
+    
+    // Validate image dimensions (max 2048x2048)
+    function isValidImageDimensions() {
+      return request.resource.imageMediaMetadata.width <= 2048
+        && request.resource.imageMediaMetadata.height <= 2048;
+    }
+    
+    // Check if filename is safe
+    function isValidFilename() {
+      return request.resource.name.matches('^[a-zA-Z0-9_\\-.]+$');
+    }
+    
+    // Prevent NoSQL injection in file names
+    function isCleanFilename() {
+      return !request.resource.name.contains('..')
+        && !request.resource.name.contains('$')
+        && !request.resource.name.contains('#')
+        && !request.resource.name.contains('[')
+        && !request.resource.name.contains(']');
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // User Profile Photos
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /users/{userId}/profile/{filename} {
+      // Only owner can upload profile photos
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId)
+        && isValidFileType()
+        && isValidFileSize()
+        && isValidFilename()
+        && isCleanFilename();
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Book Covers
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /books/{userId}/covers/{filename} {
+      // Only owner can upload book covers
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId)
+        && isValidFileType()
+        && isValidFileSize()
+        && isValidFilename()
+        && isCleanFilename();
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Public Assets
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /public/{allPaths=**} {
+      // Anyone can read public assets
+      allow read: if true;
+      // Only admins can upload (set in Firebase Console)
+      allow write: if false;
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Temporary Uploads (for processing)
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /temp/{allPaths=**} {
+      // Authenticated users can upload temporarily
+      allow write: if isAuthenticated()
+        && isValidFileType()
+        && isValidFileSize()
+        && request.resource.size < 5 * 1024 * 1024;
+      // Read for processing
+      allow read: if isAuthenticated();
+    }
+    
+    // ═══════════════════════════════════════════════════════════════
+    // Default - Deny All
+    // ═══════════════════════════════════════════════════════════════
+    
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

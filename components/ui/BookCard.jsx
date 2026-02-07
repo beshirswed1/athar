@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
@@ -7,7 +8,8 @@ import {
   faBookOpen, 
   faBook, 
   faGraduationCap, 
-  faBookmark 
+  faBookmark,
+  faSpinner
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function BookCard({ 
@@ -16,6 +18,22 @@ export default function BookCard({
   onAddToLibrary, 
   categoryColors 
 }) {
+  const [isAdding, setIsAdding] = useState(false);
+
+  const handleAddClick = async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (isAdding || isInLibrary) return;
+    
+    setIsAdding(true);
+    try {
+      await onAddToLibrary(book);
+    } finally {
+      setIsAdding(false);
+    }
+  };
+
   return (
     <div 
       className="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 dark:border-gray-700 hover:scale-[1.02] hover:-translate-y-1"
@@ -43,7 +61,7 @@ export default function BookCard({
         
         {/* Category Badge */}
         <div className="absolute top-3 right-3">
-          <span className={`px-3 py-1 rounded-lg text-white text-xs font-bold bg-gradient-to-r ${categoryColors[book.category]} shadow-lg`}>
+          <span className={`px-3 py-1 rounded-lg text-white text-xs font-bold bg-gradient-to-r ${categoryColors?.[book.category] || 'from-gray-500 to-gray-700'} shadow-lg`}>
             {book.category}
           </span>
         </div>
@@ -89,11 +107,25 @@ export default function BookCard({
             </Link>
           ) : (
             <button
-              onClick={() => onAddToLibrary(book)}
-              className="flex-1 bg-gradient-to-r from-amber-600 to-orange-600 text-white py-3 rounded-xl font-medium hover:from-amber-700 hover:to-orange-700 transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+              onClick={handleAddClick}
+              disabled={isAdding}
+              className={`flex-1 text-white py-3 rounded-xl font-medium transition-all shadow-md flex items-center justify-center gap-2 ${
+                isAdding 
+                  ? 'bg-gray-400 cursor-not-allowed' 
+                  : 'bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 hover:shadow-lg'
+              }`}
             >
-              <FontAwesomeIcon icon={faPlus} />
-              <span>أضف للمكتبة</span>
+              {isAdding ? (
+                <>
+                  <FontAwesomeIcon icon={faSpinner} className="animate-spin" />
+                  <span>جاري الإضافة...</span>
+                </>
+              ) : (
+                <>
+                  <FontAwesomeIcon icon={faPlus} />
+                  <span>أضف للمكتبة</span>
+                </>
+              )}
             </button>
           )}
         </div>

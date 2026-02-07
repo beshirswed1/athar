@@ -1,8 +1,9 @@
 'use client';
 
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectAllBooks, deleteBook } from '@/store/booksSlice';
+import { selectAllBooks, fetchBooks, deleteBookAsync } from '@/store/booksSlice';
 import BookCard from '@/components/BookCard';
 import BookDetailsModal from '@/components/BookDetailsModal';
 import BookForm from '@/components/BookForm';
@@ -14,9 +15,18 @@ import LibraryFilters from '@/components/LibraryFilters'; // استيراد مك
 export default function MyLibrary() {
   const books = useSelector(selectAllBooks);
   const dispatch = useDispatch();
+  const userId = useSelector((state) => state.auth?.user?.uid);
 
   const [selectedBook, setSelectedBook] = useState(null);
   const [editBook, setEditBook] = useState(null);
+  const [deleteConfirm, setDeleteConfirm] = useState(null); // { bookId, bookTitle }
+
+  // جلب الكتب عند تحميل الصفحة
+  useEffect(() => {
+    if (userId) {
+      dispatch(fetchBooks(userId));
+    }
+  }, [dispatch, userId]);
 
   // حالة الفلتر
   const [filters, setFilters] = useState({
@@ -41,9 +51,14 @@ export default function MyLibrary() {
     return matchesSearch && matchesStatus && matchesRating && matchesPages && matchesCategory;
   });
 
-  const handleDelete = (id) => {
-    if (confirm('هل أنت متأكد من حذف هذا الكتاب؟')) {
-      dispatch(deleteBook(id));
+  const handleDelete = (book) => {
+    setDeleteConfirm({ bookId: book.id, bookTitle: book.title });
+  };
+
+  const confirmDelete = () => {
+    if (deleteConfirm) {
+      dispatch(deleteBookAsync({ bookId: deleteConfirm.bookId, userId }));
+      setDeleteConfirm(null);
     }
   };
 
@@ -90,7 +105,7 @@ export default function MyLibrary() {
                   <FontAwesomeIcon icon={faEdit} className="text-amber-600" />
                 </button>
                 <button
-                  onClick={() => handleDelete(book.id)}
+                  onClick={() => handleDelete(book)}
                   className="bg-white p-2 rounded-full shadow hover:bg-gray-100"
                   title="حذف"
                 >
@@ -117,6 +132,37 @@ export default function MyLibrary() {
             >
               إلغاء
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* Delete Confirmation Toast */}
+      {deleteConfirm && (
+        <div className="fixed inset-0 bg-black/30 backdrop-blur-sm z-50 flex items-center justify-center animate-fade-in">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-4 animate-scale-in">
+            <div className="flex justify-center mb-6">
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center">
+                <FontAwesomeIcon icon={faTrash} className="text-3xl text-red-600" />
+              </div>
+            </div>
+            <h3 className="text-xl font-bold text-center mb-2">هل أنت متأكد؟</h3>
+            <p className="text-gray-600 text-center mb-6">
+              سيتم حذف الكتاب <span className="font-bold text-red-600">&quot;{deleteConfirm.bookTitle}&quot;</span> من مكتبتك نهائياً.
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setDeleteConfirm(null)}
+                className="flex-1 px-6 py-3 rounded-xl font-bold text-gray-600 bg-gray-100 hover:bg-gray-200 transition"
+              >
+                إلغاء
+              </button>
+              <button
+                onClick={confirmDelete}
+                className="flex-1 px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 shadow-lg hover:shadow-xl transition-all"
+              >
+                نعم، احذف
+              </button>
+            </div>
           </div>
         </div>
       )}

@@ -1,7 +1,7 @@
 'use client';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { selectAllBooks, addBook } from '@/store/booksSlice';
+import { selectAllBooks, addBookAsync, fetchBooks } from '@/store/booksSlice';
 import { 
   faBook,
   faGraduationCap,
@@ -13,6 +13,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import booksData from './data/books_library.json';
 import React, { useState, useEffect, useMemo } from 'react';
+import { toast } from 'react-hot-toast';
 
 // Components
 import Header from '@/components/ui/Header';
@@ -51,6 +52,8 @@ const CATEGORY_COLORS = {
 export default function Home() {
   const dispatch = useDispatch();
   const myBooks = useSelector(selectAllBooks);
+  const user = useSelector((state) => state.auth?.user);
+  const userId = user?.uid;
   
   // State
   const [darkMode, setDarkMode] = useState(false);
@@ -61,8 +64,16 @@ export default function Home() {
   const [showFilters, setShowFilters] = useState(false);
   const [sortBy, setSortBy] = useState('title');
   const [currentPage, setCurrentPage] = useState(1);
+  const [booksLoading, setBooksLoading] = useState(true);
   
   const booksPerPage = 12;
+
+  // Fetch books when user is logged in
+  useEffect(() => {
+    if (userId) {
+      dispatch(fetchBooks(userId));
+    }
+  }, [dispatch, userId]);
 
   // Dark Mode
   useEffect(() => {
@@ -133,20 +144,57 @@ export default function Home() {
     setCurrentPage(1);
   }, [selectedCategory, selectedAuthor, searchQuery, sortBy]);
 
-  // Check if book is in my library
+  // Check if books are loaded
+  useEffect(() => {
+    if (userId && myBooks.length > 0) {
+      setBooksLoading(false);
+    } else if (userId) {
+      // User logged in but no books yet
+      setBooksLoading(false);
+    }
+  }, [userId, myBooks.length]);
+
+  // Check if book is in my library (by original book id OR by title+author)
   const isInLibrary = (bookId) => {
-    return myBooks.some(book => book.id === bookId);
+    // Check by id
+    if (myBooks.some(book => book.id === bookId)) return true;
+    // Check by title + author (for books added from booksData)
+    const sourceBook = booksData?.books?.find(b => b.id === bookId);
+    if (sourceBook && myBooks.some(book => 
+      book.title === sourceBook.title && book.author === sourceBook.author
+    )) return true;
+    return false;
   };
 
   // Add book to library
   const handleAddToLibrary = (book) => {
-    if (!isInLibrary(book.id)) {
-      dispatch(addBook({
-        ...book,
+    if (!userId) {
+      toast.error('يرجى تسجيل الدخول أولاً لإضافة الكتب إلى مكتبتك');
+      return;
+    }
+    // Check if book is already in local state
+    if (isInLibrary(book.id)) {
+      toast('الكتاب موجود مسبقاً في مكتبتك', { icon: 'ℹ️' });
+      return;
+    }
+    // Add book
+    const { id, ...bookData } = book;
+    dispatch(addBookAsync({
+      userId: userId,
+      bookData: {
+        ...bookData,
         status: 'planned',
         dateAdded: new Date().toISOString()
-      }));
-    }
+      }
+    }))
+      .unwrap()
+      .then(() => {
+        toast.success('✅ تم إضافة الكتاب إلى مكتبتك بنجاح!');
+      })
+      .catch((error) => {
+        console.error('Error adding book:', error);
+        toast.error(`❌ حدث خطأ: ${error.message || 'حدث خطأ غير معروف'}`);
+      });
   };
 
   // Reset filters
@@ -223,7 +271,10 @@ export default function Home() {
         )}
 
         {/* Quick Actions */}
-        <QuickActions myBooksCount={myBooks.length} />
+        <QuickActions 
+          myBooksCount={myBooks.length} 
+          isLoading={!userId} 
+        />
 
         {/* Footer */}
         <Footer
