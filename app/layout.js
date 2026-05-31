@@ -3,6 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { cairo } from '@/lib/font';
 import Header from '@/components/Header';
 import Providers from './providers';
+import Head from 'next/head';
 
 export const metadata = {
   title: 'ATHAR-أثر',
@@ -45,6 +46,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
+      <Head>
+        <meta name="google-site-verification" content="dqhN748HP8GBqqvVMC9Y_npHTidyMjhjWbdVhZwQUZA" />
+      </Head>
       <body className={`${cairo.className} bg-amber-50 text-amber-900 min-h-screen`}>
         <Providers>
           <Header />
