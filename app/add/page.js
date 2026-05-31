@@ -1,10 +1,10 @@
 import BookForm from '@/components/BookForm';
+import ProtectedRoute from '@/components/ProtectedRoute';
 
 export default function AddBook() {
   return (
-    <div className="py-12 mt-8 ">
-      <h1 className="text-4xl font-bold text-center mb-12">إضافة كتاب جديد</h1>
+    <ProtectedRoute>
       <BookForm />
-    </div>
+    </ProtectedRoute>
   );
 }

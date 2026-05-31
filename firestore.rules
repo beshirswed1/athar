@@ -101,12 +101,14 @@ service cloud.firestore {
       allow create: if isAuthenticated() 
         && request.auth.uid == userId
         && request.resource.data.email == request.auth.token.email
-        && isValidString('displayName', 100);
+        && isValidString('displayName', 100)
+        && isEmailVerified();
       
       // Update own profile
       allow update: if isOwner(userId)
         && isValidOptionalString('displayName', 100)
-        && !request.resource.data.keys().hasAny(['email', 'uid', 'admin']);
+        && !request.resource.data.keys().hasAny(['email', 'uid', 'admin'])
+        && isEmailVerified();
       
       // Delete own profile
       allow delete: if isOwner(userId);
@@ -131,6 +133,7 @@ service cloud.firestore {
       // Note: Rate limiting handled by Cloud Functions
       allow create: if isAuthenticated()
         && request.resource.data.userId == request.auth.uid
+        && isEmailVerified()
         && isValidBookData()
         && isCleanData()
         && isValidRating(request.resource.data.rating)
@@ -145,6 +148,7 @@ service cloud.firestore {
       allow update: if isAuthenticated()
         && resource.data.userId == request.auth.uid
         && request.resource.data.userId == request.auth.uid
+        && isEmailVerified()
         && isValidOptionalString('title', 500)
         && isValidOptionalString('author', 200)
         && isValidStatus(request.resource.data.status)

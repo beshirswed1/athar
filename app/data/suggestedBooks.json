@@ -2,41 +2,77 @@
   "metadata": {
     "totalBooks": 209,
     "totalAuthors": 91,
-    "totalCategories": 8,
+    "totalCategories": 17,
     "lastUpdated": "2025-01-29"
   },
   "categories": [
     {
-      "name": "الفقه",
-      "count": 31
+      "name": "الكتب الدينية",
+      "count": 71
     },
     {
-      "name": "العقيدة",
-      "count": 16
+      "name": "الأدب",
+      "count": 6
     },
     {
-      "name": "السيرة",
-      "count": 19
-    },
-    {
-      "name": "الحديث",
-      "count": 5
-    },
-    {
-      "name": "التاريخ",
-      "count": 25
-    },
-    {
-      "name": "الفكر",
-      "count": 77
-    },
-    {
-      "name": "الرواية",
+      "name": "الروايات والقصص",
       "count": 30
     },
     {
-      "name": "الشعر",
-      "count": 6
+      "name": "التاريخ والجغرافيا",
+      "count": 25
+    },
+    {
+      "name": "العلوم الطبيعية",
+      "count": 0
+    },
+    {
+      "name": "التكنولوجيا والحاسوب",
+      "count": 0
+    },
+    {
+      "name": "الطب والصحة",
+      "count": 0
+    },
+    {
+      "name": "علم النفس والاجتماع",
+      "count": 0
+    },
+    {
+      "name": "الاقتصاد والأعمال",
+      "count": 0
+    },
+    {
+      "name": "السياسة والقانون",
+      "count": 0
+    },
+    {
+      "name": "الفلسفة والفكر",
+      "count": 77
+    },
+    {
+      "name": "الفنون",
+      "count": 0
+    },
+    {
+      "name": "اللغات",
+      "count": 0
+    },
+    {
+      "name": "التعليم والمراجع",
+      "count": 0
+    },
+    {
+      "name": "الأطفال والناشئة",
+      "count": 0
+    },
+    {
+      "name": "الهوايات ونمط الحياة",
+      "count": 0
+    },
+    {
+      "name": "الديناميكيات الحديثة",
+      "count": 0
     }
   ],
   "authors": [
@@ -139,7 +175,8 @@
       "author": "إمام الحرمين أبو المعالي الجويني",
       "pages": 120,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 2,
@@ -147,7 +184,8 @@
       "author": "ابن قدامة المقدسي",
       "pages": 350,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 3,
@@ -155,7 +193,8 @@
       "author": "ابن قيم الجوزية",
       "pages": 420,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 4,
@@ -163,7 +202,8 @@
       "author": "أبو حامد الغزالي",
       "pages": 700,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 5,
@@ -171,7 +211,8 @@
       "author": "عبد الوهاب خلاف",
       "pages": 480,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 6,
@@ -179,7 +220,8 @@
       "author": "علي بن محمد المرغيناني",
       "pages": 1200,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 7,
@@ -187,7 +229,8 @@
       "author": "علاء الدين الكاساني",
       "pages": 3200,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 8,
@@ -195,7 +238,8 @@
       "author": "عبد الله الموصلي",
       "pages": 900,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 9,
@@ -203,7 +247,8 @@
       "author": "ابن عابدين",
       "pages": 3000,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 10,
@@ -211,7 +256,8 @@
       "author": "وهبة الزحيلي",
       "pages": 850,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 11,
@@ -219,7 +265,8 @@
       "author": "سحنون بن سعيد",
       "pages": 600,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 12,
@@ -227,7 +274,8 @@
       "author": "أحمد الدردير",
       "pages": 1500,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 13,
@@ -235,7 +283,8 @@
       "author": "ابن جزي الكلبي",
       "pages": 420,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 14,
@@ -243,7 +292,8 @@
       "author": "شهاب الدين القرافي",
       "pages": 2200,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 15,
@@ -251,7 +301,8 @@
       "author": "محمد بن إدريس الشافعي",
       "pages": 1000,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 16,
@@ -259,7 +310,8 @@
       "author": "يحيى بن شرف النووي",
       "pages": 3000,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 17,
@@ -267,7 +319,8 @@
       "author": "يحيى بن شرف النووي",
       "pages": 1200,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 18,
@@ -275,7 +328,8 @@
       "author": "تقي الدين الحصني",
       "pages": 480,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 19,
@@ -283,7 +337,8 @@
       "author": "عبد الكريم الرافعي",
       "pages": 700,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 20,
@@ -291,7 +346,8 @@
       "author": "ابن قدامة المقدسي",
       "pages": 4000,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 21,
@@ -299,7 +355,8 @@
       "author": "ابن قدامة المقدسي",
       "pages": 1800,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 22,
@@ -307,7 +364,8 @@
       "author": "موسى بن أحمد الحجاوي",
       "pages": 600,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 23,
@@ -315,7 +373,8 @@
       "author": "منصور البهوتي",
       "pages": 1600,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 24,
@@ -323,7 +382,8 @@
       "author": "علاء الدين المرداوي",
       "pages": 2000,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 25,
@@ -331,7 +391,8 @@
       "author": "أبو إسحاق الشاطبي",
       "pages": 900,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 26,
@@ -339,7 +400,8 @@
       "author": "ابن تيمية",
       "pages": 19500,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 27,
@@ -347,7 +409,8 @@
       "author": "ابن تيمية",
       "pages": 600,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 28,
@@ -355,7 +418,8 @@
       "author": "ابن تيمية",
       "pages": 3500,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 29,
@@ -363,7 +427,8 @@
       "author": "ابن تيمية",
       "pages": 950,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 30,
@@ -371,7 +436,8 @@
       "author": "ابن القيم",
       "pages": 2200,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 31,
@@ -379,7 +445,8 @@
       "author": "ابن القيم",
       "pages": 400,
       "coverImage": "",
-      "category": "الفقه"
+      "category": "الكتب الدينية",
+      "subcategory": "الفقه"
     },
     {
       "id": 32,
@@ -387,7 +454,8 @@
       "author": "الإمام الطحاوي",
       "pages": 120,
       "coverImage": "https://www.nasihaa.com/uploads/img/1709396373_556.jpg",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 33,
@@ -395,7 +463,8 @@
       "author": "محمد بن عبد الوهاب",
       "pages": 200,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 34,
@@ -403,7 +472,8 @@
       "author": "محمد بن عبد الوهاب",
       "pages": 50,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 35,
@@ -411,7 +481,8 @@
       "author": "محمد بن عبد الوهاب",
       "pages": 30,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 36,
@@ -419,7 +490,8 @@
       "author": "محمد بن عبد الوهاب",
       "pages": 20,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 37,
@@ -427,7 +499,8 @@
       "author": "محمد بن عبد الكريم الشهرستاني",
       "pages": 520,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 38,
@@ -435,7 +508,8 @@
       "author": "عبد القاهر البغدادي",
       "pages": 380,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 39,
@@ -443,7 +517,8 @@
       "author": "أبو بكر الخلال",
       "pages": 260,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 40,
@@ -451,7 +526,8 @@
       "author": "الإمام أحمد بن حنبل",
       "pages": 240,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 41,
@@ -459,7 +535,8 @@
       "author": "ابن تيمية",
       "pages": 4600,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 42,
@@ -467,7 +544,8 @@
       "author": "ابن تيمية",
       "pages": 4200,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 43,
@@ -475,7 +553,8 @@
       "author": "ابن تيمية",
       "pages": 5000,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 44,
@@ -483,7 +562,8 @@
       "author": "ابن تيمية",
       "pages": 3100,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 45,
@@ -491,7 +571,8 @@
       "author": "ابن تيمية",
       "pages": 350,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 46,
@@ -499,7 +580,8 @@
       "author": "ابن تيمية",
       "pages": 1100,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 47,
@@ -507,7 +589,8 @@
       "author": "محمد قطب",
       "pages": 435,
       "coverImage": "",
-      "category": "العقيدة"
+      "category": "الكتب الدينية",
+      "subcategory": "العقيدة"
     },
     {
       "id": 48,
@@ -515,7 +598,8 @@
       "author": "محمد بن عبد الوهاب",
       "pages": 350,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 49,
@@ -523,7 +607,8 @@
       "author": "علي الصلابي",
       "pages": 950,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 50,
@@ -531,7 +616,8 @@
       "author": "علي الصلابي",
       "pages": 400,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 51,
@@ -539,7 +625,8 @@
       "author": "علي الصلابي",
       "pages": 500,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 52,
@@ -547,7 +634,8 @@
       "author": "علي الصلابي",
       "pages": 550,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 53,
@@ -555,7 +643,8 @@
       "author": "علي الصلابي",
       "pages": 700,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 54,
@@ -563,7 +652,8 @@
       "author": "علي الصلابي",
       "pages": 350,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 55,
@@ -571,7 +661,8 @@
       "author": "علي الصلابي",
       "pages": 650,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 56,
@@ -579,7 +670,8 @@
       "author": "علي الصلابي",
       "pages": 700,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 57,
@@ -587,7 +679,8 @@
       "author": "راغب السرجاني",
       "pages": 1100,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 58,
@@ -595,7 +688,8 @@
       "author": "عبد الملك بن هشام",
       "pages": 520,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 59,
@@ -603,7 +697,8 @@
       "author": "ابن قيم الجوزية",
       "pages": 900,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 60,
@@ -611,7 +706,8 @@
       "author": "محمد بن عيسى الترمذي",
       "pages": 300,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 61,
@@ -619,7 +715,8 @@
       "author": "ابن القيم",
       "pages": 2600,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 62,
@@ -627,7 +724,8 @@
       "author": "محمد الغزالي",
       "pages": 480,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 63,
@@ -635,7 +733,8 @@
       "author": "ابن الأثير",
       "pages": 3800,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 64,
@@ -643,7 +742,8 @@
       "author": "ابن كثير",
       "pages": 1600,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 65,
@@ -651,7 +751,8 @@
       "author": "ابن كثير",
       "pages": 500,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 66,
@@ -659,7 +760,8 @@
       "author": "ابن الجوزي",
       "pages": 1800,
       "coverImage": "",
-      "category": "السيرة"
+      "category": "الكتب الدينية",
+      "subcategory": "السيرة النبوية"
     },
     {
       "id": 67,
@@ -667,7 +769,8 @@
       "author": "الإمام البخاري",
       "pages": 2600,
       "coverImage": "",
-      "category": "الحديث"
+      "category": "الكتب الدينية",
+      "subcategory": "الحديث وعلومه"
     },
     {
       "id": 68,
@@ -675,7 +778,8 @@
       "author": "ابن الأثير",
       "pages": 2400,
       "coverImage": "",
-      "category": "الحديث"
+      "category": "الكتب الدينية",
+      "subcategory": "الحديث وعلومه"
     },
     {
       "id": 69,
@@ -683,7 +787,8 @@
       "author": "ابن الأثير",
       "pages": 6500,
       "coverImage": "",
-      "category": "الحديث"
+      "category": "الكتب الدينية",
+      "subcategory": "الحديث وعلومه"
     },
     {
       "id": 70,
@@ -691,7 +796,8 @@
       "author": "ابن كثير",
       "pages": 10000,
       "coverImage": "",
-      "category": "الحديث"
+      "category": "الكتب الدينية",
+      "subcategory": "الحديث وعلومه"
     },
     {
       "id": 71,
@@ -699,7 +805,8 @@
       "author": "ابن الجوزي",
       "pages": 1200,
       "coverImage": "",
-      "category": "الحديث"
+      "category": "الكتب الدينية",
+      "subcategory": "الحديث وعلومه"
     },
     {
       "id": 72,
@@ -707,7 +814,8 @@
       "author": "ابن كثير",
       "pages": 8000,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/fd/AlbidayaWalnihaya.jpg",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 73,
@@ -715,7 +823,8 @@
       "author": "ويل ديورانت",
       "pages": 11000,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1369964519i/15759610.jpg",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 74,
@@ -723,7 +832,8 @@
       "author": "صن تزو",
       "pages": 250,
       "coverImage": "https://daralsaqi.com/uploads/books/image/fan_alharb_ED2_jpg.png",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 75,
@@ -731,7 +841,8 @@
       "author": "إدوارد سعيد",
       "pages": 400,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650531752i/60855309.jpg",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 76,
@@ -739,7 +850,8 @@
       "author": "الذهبي",
       "pages": 9000,
       "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/248/248031.jpg",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 77,
@@ -747,7 +859,8 @@
       "author": "فيليب باركر",
       "pages": 1200,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498895423i/34350268.jpg",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 78,
@@ -755,7 +868,8 @@
       "author": "عبد الله العجيري",
       "pages": 287,
       "coverImage": "https://m.media-amazon.com/images/I/51obtrR0M5L.UF1000,1000_QL80.jpg",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 79,
@@ -763,7 +877,8 @@
       "author": "علي الصلابي",
       "pages": 1200,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 80,
@@ -771,7 +886,8 @@
       "author": "علي الصلابي",
       "pages": 900,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 81,
@@ -779,7 +895,8 @@
       "author": "علي الصلابي",
       "pages": 800,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 82,
@@ -787,7 +904,8 @@
       "author": "علي الصلابي",
       "pages": 550,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 83,
@@ -795,7 +913,8 @@
       "author": "علي الصلابي",
       "pages": 450,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 84,
@@ -803,7 +922,8 @@
       "author": "راغب السرجاني",
       "pages": 800,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 85,
@@ -811,7 +931,8 @@
       "author": "راغب السرجاني",
       "pages": 450,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 86,
@@ -819,7 +940,8 @@
       "author": "راغب السرجاني",
       "pages": 900,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 87,
@@ -827,7 +949,8 @@
       "author": "راغب السرجاني",
       "pages": 1200,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 88,
@@ -835,7 +958,8 @@
       "author": "راغب السرجاني",
       "pages": 800,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 89,
@@ -843,7 +967,8 @@
       "author": "راغب السرجاني",
       "pages": 350,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 90,
@@ -851,7 +976,8 @@
       "author": "راغب السرجاني",
       "pages": 600,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 91,
@@ -859,7 +985,8 @@
       "author": "محمد بن جرير الطبري",
       "pages": 8000,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 92,
@@ -867,7 +994,8 @@
       "author": "أبو بكر ابن العربي",
       "pages": 2200,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 93,
@@ -875,7 +1003,8 @@
       "author": "ابن الأثير",
       "pages": 4500,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 94,
@@ -883,7 +1012,8 @@
       "author": "ابن الأثير",
       "pages": 1400,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 95,
@@ -891,7 +1021,8 @@
       "author": "ابن كثير",
       "pages": 900,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 96,
@@ -899,7 +1030,8 @@
       "author": "ابن الجوزي",
       "pages": 6200,
       "coverImage": "",
-      "category": "التاريخ"
+      "category": "التاريخ والجغرافيا",
+      "subcategory": "التاريخ الإسلامي"
     },
     {
       "id": 97,
@@ -907,7 +1039,8 @@
       "author": "روبرت كيوساكي",
       "pages": 336,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/2/20/20231126105925%21%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D8%BA%D9%86%D9%8A.jpeg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 98,
@@ -915,7 +1048,8 @@
       "author": "مارك مانسون",
       "pages": 224,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D9%81%D9%86_%D8%A7%D9%84%D9%84%D8%A7%D9%85%D8%A8%D8%A7%D9%84%D8%A7%D8%A9.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 99,
@@ -923,7 +1057,8 @@
       "author": "نورمان فينسنت بيل",
       "pages": 288,
       "coverImage": "https://daralkhayal.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-01-at-10.59.57-AM.jpeg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 100,
@@ -931,7 +1066,8 @@
       "author": "يوستاين غاردر",
       "pages": 518,
       "coverImage": "https://m.media-amazon.com/images/I/61wABrw36CS.AC_UF1000,1000_QL80.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 101,
@@ -939,7 +1075,8 @@
       "author": "إبراهيم السكران",
       "pages": 343,
       "coverImage": "https://m.media-amazon.com/images/I/61BumoSqGOS.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 102,
@@ -947,7 +1084,8 @@
       "author": "إبراهيم السكران",
       "pages": 128,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386913381i/19408357.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 103,
@@ -955,7 +1093,8 @@
       "author": "إبراهيم السكران",
       "pages": 187,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513880611i/22363984.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 104,
@@ -963,7 +1102,8 @@
       "author": "إبراهيم السكران",
       "pages": 300,
       "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A-%D9%84%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%85%D8%B1%D9%83%D8%B2-%D8%AA%D9%81%D9%83%D8%B1-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 105,
@@ -971,7 +1111,8 @@
       "author": "إبراهيم السكران",
       "pages": 248,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394395743i/21410657.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 106,
@@ -979,7 +1120,8 @@
       "author": "إبراهيم السكران",
       "pages": 150,
       "coverImage": "https://assets.asfar.io/uploads/2025/07/suruj-ramadaniya-ibrahim-assakran-8-scaled.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 107,
@@ -987,7 +1129,8 @@
       "author": "إبراهيم السكران",
       "pages": 175,
       "coverImage": "https://archive.org/services/img/20220125_20220125_1053/full/pct:200/0/default.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 108,
@@ -995,7 +1138,8 @@
       "author": "عبد الله العجيري",
       "pages": 240,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZ7LSwmPOeLK_kKyamW0HhMJ6XI-9smWQ0A&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 109,
@@ -1003,7 +1147,8 @@
       "author": "عبد الله العجيري",
       "pages": 341,
       "coverImage": "https://nasihaa.com/uploads/img/1688227735_528037.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 110,
@@ -1011,7 +1156,8 @@
       "author": "عبد الله العجيري",
       "pages": 450,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphA633p7praiBd0fFmTLEGnXHVdHZNaVfpg&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 111,
@@ -1019,7 +1165,8 @@
       "author": "عبد الله العجيري",
       "pages": 350,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7Ksy6xZ_LsMGWayL1izdg2vEaxnyGItw-g&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 112,
@@ -1027,7 +1174,8 @@
       "author": "عبد الله العجيري",
       "pages": 93,
       "coverImage": "https://www.samawy.com/displayimg/1000836/2c8756d9864a4fcea2f3e705dcafc638.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 113,
@@ -1035,7 +1183,8 @@
       "author": "عبد الله العجيري",
       "pages": 620,
       "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1400-file_11_46-e1648033515387-350x500.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 114,
@@ -1043,7 +1192,8 @@
       "author": "سيد قطب",
       "pages": 5630,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/6/63/20231126111028%21%D9%81%D9%8A_%D8%B8%D9%84%D8%A7%D9%84_%D8%A7%D9%84_%D9%82%D8%B1%D8%A2%D9%86.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 115,
@@ -1051,7 +1201,8 @@
       "author": "سيد قطب",
       "pages": 342,
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf/page1-182px-%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 116,
@@ -1059,7 +1210,8 @@
       "author": "سيد قطب",
       "pages": 280,
       "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/normal/264/264227.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 117,
@@ -1067,7 +1219,8 @@
       "author": "سيد قطب",
       "pages": 200,
       "coverImage": "https://books-library.website/files/books-library.online-03300601Lh4A2.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 118,
@@ -1075,7 +1228,8 @@
       "author": "مالك بن نبي",
       "pages": 164,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHeUmoUvKWu4StDSyNwnvqSJHf91roUdvaw&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 119,
@@ -1083,7 +1237,8 @@
       "author": "مالك بن نبي",
       "pages": 186,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVY7p062EyBgs8ZAxy70O9Bnmmn1XIaegbA&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 120,
@@ -1091,7 +1246,8 @@
       "author": "مالك بن نبي",
       "pages": 152,
       "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 121,
@@ -1099,7 +1255,8 @@
       "author": "مالك بن نبي",
       "pages": 316,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEDe2J--OfkxM-lN8otgVbBXMZSyzKk2DDg&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 122,
@@ -1107,7 +1264,8 @@
       "author": "مالك بن نبي",
       "pages": 65,
       "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%AA%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AB%D9%84%D8%AB-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%8A%D9%86-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 123,
@@ -1115,7 +1273,8 @@
       "author": "مالك بن نبي",
       "pages": 460,
       "coverImage": "https://cdn.abjjad.com/pub/e33f97e5-02c3-4dce-9ce1-67926f0d881b.png",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 124,
@@ -1123,7 +1282,8 @@
       "author": "ابن رشد",
       "pages": 600,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1350895521i/16101628.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 125,
@@ -1131,7 +1291,8 @@
       "author": "عبد العزيز الطريفي",
       "pages": 84,
       "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/311/311850.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 126,
@@ -1139,7 +1300,8 @@
       "author": "عبد العزيز الطريفي",
       "pages": 150,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46tD65e7o9ho9kprXe6dr3XfmXFkKQ5i-iA&s",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 127,
@@ -1147,7 +1309,8 @@
       "author": "عبد العزيز الطريفي",
       "pages": 209,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522199254i/39666869.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 128,
@@ -1155,7 +1318,8 @@
       "author": "عبد العزيز الطريفي",
       "pages": 480,
       "coverImage": "https://books.islamway.net//1/1223/906_eltrife_elfasl.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 129,
@@ -1163,7 +1327,8 @@
       "author": "عبد العزيز الطريفي",
       "pages": 70,
       "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/09/SEP480-1.jpg?fit=1901%2C2786&ssl=1",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 130,
@@ -1171,7 +1336,8 @@
       "author": "محمد قطب",
       "pages": 183,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 131,
@@ -1179,7 +1345,8 @@
       "author": "صفي الرحمن المباركفوري",
       "pages": 500,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/5c/Arraheek_Almakhtoom.jpg",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 132,
@@ -1187,7 +1354,8 @@
       "author": "محمد بن داود الصنهاجي",
       "pages": 80,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 133,
@@ -1195,7 +1363,8 @@
       "author": "محمد بن عبد الله ابن مالك",
       "pages": 200,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 134,
@@ -1203,7 +1372,8 @@
       "author": "عبد الله بن عقيل",
       "pages": 600,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 135,
@@ -1211,7 +1381,8 @@
       "author": "ابن هشام الأنصاري",
       "pages": 700,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 136,
@@ -1219,7 +1390,8 @@
       "author": "عبد القاهر الجرجاني",
       "pages": 300,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 137,
@@ -1227,7 +1399,8 @@
       "author": "ابن الجوزي",
       "pages": 2000,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 138,
@@ -1235,7 +1408,8 @@
       "author": "ابن قيم الجوزية",
       "pages": 1400,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 139,
@@ -1243,7 +1417,8 @@
       "author": "ابن قيم الجوزية",
       "pages": 420,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 140,
@@ -1251,7 +1426,8 @@
       "author": "ابن قيم الجوزية",
       "pages": 360,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 141,
@@ -1259,7 +1435,8 @@
       "author": "ابن قيم الجوزية",
       "pages": 240,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 142,
@@ -1267,7 +1444,8 @@
       "author": "ابن قدامة المقدسي",
       "pages": 200,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 143,
@@ -1275,7 +1453,8 @@
       "author": "ابن كثير",
       "pages": 4000,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 144,
@@ -1283,7 +1462,8 @@
       "author": "أحمد السيد",
       "pages": 336,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 145,
@@ -1291,7 +1471,8 @@
       "author": "أحمد السيد",
       "pages": 192,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 146,
@@ -1299,7 +1480,8 @@
       "author": "أحمد السيد",
       "pages": 81,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 147,
@@ -1307,7 +1489,8 @@
       "author": "أحمد السيد",
       "pages": 55,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 148,
@@ -1315,7 +1498,8 @@
       "author": "أحمد السيد",
       "pages": 128,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 149,
@@ -1323,7 +1507,8 @@
       "author": "أحمد السيد",
       "pages": 60,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 150,
@@ -1331,7 +1516,8 @@
       "author": "عبد العزيز الطريفي",
       "pages": 350,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 151,
@@ -1339,7 +1525,8 @@
       "author": "ابن تيمية",
       "pages": 900,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 152,
@@ -1347,7 +1534,8 @@
       "author": "ابن القيم",
       "pages": 1400,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 153,
@@ -1355,7 +1543,8 @@
       "author": "ابن القيم",
       "pages": 350,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 154,
@@ -1363,7 +1552,8 @@
       "author": "ابن القيم",
       "pages": 1300,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 155,
@@ -1371,7 +1561,8 @@
       "author": "ابن القيم",
       "pages": 1800,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 156,
@@ -1379,7 +1570,8 @@
       "author": "ابن القيم",
       "pages": 600,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 157,
@@ -1387,7 +1579,8 @@
       "author": "ابن القيم",
       "pages": 1100,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 158,
@@ -1395,7 +1588,8 @@
       "author": "ابن القيم",
       "pages": 500,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 159,
@@ -1403,7 +1597,8 @@
       "author": "ابن القيم",
       "pages": 300,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 160,
@@ -1411,7 +1606,8 @@
       "author": "ابن القيم",
       "pages": 600,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 161,
@@ -1419,7 +1615,8 @@
       "author": "ابن القيم",
       "pages": 1600,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 162,
@@ -1427,7 +1624,8 @@
       "author": "محمد الغزالي",
       "pages": 192,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 163,
@@ -1435,7 +1633,8 @@
       "author": "محمد قطب",
       "pages": 380,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 164,
@@ -1443,7 +1642,8 @@
       "author": "محمد قطب",
       "pages": 530,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 165,
@@ -1451,7 +1651,8 @@
       "author": "محمد قطب",
       "pages": 292,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 166,
@@ -1459,7 +1660,8 @@
       "author": "محمد قطب",
       "pages": 228,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 167,
@@ -1467,7 +1669,8 @@
       "author": "ابن الجوزي",
       "pages": 3500,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 168,
@@ -1475,7 +1678,8 @@
       "author": "ابن الجوزي",
       "pages": 450,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 169,
@@ -1483,7 +1687,8 @@
       "author": "ابن الجوزي",
       "pages": 500,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 170,
@@ -1491,7 +1696,8 @@
       "author": "ابن الجوزي",
       "pages": 700,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 171,
@@ -1499,7 +1705,8 @@
       "author": "ابن الجوزي",
       "pages": 200,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 172,
@@ -1507,7 +1714,8 @@
       "author": "ابن الجوزي",
       "pages": 600,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 173,
@@ -1515,7 +1723,8 @@
       "author": "ابن الجوزي",
       "pages": 150,
       "coverImage": "",
-      "category": "الفكر"
+      "category": "الفلسفة والفكر",
+      "subcategory": "الفكر الإسلامي"
     },
     {
       "id": 174,
@@ -1523,7 +1732,8 @@
       "author": "باولو كويلو",
       "pages": 208,
       "coverImage": "https://m.media-amazon.com/images/I/61snwl0lyZL.UF1000,1000_QL80.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 175,
@@ -1531,7 +1741,8 @@
       "author": "جورج أورويل",
       "pages": 328,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/e0/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_1984.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 176,
@@ -1539,7 +1750,8 @@
       "author": "خالد حسيني",
       "pages": 384,
       "coverImage": "https://cdn.abjjad.com/pub/f79f6e2a-b4c9-4069-a622-0354b302b54e.png",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 177,
@@ -1547,7 +1759,8 @@
       "author": "اسامه المسلم",
       "pages": 512,
       "coverImage": "https://images-eu.ssl-images-amazon.com/images/I/71RMQU7yMeL.AC_UL165_SR165,165.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 178,
@@ -1555,7 +1768,8 @@
       "author": "نجيب محفوظ",
       "pages": 1500,
       "coverImage": "https://baalbeck.com/Upload/baalbeck/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%86%D8%AC%D9%8A%D8%A8-%D9%85%D8%AD%D9%81%D9%88%D8%B8_118202318253.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 179,
@@ -1563,7 +1777,8 @@
       "author": "نجيب محفوظ",
       "pages": 350,
       "coverImage": "https://cdn.abjjad.com/pub/41fe6a65-7609-4423-a80f-8a0e136264f3.png",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 180,
@@ -1571,7 +1786,8 @@
       "author": "اسامه المسلم",
       "pages": 400,
       "coverImage": "https://m.media-amazon.com/images/I/41KCxxwkPDL.AC_UF1000,1000_QL80.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 181,
@@ -1579,7 +1795,8 @@
       "author": "محمد شكري",
       "pages": 220,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/ec/%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%AE%D8%A8%D8%B2_%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%8A.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 182,
@@ -1587,7 +1804,8 @@
       "author": "فيكتور هوغو",
       "pages": 1400,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7b/20170618060049%21%D8%A7%D9%84%D8%A8%D8%A4%D8%B3%D8%A7%D8%A12.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 183,
@@ -1595,7 +1813,8 @@
       "author": "عبد الرحمن منيف",
       "pages": 800,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysNaDdTiZlL4s4gyITqoVVsE6_yz_n_ORsQ&s",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 184,
@@ -1603,7 +1822,8 @@
       "author": "غسان كنفاني",
       "pages": 120,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/%D8%B5%D9%88%D8%B1%D8%A9_%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D8%B1%D8%AC%D8%A7%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D9%85%D8%B3.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 185,
@@ -1611,7 +1831,8 @@
       "author": "كورماك مكارثي",
       "pages": 287,
       "coverImage": "https://www.zaadbooks.com/tempImage/img-30-11831-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%B2%D8%A7%D8%AF-1.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 186,
@@ -1619,7 +1840,8 @@
       "author": "نجيب محفوظ",
       "pages": 400,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%85%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%81%D9%8A%D8%B4.jpeg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 187,
@@ -1627,7 +1849,8 @@
       "author": "نجيب محفوظ",
       "pages": 200,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/5/53/20231126093409%21%D8%A7%D9%84%D9%84%D8%B5_%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 188,
@@ -1635,7 +1858,8 @@
       "author": "علي أحمد باكثير",
       "pages": 420,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/3/30/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7_%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D8%A7%D9%87.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 189,
@@ -1643,7 +1867,8 @@
       "author": "يوسف زيدان",
       "pages": 320,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/aa/Azazel_novel_cover.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 190,
@@ -1651,7 +1876,8 @@
       "author": "أمين معلوف",
       "pages": 300,
       "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehZXDi48tj2GGqfyg8toVINUfzv71Bbvnw&s",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 191,
@@ -1659,7 +1885,8 @@
       "author": "ليو تولستوي",
       "pages": 1600,
       "coverImage": "https://m.media-amazon.com/images/I/71t+aein-UL.AC_UF1000,1000_QL80.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 192,
@@ -1667,7 +1894,8 @@
       "author": "جرجي زيدان",
       "pages": 280,
       "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%8A%D9%86-%D8%AC%D8%A7%D9%84%D9%88%D8%AA-27-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-658%D9%87-%D8%A7%D9%84%D9%88%D9%84-1260%D9%85-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D9%88-%D9%86%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D9%81-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 193,
@@ -1675,7 +1903,8 @@
       "author": "أحمد خالد توفيق",
       "pages": 200,
       "coverImage": "https://m.media-amazon.com/images/I/71T2mApcPJL.AC_UF1000,1000_QL80.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 194,
@@ -1683,7 +1912,8 @@
       "author": "ألدوس هكسلي",
       "pages": 288,
       "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%B9%D8%A7%D9%84%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B4%D8%AC%D8%A7%D8%B9-%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 195,
@@ -1691,7 +1921,8 @@
       "author": "يفغيني زامياتين",
       "pages": 240,
       "coverImage": "https://m.media-amazon.com/images/I/61DC4Km7zcL.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 196,
@@ -1699,7 +1930,8 @@
       "author": "أحمد خالد توفيق",
       "pages": 220,
       "coverImage": "https://m.media-amazon.com/images/I/61-ks4upYsL.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 197,
@@ -1707,7 +1939,8 @@
       "author": "عمرو عبد الحميد",
       "pages": 280,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/98/%D8%A3%D8%B1%D8%B6_%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 198,
@@ -1715,7 +1948,8 @@
       "author": "عمرو عبد الحميد",
       "pages": 320,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1453065317i/28590941.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 199,
@@ -1723,7 +1957,8 @@
       "author": "ج.ر.ر تولكين",
       "pages": 1200,
       "coverImage": "https://foulabook.com/storage/photo/23039.2019-07-09.1562689719.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 200,
@@ -1731,7 +1966,8 @@
       "author": "ج.ك رولينغ",
       "pages": 330,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/2/2b/Harry_potter_and_the_philosophers_stone_%28Arabic%29.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 201,
@@ -1739,7 +1975,8 @@
       "author": "جورج ر.ر مارتن",
       "pages": 850,
       "coverImage": "https://apis.takweenkw.com/Attachments/book//2019121623173214961189.png",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 202,
@@ -1747,7 +1984,8 @@
       "author": "إبراهيم السكران",
       "pages": 117,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1333014209i/13565003.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 203,
@@ -1755,7 +1993,8 @@
       "author": "سيد قطب",
       "pages": 225,
       "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/c9/%D9%85%D8%B9%D8%A7%D9%84%D9%85_%D9%81%D9%8A_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82.jpg",
-      "category": "الرواية"
+      "category": "الروايات والقصص",
+      "subcategory": "الروايات"
     },
     {
       "id": 204,
@@ -1763,7 +2002,8 @@
       "author": "أبو الطيب المتنبي",
       "pages": 600,
       "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/a/2/1/bb6449e969a2117cdc260159f9db1aa0.jpg.webp",
-      "category": "الشعر"
+      "category": "الأدب",
+      "subcategory": "الشعر"
     },
     {
       "id": 205,
@@ -1771,7 +2011,8 @@
       "author": "الإمام الشافعي",
       "pages": 120,
       "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/85/85700.jpg",
-      "category": "الشعر"
+      "category": "الأدب",
+      "subcategory": "الشعر"
     },
     {
       "id": 206,
@@ -1779,7 +2020,8 @@
       "author": "نزار قباني",
       "pages": 250,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1341605762i/13562483.jpg",
-      "category": "الشعر"
+      "category": "الأدب",
+      "subcategory": "الشعر"
     },
     {
       "id": 207,
@@ -1787,7 +2029,8 @@
       "author": "أبو القاسم الشابي",
       "pages": 180,
       "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1237597027i/6348442.jpg",
-      "category": "الشعر"
+      "category": "الأدب",
+      "subcategory": "الشعر"
     },
     {
       "id": 208,
@@ -1795,7 +2038,8 @@
       "author": "بدر شاكر السياب",
       "pages": 450,
       "coverImage": "https://cdn.salla.sa/PzXDG/8b2ab4be-8fe3-4088-8c95-1894de2feee5-764.82213438735x1000-wQwyU99e0ea9oUjBKVj7CTWWW2gpKV7HHOp6MNZx.jpg",
-      "category": "الشعر"
+      "category": "الأدب",
+      "subcategory": "الشعر"
     },
     {
       "id": 209,
@@ -1803,18 +2047,20 @@
       "author": "سيد قطب",
       "pages": 299,
       "coverImage": "https://www.odabasham.net/images/dewansayed388.jpg",
-      "category": "الشعر"
+      "category": "الأدب",
+      "subcategory": "الشعر"
     }
   ],
   "booksByCategory": {
-    "الفقه": [
+    "الكتب الدينية": [
       {
         "id": 1,
         "title": "الورقات",
         "author": "إمام الحرمين أبو المعالي الجويني",
         "pages": 120,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 2,
@@ -1822,7 +2068,8 @@
         "author": "ابن قدامة المقدسي",
         "pages": 350,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 3,
@@ -1830,7 +2077,8 @@
         "author": "ابن قيم الجوزية",
         "pages": 420,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 4,
@@ -1838,7 +2086,8 @@
         "author": "أبو حامد الغزالي",
         "pages": 700,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 5,
@@ -1846,7 +2095,8 @@
         "author": "عبد الوهاب خلاف",
         "pages": 480,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 6,
@@ -1854,7 +2104,8 @@
         "author": "علي بن محمد المرغيناني",
         "pages": 1200,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 7,
@@ -1862,7 +2113,8 @@
         "author": "علاء الدين الكاساني",
         "pages": 3200,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 8,
@@ -1870,7 +2122,8 @@
         "author": "عبد الله الموصلي",
         "pages": 900,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 9,
@@ -1878,7 +2131,8 @@
         "author": "ابن عابدين",
         "pages": 3000,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 10,
@@ -1886,7 +2140,8 @@
         "author": "وهبة الزحيلي",
         "pages": 850,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 11,
@@ -1894,7 +2149,8 @@
         "author": "سحنون بن سعيد",
         "pages": 600,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 12,
@@ -1902,7 +2158,8 @@
         "author": "أحمد الدردير",
         "pages": 1500,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 13,
@@ -1910,7 +2167,8 @@
         "author": "ابن جزي الكلبي",
         "pages": 420,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 14,
@@ -1918,7 +2176,8 @@
         "author": "شهاب الدين القرافي",
         "pages": 2200,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 15,
@@ -1926,7 +2185,8 @@
         "author": "محمد بن إدريس الشافعي",
         "pages": 1000,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 16,
@@ -1934,7 +2194,8 @@
         "author": "يحيى بن شرف النووي",
         "pages": 3000,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 17,
@@ -1942,7 +2203,8 @@
         "author": "يحيى بن شرف النووي",
         "pages": 1200,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 18,
@@ -1950,7 +2212,8 @@
         "author": "تقي الدين الحصني",
         "pages": 480,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 19,
@@ -1958,7 +2221,8 @@
         "author": "عبد الكريم الرافعي",
         "pages": 700,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 20,
@@ -1966,7 +2230,8 @@
         "author": "ابن قدامة المقدسي",
         "pages": 4000,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 21,
@@ -1974,7 +2239,8 @@
         "author": "ابن قدامة المقدسي",
         "pages": 1800,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 22,
@@ -1982,7 +2248,8 @@
         "author": "موسى بن أحمد الحجاوي",
         "pages": 600,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 23,
@@ -1990,7 +2257,8 @@
         "author": "منصور البهوتي",
         "pages": 1600,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 24,
@@ -1998,7 +2266,8 @@
         "author": "علاء الدين المرداوي",
         "pages": 2000,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 25,
@@ -2006,7 +2275,8 @@
         "author": "أبو إسحاق الشاطبي",
         "pages": 900,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 26,
@@ -2014,7 +2284,8 @@
         "author": "ابن تيمية",
         "pages": 19500,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 27,
@@ -2022,7 +2293,8 @@
         "author": "ابن تيمية",
         "pages": 600,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 28,
@@ -2030,7 +2302,8 @@
         "author": "ابن تيمية",
         "pages": 3500,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 29,
@@ -2038,7 +2311,8 @@
         "author": "ابن تيمية",
         "pages": 950,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 30,
@@ -2046,7 +2320,8 @@
         "author": "ابن القيم",
         "pages": 2200,
         "coverImage": "",
-        "category": "الفقه"
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
       },
       {
         "id": 31,
@@ -2054,17 +2329,17 @@
         "author": "ابن القيم",
         "pages": 400,
         "coverImage": "",
-        "category": "الفقه"
-      }
-    ],
-    "العقيدة": [
+        "category": "الكتب الدينية",
+        "subcategory": "الفقه"
+      },
       {
         "id": 32,
         "title": "العقيدة الطحاوية",
         "author": "الإمام الطحاوي",
         "pages": 120,
         "coverImage": "https://www.nasihaa.com/uploads/img/1709396373_556.jpg",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 33,
@@ -2072,7 +2347,8 @@
         "author": "محمد بن عبد الوهاب",
         "pages": 200,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 34,
@@ -2080,7 +2356,8 @@
         "author": "محمد بن عبد الوهاب",
         "pages": 50,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 35,
@@ -2088,7 +2365,8 @@
         "author": "محمد بن عبد الوهاب",
         "pages": 30,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 36,
@@ -2096,7 +2374,8 @@
         "author": "محمد بن عبد الوهاب",
         "pages": 20,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 37,
@@ -2104,7 +2383,8 @@
         "author": "محمد بن عبد الكريم الشهرستاني",
         "pages": 520,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 38,
@@ -2112,7 +2392,8 @@
         "author": "عبد القاهر البغدادي",
         "pages": 380,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 39,
@@ -2120,7 +2401,8 @@
         "author": "أبو بكر الخلال",
         "pages": 260,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 40,
@@ -2128,7 +2410,8 @@
         "author": "الإمام أحمد بن حنبل",
         "pages": 240,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 41,
@@ -2136,7 +2419,8 @@
         "author": "ابن تيمية",
         "pages": 4600,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 42,
@@ -2144,7 +2428,8 @@
         "author": "ابن تيمية",
         "pages": 4200,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 43,
@@ -2152,7 +2437,8 @@
         "author": "ابن تيمية",
         "pages": 5000,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 44,
@@ -2160,7 +2446,8 @@
         "author": "ابن تيمية",
         "pages": 3100,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 45,
@@ -2168,7 +2455,8 @@
         "author": "ابن تيمية",
         "pages": 350,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 46,
@@ -2176,7 +2464,8 @@
         "author": "ابن تيمية",
         "pages": 1100,
         "coverImage": "",
-        "category": "العقيدة"
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
       },
       {
         "id": 47,
@@ -2184,17 +2473,17 @@
         "author": "محمد قطب",
         "pages": 435,
         "coverImage": "",
-        "category": "العقيدة"
-      }
-    ],
-    "السيرة": [
+        "category": "الكتب الدينية",
+        "subcategory": "العقيدة"
+      },
       {
         "id": 48,
         "title": "مختصر سيرة الرسول",
         "author": "محمد بن عبد الوهاب",
         "pages": 350,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 49,
@@ -2202,7 +2491,8 @@
         "author": "علي الصلابي",
         "pages": 950,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 50,
@@ -2210,7 +2500,8 @@
         "author": "علي الصلابي",
         "pages": 400,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 51,
@@ -2218,7 +2509,8 @@
         "author": "علي الصلابي",
         "pages": 500,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 52,
@@ -2226,7 +2518,8 @@
         "author": "علي الصلابي",
         "pages": 550,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 53,
@@ -2234,7 +2527,8 @@
         "author": "علي الصلابي",
         "pages": 700,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 54,
@@ -2242,7 +2536,8 @@
         "author": "علي الصلابي",
         "pages": 350,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 55,
@@ -2250,7 +2545,8 @@
         "author": "علي الصلابي",
         "pages": 650,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 56,
@@ -2258,7 +2554,8 @@
         "author": "علي الصلابي",
         "pages": 700,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 57,
@@ -2266,7 +2563,8 @@
         "author": "راغب السرجاني",
         "pages": 1100,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 58,
@@ -2274,7 +2572,8 @@
         "author": "عبد الملك بن هشام",
         "pages": 520,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 59,
@@ -2282,7 +2581,8 @@
         "author": "ابن قيم الجوزية",
         "pages": 900,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 60,
@@ -2290,7 +2590,8 @@
         "author": "محمد بن عيسى الترمذي",
         "pages": 300,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 61,
@@ -2298,7 +2599,8 @@
         "author": "ابن القيم",
         "pages": 2600,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 62,
@@ -2306,7 +2608,8 @@
         "author": "محمد الغزالي",
         "pages": 480,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 63,
@@ -2314,7 +2617,8 @@
         "author": "ابن الأثير",
         "pages": 3800,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 64,
@@ -2322,7 +2626,8 @@
         "author": "ابن كثير",
         "pages": 1600,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 65,
@@ -2330,7 +2635,8 @@
         "author": "ابن كثير",
         "pages": 500,
         "coverImage": "",
-        "category": "السيرة"
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
       },
       {
         "id": 66,
@@ -2338,17 +2644,17 @@
         "author": "ابن الجوزي",
         "pages": 1800,
         "coverImage": "",
-        "category": "السيرة"
-      }
-    ],
-    "الحديث": [
+        "category": "الكتب الدينية",
+        "subcategory": "السيرة النبوية"
+      },
       {
         "id": 67,
         "title": "صحيح البخاري",
         "author": "الإمام البخاري",
         "pages": 2600,
         "coverImage": "",
-        "category": "الحديث"
+        "category": "الكتب الدينية",
+        "subcategory": "الحديث وعلومه"
       },
       {
         "id": 68,
@@ -2356,7 +2662,8 @@
         "author": "ابن الأثير",
         "pages": 2400,
         "coverImage": "",
-        "category": "الحديث"
+        "category": "الكتب الدينية",
+        "subcategory": "الحديث وعلومه"
       },
       {
         "id": 69,
@@ -2364,7 +2671,8 @@
         "author": "ابن الأثير",
         "pages": 6500,
         "coverImage": "",
-        "category": "الحديث"
+        "category": "الكتب الدينية",
+        "subcategory": "الحديث وعلومه"
       },
       {
         "id": 70,
@@ -2372,7 +2680,8 @@
         "author": "ابن كثير",
         "pages": 10000,
         "coverImage": "",
-        "category": "الحديث"
+        "category": "الكتب الدينية",
+        "subcategory": "الحديث وعلومه"
       },
       {
         "id": 71,
@@ -2380,1079 +2689,19 @@
         "author": "ابن الجوزي",
         "pages": 1200,
         "coverImage": "",
-        "category": "الحديث"
+        "category": "الكتب الدينية",
+        "subcategory": "الحديث وعلومه"
       }
     ],
-    "التاريخ": [
-      {
-        "id": 72,
-        "title": "البداية والنهاية",
-        "author": "ابن كثير",
-        "pages": 8000,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/fd/AlbidayaWalnihaya.jpg",
-        "category": "التاريخ"
-      },
-      {
-        "id": 73,
-        "title": "قصة الحضارة",
-        "author": "ويل ديورانت",
-        "pages": 11000,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1369964519i/15759610.jpg",
-        "category": "التاريخ"
-      },
-      {
-        "id": 74,
-        "title": "فن الحرب",
-        "author": "صن تزو",
-        "pages": 250,
-        "coverImage": "https://daralsaqi.com/uploads/books/image/fan_alharb_ED2_jpg.png",
-        "category": "التاريخ"
-      },
-      {
-        "id": 75,
-        "title": "الاستشراق",
-        "author": "إدوارد سعيد",
-        "pages": 400,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650531752i/60855309.jpg",
-        "category": "التاريخ"
-      },
-      {
-        "id": 76,
-        "title": "سير أعلام النبلاء",
-        "author": "الذهبي",
-        "pages": 9000,
-        "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/248/248031.jpg",
-        "category": "التاريخ"
-      },
-      {
-        "id": 77,
-        "title": "موسوعة تاريخ العالم",
-        "author": "فيليب باركر",
-        "pages": 1200,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498895423i/34350268.jpg",
-        "category": "التاريخ"
-      },
-      {
-        "id": 78,
-        "title": "هيروشيما",
-        "author": "عبد الله العجيري",
-        "pages": 287,
-        "coverImage": "https://m.media-amazon.com/images/I/51obtrR0M5L.UF1000,1000_QL80.jpg",
-        "category": "التاريخ"
-      },
-      {
-        "id": 79,
-        "title": "الدولة الأموية",
-        "author": "علي الصلابي",
-        "pages": 1200,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 80,
-        "title": "الدولة العباسية",
-        "author": "علي الصلابي",
-        "pages": 900,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 81,
-        "title": "الدولة العثمانية",
-        "author": "علي الصلابي",
-        "pages": 800,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 82,
-        "title": "دولة السلاجقة",
-        "author": "علي الصلابي",
-        "pages": 550,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 83,
-        "title": "الدولة الزنكية",
-        "author": "علي الصلابي",
-        "pages": 450,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 84,
-        "title": "قصة الأندلس",
-        "author": "راغب السرجاني",
-        "pages": 800,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 85,
-        "title": "قصة التتار",
-        "author": "راغب السرجاني",
-        "pages": 450,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 86,
-        "title": "قصة الحروب الصليبية",
-        "author": "راغب السرجاني",
-        "pages": 900,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 87,
-        "title": "الموسوعة الميسرة في التاريخ الإسلامي",
-        "author": "راغب السرجاني",
-        "pages": 1200,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 88,
-        "title": "ماذا قدم المسلمون للعالم؟",
-        "author": "راغب السرجاني",
-        "pages": 800,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 89,
-        "title": "قصة العلوم الطبية في الحضارة الإسلامية",
-        "author": "راغب السرجاني",
-        "pages": 350,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 90,
-        "title": "قصة تونس / قصة العلوم",
-        "author": "راغب السرجاني",
-        "pages": 600,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 91,
-        "title": "تاريخ الطبري",
-        "author": "محمد بن جرير الطبري",
-        "pages": 8000,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 92,
-        "title": "العواصم من القواصم",
-        "author": "أبو بكر ابن العربي",
-        "pages": 2200,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 93,
-        "title": "الكامل في التاريخ",
-        "author": "ابن الأثير",
-        "pages": 4500,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 94,
-        "title": "اللباب في تهذيب الأنساب",
-        "author": "ابن الأثير",
-        "pages": 1400,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 95,
-        "title": "طبقات الشافعية",
-        "author": "ابن كثير",
-        "pages": 900,
-        "coverImage": "",
-        "category": "التاريخ"
-      },
-      {
-        "id": 96,
-        "title": "المنتظم في تاريخ الملوك والأمم",
-        "author": "ابن الجوزي",
-        "pages": 6200,
-        "coverImage": "",
-        "category": "التاريخ"
-      }
-    ],
-    "الفكر": [
-      {
-        "id": 97,
-        "title": "الأب الغني الأب الفقير",
-        "author": "روبرت كيوساكي",
-        "pages": 336,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/2/20/20231126105925%21%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D8%BA%D9%86%D9%8A.jpeg",
-        "category": "الفكر"
-      },
-      {
-        "id": 98,
-        "title": "فن اللامبالاة",
-        "author": "مارك مانسون",
-        "pages": 224,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D9%81%D9%86_%D8%A7%D9%84%D9%84%D8%A7%D9%85%D8%A8%D8%A7%D9%84%D8%A7%D8%A9.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 99,
-        "title": "قوة التفكير الإيجابي",
-        "author": "نورمان فينسنت بيل",
-        "pages": 288,
-        "coverImage": "https://daralkhayal.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-01-at-10.59.57-AM.jpeg",
-        "category": "الفكر"
-      },
-      {
-        "id": 100,
-        "title": "عالم صوفي",
-        "author": "يوستاين غاردر",
-        "pages": 518,
-        "coverImage": "https://m.media-amazon.com/images/I/61wABrw36CS.AC_UF1000,1000_QL80.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 101,
-        "title": "الماجريات",
-        "author": "إبراهيم السكران",
-        "pages": 343,
-        "coverImage": "https://m.media-amazon.com/images/I/61BumoSqGOS.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 102,
-        "title": "رقائق القرآن",
-        "author": "إبراهيم السكران",
-        "pages": 128,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386913381i/19408357.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 103,
-        "title": "مسلكيات",
-        "author": "إبراهيم السكران",
-        "pages": 187,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513880611i/22363984.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 104,
-        "title": "التأويل الحداثي للتراث",
-        "author": "إبراهيم السكران",
-        "pages": 300,
-        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A-%D9%84%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%85%D8%B1%D9%83%D8%B2-%D8%AA%D9%81%D9%83%D8%B1-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 105,
-        "title": "سلطة الثقافة الغالبة",
-        "author": "إبراهيم السكران",
-        "pages": 248,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394395743i/21410657.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 106,
-        "title": "سرج رمضانية",
-        "author": "إبراهيم السكران",
-        "pages": 150,
-        "coverImage": "https://assets.asfar.io/uploads/2025/07/suruj-ramadaniya-ibrahim-assakran-8-scaled.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 107,
-        "title": "رحلة الحروف",
-        "author": "إبراهيم السكران",
-        "pages": 175,
-        "coverImage": "https://archive.org/services/img/20220125_20220125_1053/full/pct:200/0/default.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 108,
-        "title": "ميليشيا الإلحاد",
-        "author": "عبد الله العجيري",
-        "pages": 240,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZ7LSwmPOeLK_kKyamW0HhMJ6XI-9smWQ0A&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 109,
-        "title": "زخرف القول",
-        "author": "عبد الله العجيري",
-        "pages": 341,
-        "coverImage": "https://nasihaa.com/uploads/img/1688227735_528037.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 110,
-        "title": "شموع النهار",
-        "author": "عبد الله العجيري",
-        "pages": 450,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphA633p7praiBd0fFmTLEGnXHVdHZNaVfpg&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 111,
-        "title": "المنشقون",
-        "author": "عبد الله العجيري",
-        "pages": 350,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7Ksy6xZ_LsMGWayL1izdg2vEaxnyGItw-g&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 112,
-        "title": "خرافة السر",
-        "author": "عبد الله العجيري",
-        "pages": 93,
-        "coverImage": "https://www.samawy.com/displayimg/1000836/2c8756d9864a4fcea2f3e705dcafc638.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 113,
-        "title": "ينبوع الغواية الفكرية",
-        "author": "عبد الله العجيري",
-        "pages": 620,
-        "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1400-file_11_46-e1648033515387-350x500.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 114,
-        "title": "في ظلال القرآن",
-        "author": "سيد قطب",
-        "pages": 5630,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/6/63/20231126111028%21%D9%81%D9%8A_%D8%B8%D9%84%D8%A7%D9%84_%D8%A7%D9%84_%D9%82%D8%B1%D8%A2%D9%86.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 115,
-        "title": "كتب وشخصيات",
-        "author": "سيد قطب",
-        "pages": 342,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf/page1-182px-%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 116,
-        "title": "السلام العالمي والإسلام",
-        "author": "سيد قطب",
-        "pages": 280,
-        "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/normal/264/264227.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 117,
-        "title": "خصائص التصور الإسلامي",
-        "author": "سيد قطب",
-        "pages": 200,
-        "coverImage": "https://books-library.website/files/books-library.online-03300601Lh4A2.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 118,
-        "title": "شروط النهضة",
-        "author": "مالك بن نبي",
-        "pages": 164,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHeUmoUvKWu4StDSyNwnvqSJHf91roUdvaw&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 119,
-        "title": "وجهة العالم الإسلامي",
-        "author": "مالك بن نبي",
-        "pages": 186,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVY7p062EyBgs8ZAxy70O9Bnmmn1XIaegbA&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 120,
-        "title": "مشكلة الثقافة",
-        "author": "مالك بن نبي",
-        "pages": 152,
-        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 121,
-        "title": "مشكلات الحضارة",
-        "author": "مالك بن نبي",
-        "pages": 316,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEDe2J--OfkxM-lN8otgVbBXMZSyzKk2DDg&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 122,
-        "title": "دور المسلم ورسالته",
-        "author": "مالك بن نبي",
-        "pages": 65,
-        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%AA%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AB%D9%84%D8%AB-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%8A%D9%86-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 123,
-        "title": "مذكرات شاهد للقرن",
-        "author": "مالك بن نبي",
-        "pages": 460,
-        "coverImage": "https://cdn.abjjad.com/pub/e33f97e5-02c3-4dce-9ce1-67926f0d881b.png",
-        "category": "الفكر"
-      },
-      {
-        "id": 124,
-        "title": "بداية المجتهد",
-        "author": "ابن رشد",
-        "pages": 600,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1350895521i/16101628.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 125,
-        "title": "الحجاب في الشرع والفطرة",
-        "author": "عبد العزيز الطريفي",
-        "pages": 84,
-        "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/311/311850.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 126,
-        "title": "صفة وضوء النبي ﷺ",
-        "author": "عبد العزيز الطريفي",
-        "pages": 150,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46tD65e7o9ho9kprXe6dr3XfmXFkKQ5i-iA&s",
-        "category": "الفكر"
-      },
-      {
-        "id": 127,
-        "title": "الفصل بين النفس والعقل",
-        "author": "عبد العزيز الطريفي",
-        "pages": 209,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522199254i/39666869.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 128,
-        "title": "أذكار الصباح والمساء رواية ودراية",
-        "author": "عبد العزيز الطريفي",
-        "pages": 480,
-        "coverImage": "https://books.islamway.net//1/1223/906_eltrife_elfasl.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 129,
-        "title": "فصول في العقيدة",
-        "author": "عبد العزيز الطريفي",
-        "pages": 70,
-        "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/09/SEP480-1.jpg?fit=1901%2C2786&ssl=1",
-        "category": "الفكر"
-      },
-      {
-        "id": 130,
-        "title": "لا إله إلا الله",
-        "author": "محمد قطب",
-        "pages": 183,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 131,
-        "title": "الرحيق المختوم",
-        "author": "صفي الرحمن المباركفوري",
-        "pages": 500,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/5c/Arraheek_Almakhtoom.jpg",
-        "category": "الفكر"
-      },
-      {
-        "id": 132,
-        "title": "الآجرومية",
-        "author": "محمد بن داود الصنهاجي",
-        "pages": 80,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 133,
-        "title": "ألفية ابن مالك",
-        "author": "محمد بن عبد الله ابن مالك",
-        "pages": 200,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 134,
-        "title": "شرح ابن عقيل",
-        "author": "عبد الله بن عقيل",
-        "pages": 600,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 135,
-        "title": "مغني اللبيب",
-        "author": "ابن هشام الأنصاري",
-        "pages": 700,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 136,
-        "title": "دلائل الإعجاز",
-        "author": "عبد القاهر الجرجاني",
-        "pages": 300,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 137,
-        "title": "المنتظم",
-        "author": "ابن الجوزي",
-        "pages": 2000,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 138,
-        "title": "مدارج السالكين",
-        "author": "ابن قيم الجوزية",
-        "pages": 1400,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 139,
-        "title": "الفوائد",
-        "author": "ابن قيم الجوزية",
-        "pages": 420,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 140,
-        "title": "الوابل الصيب",
-        "author": "ابن قيم الجوزية",
-        "pages": 360,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 141,
-        "title": "عدة الصابرين",
-        "author": "ابن قيم الجوزية",
-        "pages": 240,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 142,
-        "title": "مختصر منهاج القاصدين",
-        "author": "ابن قدامة المقدسي",
-        "pages": 200,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 143,
-        "title": "تفسير ابن كثير",
-        "author": "ابن كثير",
-        "pages": 4000,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 144,
-        "title": "المنهاج من ميراث النبوة",
-        "author": "أحمد السيد",
-        "pages": 336,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 145,
-        "title": "بوصلة المصلح",
-        "author": "أحمد السيد",
-        "pages": 192,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 146,
-        "title": "كامل الصورة",
-        "author": "أحمد السيد",
-        "pages": 81,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 147,
-        "title": "التفكير الناقد للجيل الصاعد",
-        "author": "أحمد السيد",
-        "pages": 55,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 148,
-        "title": "الى الجيل الصاعد",
-        "author": "أحمد السيد",
-        "pages": 128,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 149,
-        "title": "محاسن الإسلام",
-        "author": "أحمد السيد",
-        "pages": 60,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 150,
-        "title": "العقلية الليبرالية",
-        "author": "عبد العزيز الطريفي",
-        "pages": 350,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 151,
-        "title": "الاستقامة",
-        "author": "ابن تيمية",
-        "pages": 900,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 152,
-        "title": "مفتاح دار السعادة",
-        "author": "ابن القيم",
-        "pages": 1400,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 153,
-        "title": "تحفة المودود بأحكام المولود",
-        "author": "ابن القيم",
-        "pages": 350,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 154,
-        "title": "بدائع الفوائد",
-        "author": "ابن القيم",
-        "pages": 1300,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 155,
-        "title": "مدارج السالكين",
-        "author": "ابن القيم",
-        "pages": 1800,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 156,
-        "title": "الروح",
-        "author": "ابن القيم",
-        "pages": 600,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 157,
-        "title": "إغاثة اللهفان من مصائد الشيطان",
-        "author": "ابن القيم",
-        "pages": 1100,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 158,
-        "title": "حادي الأرواح إلى بلاد الأفراح",
-        "author": "ابن القيم",
-        "pages": 500,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 159,
-        "title": "اجتماع الجيوش الإسلامية",
-        "author": "ابن القيم",
-        "pages": 300,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 160,
-        "title": "شفاء العليل",
-        "author": "ابن القيم",
-        "pages": 600,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 161,
-        "title": "الصواعق المرسلة",
-        "author": "ابن القيم",
-        "pages": 1600,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 162,
-        "title": "دستور الوحدة الثقافية",
-        "author": "محمد الغزالي",
-        "pages": 192,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 163,
-        "title": "مفاهيم ينبغي أن تصحح",
-        "author": "محمد قطب",
-        "pages": 380,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 164,
-        "title": "واقعنا المعاصر",
-        "author": "محمد قطب",
-        "pages": 530,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 165,
-        "title": "جاهلية القرن العشرين",
-        "author": "محمد قطب",
-        "pages": 292,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 166,
-        "title": "منهج الفن الإسلامي",
-        "author": "محمد قطب",
-        "pages": 228,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 167,
-        "title": "زاد المسير في علم التفسير",
-        "author": "ابن الجوزي",
-        "pages": 3500,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 168,
-        "title": "تلبيس إبليس",
-        "author": "ابن الجوزي",
-        "pages": 450,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 169,
-        "title": "صيد الخاطر",
-        "author": "ابن الجوزي",
-        "pages": 500,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 170,
-        "title": "التبصرة",
-        "author": "ابن الجوزي",
-        "pages": 700,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 171,
-        "title": "أخبار الحمقى والمغفلين",
-        "author": "ابن الجوزي",
-        "pages": 200,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 172,
-        "title": "ذم الهوى",
-        "author": "ابن الجوزي",
-        "pages": 600,
-        "coverImage": "",
-        "category": "الفكر"
-      },
-      {
-        "id": 173,
-        "title": "بر الوالدين",
-        "author": "ابن الجوزي",
-        "pages": 150,
-        "coverImage": "",
-        "category": "الفكر"
-      }
-    ],
-    "الرواية": [
-      {
-        "id": 174,
-        "title": "الخيميائي",
-        "author": "باولو كويلو",
-        "pages": 208,
-        "coverImage": "https://m.media-amazon.com/images/I/61snwl0lyZL.UF1000,1000_QL80.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 175,
-        "title": "1984",
-        "author": "جورج أورويل",
-        "pages": 328,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/e0/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_1984.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 176,
-        "title": "ألف شمس ساطعة",
-        "author": "خالد حسيني",
-        "pages": 384,
-        "coverImage": "https://cdn.abjjad.com/pub/f79f6e2a-b4c9-4069-a622-0354b302b54e.png",
-        "category": "الرواية"
-      },
-      {
-        "id": 177,
-        "title": "بساتين عربستان",
-        "author": "اسامه المسلم",
-        "pages": 512,
-        "coverImage": "https://images-eu.ssl-images-amazon.com/images/I/71RMQU7yMeL.AC_UL165_SR165,165.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 178,
-        "title": "الثلاثية",
-        "author": "نجيب محفوظ",
-        "pages": 1500,
-        "coverImage": "https://baalbeck.com/Upload/baalbeck/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%86%D8%AC%D9%8A%D8%A8-%D9%85%D8%AD%D9%81%D9%88%D8%B8_118202318253.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 179,
-        "title": "زقاق المدق",
-        "author": "نجيب محفوظ",
-        "pages": 350,
-        "coverImage": "https://cdn.abjjad.com/pub/41fe6a65-7609-4423-a80f-8a0e136264f3.png",
-        "category": "الرواية"
-      },
-      {
-        "id": 180,
-        "title": "خوف",
-        "author": "اسامه المسلم",
-        "pages": 400,
-        "coverImage": "https://m.media-amazon.com/images/I/41KCxxwkPDL.AC_UF1000,1000_QL80.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 181,
-        "title": "الخبز الحافي",
-        "author": "محمد شكري",
-        "pages": 220,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/ec/%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%AE%D8%A8%D8%B2_%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%8A.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 182,
-        "title": "البؤساء",
-        "author": "فيكتور هوغو",
-        "pages": 1400,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7b/20170618060049%21%D8%A7%D9%84%D8%A8%D8%A4%D8%B3%D8%A7%D8%A12.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 183,
-        "title": "مدن الملح",
-        "author": "عبد الرحمن منيف",
-        "pages": 800,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysNaDdTiZlL4s4gyITqoVVsE6_yz_n_ORsQ&s",
-        "category": "الرواية"
-      },
-      {
-        "id": 184,
-        "title": "رجال في الشمس",
-        "author": "غسان كنفاني",
-        "pages": 120,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/%D8%B5%D9%88%D8%B1%D8%A9_%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D8%B1%D8%AC%D8%A7%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D9%85%D8%B3.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 185,
-        "title": "الطريق",
-        "author": "كورماك مكارثي",
-        "pages": 287,
-        "coverImage": "https://www.zaadbooks.com/tempImage/img-30-11831-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%B2%D8%A7%D8%AF-1.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 186,
-        "title": "الحرافيش",
-        "author": "نجيب محفوظ",
-        "pages": 400,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%85%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%81%D9%8A%D8%B4.jpeg",
-        "category": "الرواية"
-      },
-      {
-        "id": 187,
-        "title": "اللص والكلاب",
-        "author": "نجيب محفوظ",
-        "pages": 200,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/5/53/20231126093409%21%D8%A7%D9%84%D9%84%D8%B5_%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 188,
-        "title": "وا إسلاماه",
-        "author": "علي أحمد باكثير",
-        "pages": 420,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/3/30/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7_%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D8%A7%D9%87.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 189,
-        "title": "عزازيل",
-        "author": "يوسف زيدان",
-        "pages": 320,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/aa/Azazel_novel_cover.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 190,
-        "title": "سمرقند",
-        "author": "أمين معلوف",
-        "pages": 300,
-        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehZXDi48tj2GGqfyg8toVINUfzv71Bbvnw&s",
-        "category": "الرواية"
-      },
-      {
-        "id": 191,
-        "title": "الحرب والسلام",
-        "author": "ليو تولستوي",
-        "pages": 1600,
-        "coverImage": "https://m.media-amazon.com/images/I/71t+aein-UL.AC_UF1000,1000_QL80.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 192,
-        "title": "الطريق إلى عين جالوت",
-        "author": "جرجي زيدان",
-        "pages": 280,
-        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%8A%D9%86-%D8%AC%D8%A7%D9%84%D9%88%D8%AA-27-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-658%D9%87-%D8%A7%D9%84%D9%88%D9%84-1260%D9%85-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D9%88-%D9%86%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D9%81-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 193,
-        "title": "يوتوبيا",
-        "author": "أحمد خالد توفيق",
-        "pages": 200,
-        "coverImage": "https://m.media-amazon.com/images/I/71T2mApcPJL.AC_UF1000,1000_QL80.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 194,
-        "title": "عالم جديد شجاع",
-        "author": "ألدوس هكسلي",
-        "pages": 288,
-        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%B9%D8%A7%D9%84%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B4%D8%AC%D8%A7%D8%B9-%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 195,
-        "title": "نحن",
-        "author": "يفغيني زامياتين",
-        "pages": 240,
-        "coverImage": "https://m.media-amazon.com/images/I/61DC4Km7zcL.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 196,
-        "title": "إيكاروس",
-        "author": "أحمد خالد توفيق",
-        "pages": 220,
-        "coverImage": "https://m.media-amazon.com/images/I/61-ks4upYsL.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 197,
-        "title": "أرض زيكولا",
-        "author": "عمرو عبد الحميد",
-        "pages": 280,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/98/%D8%A3%D8%B1%D8%B6_%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 198,
-        "title": "أماريتا",
-        "author": "عمرو عبد الحميد",
-        "pages": 320,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1453065317i/28590941.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 199,
-        "title": "سيد الخواتم",
-        "author": "ج.ر.ر تولكين",
-        "pages": 1200,
-        "coverImage": "https://foulabook.com/storage/photo/23039.2019-07-09.1562689719.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 200,
-        "title": "هاري بوتر وحجر الفيلسوف",
-        "author": "ج.ك رولينغ",
-        "pages": 330,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/2/2b/Harry_potter_and_the_philosophers_stone_%28Arabic%29.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 201,
-        "title": "أغنية الجليد والنار",
-        "author": "جورج ر.ر مارتن",
-        "pages": 850,
-        "coverImage": "https://apis.takweenkw.com/Attachments/book//2019121623173214961189.png",
-        "category": "الرواية"
-      },
-      {
-        "id": 202,
-        "title": "الطريق إلى القرآن",
-        "author": "إبراهيم السكران",
-        "pages": 117,
-        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1333014209i/13565003.jpg",
-        "category": "الرواية"
-      },
-      {
-        "id": 203,
-        "title": "معالم في الطريق",
-        "author": "سيد قطب",
-        "pages": 225,
-        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/c9/%D9%85%D8%B9%D8%A7%D9%84%D9%85_%D9%81%D9%8A_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82.jpg",
-        "category": "الرواية"
-      }
-    ],
-    "الشعر": [
+    "الأدب": [
       {
         "id": 204,
         "title": "ديوان المتنبي",
         "author": "أبو الطيب المتنبي",
         "pages": 600,
         "coverImage": "https://www.noor-book.com/publice/covers_cache_webp/1/a/2/1/bb6449e969a2117cdc260159f9db1aa0.jpg.webp",
-        "category": "الشعر"
+        "category": "الأدب",
+        "subcategory": "الشعر"
       },
       {
         "id": 205,
@@ -3460,7 +2709,8 @@
         "author": "الإمام الشافعي",
         "pages": 120,
         "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/85/85700.jpg",
-        "category": "الشعر"
+        "category": "الأدب",
+        "subcategory": "الشعر"
       },
       {
         "id": 206,
@@ -3468,7 +2718,8 @@
         "author": "نزار قباني",
         "pages": 250,
         "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1341605762i/13562483.jpg",
-        "category": "الشعر"
+        "category": "الأدب",
+        "subcategory": "الشعر"
       },
       {
         "id": 207,
@@ -3476,7 +2727,8 @@
         "author": "أبو القاسم الشابي",
         "pages": 180,
         "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1237597027i/6348442.jpg",
-        "category": "الشعر"
+        "category": "الأدب",
+        "subcategory": "الشعر"
       },
       {
         "id": 208,
@@ -3484,7 +2736,8 @@
         "author": "بدر شاكر السياب",
         "pages": 450,
         "coverImage": "https://cdn.salla.sa/PzXDG/8b2ab4be-8fe3-4088-8c95-1894de2feee5-764.82213438735x1000-wQwyU99e0ea9oUjBKVj7CTWWW2gpKV7HHOp6MNZx.jpg",
-        "category": "الشعر"
+        "category": "الأدب",
+        "subcategory": "الشعر"
       },
       {
         "id": 209,
@@ -3492,8 +2745,1215 @@
         "author": "سيد قطب",
         "pages": 299,
         "coverImage": "https://www.odabasham.net/images/dewansayed388.jpg",
-        "category": "الشعر"
+        "category": "الأدب",
+        "subcategory": "الشعر"
       }
-    ]
+    ],
+    "الروايات والقصص": [
+      {
+        "id": 174,
+        "title": "الخيميائي",
+        "author": "باولو كويلو",
+        "pages": 208,
+        "coverImage": "https://m.media-amazon.com/images/I/61snwl0lyZL.UF1000,1000_QL80.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 175,
+        "title": "1984",
+        "author": "جورج أورويل",
+        "pages": 328,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/e0/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_1984.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 176,
+        "title": "ألف شمس ساطعة",
+        "author": "خالد حسيني",
+        "pages": 384,
+        "coverImage": "https://cdn.abjjad.com/pub/f79f6e2a-b4c9-4069-a622-0354b302b54e.png",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 177,
+        "title": "بساتين عربستان",
+        "author": "اسامه المسلم",
+        "pages": 512,
+        "coverImage": "https://images-eu.ssl-images-amazon.com/images/I/71RMQU7yMeL.AC_UL165_SR165,165.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 178,
+        "title": "الثلاثية",
+        "author": "نجيب محفوظ",
+        "pages": 1500,
+        "coverImage": "https://baalbeck.com/Upload/baalbeck/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%86%D8%AC%D9%8A%D8%A8-%D9%85%D8%AD%D9%81%D9%88%D8%B8_118202318253.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 179,
+        "title": "زقاق المدق",
+        "author": "نجيب محفوظ",
+        "pages": 350,
+        "coverImage": "https://cdn.abjjad.com/pub/41fe6a65-7609-4423-a80f-8a0e136264f3.png",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 180,
+        "title": "خوف",
+        "author": "اسامه المسلم",
+        "pages": 400,
+        "coverImage": "https://m.media-amazon.com/images/I/41KCxxwkPDL.AC_UF1000,1000_QL80.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 181,
+        "title": "الخبز الحافي",
+        "author": "محمد شكري",
+        "pages": 220,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/e/ec/%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%AE%D8%A8%D8%B2_%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%8A.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 182,
+        "title": "البؤساء",
+        "author": "فيكتور هوغو",
+        "pages": 1400,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/7/7b/20170618060049%21%D8%A7%D9%84%D8%A8%D8%A4%D8%B3%D8%A7%D8%A12.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 183,
+        "title": "مدن الملح",
+        "author": "عبد الرحمن منيف",
+        "pages": 800,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysNaDdTiZlL4s4gyITqoVVsE6_yz_n_ORsQ&s",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 184,
+        "title": "رجال في الشمس",
+        "author": "غسان كنفاني",
+        "pages": 120,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/4/40/%D8%B5%D9%88%D8%B1%D8%A9_%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D8%B1%D8%AC%D8%A7%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D9%85%D8%B3.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 185,
+        "title": "الطريق",
+        "author": "كورماك مكارثي",
+        "pages": 287,
+        "coverImage": "https://www.zaadbooks.com/tempImage/img-30-11831-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%B2%D8%A7%D8%AF-1.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 186,
+        "title": "الحرافيش",
+        "author": "نجيب محفوظ",
+        "pages": 400,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/53/%D8%BA%D9%84%D8%A7%D9%81_%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%85%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%81%D9%8A%D8%B4.jpeg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 187,
+        "title": "اللص والكلاب",
+        "author": "نجيب محفوظ",
+        "pages": 200,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/5/53/20231126093409%21%D8%A7%D9%84%D9%84%D8%B5_%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 188,
+        "title": "وا إسلاماه",
+        "author": "علي أحمد باكثير",
+        "pages": 420,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/3/30/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7_%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D8%A7%D9%87.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 189,
+        "title": "عزازيل",
+        "author": "يوسف زيدان",
+        "pages": 320,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/a/aa/Azazel_novel_cover.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 190,
+        "title": "سمرقند",
+        "author": "أمين معلوف",
+        "pages": 300,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehZXDi48tj2GGqfyg8toVINUfzv71Bbvnw&s",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 191,
+        "title": "الحرب والسلام",
+        "author": "ليو تولستوي",
+        "pages": 1600,
+        "coverImage": "https://m.media-amazon.com/images/I/71t+aein-UL.AC_UF1000,1000_QL80.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 192,
+        "title": "الطريق إلى عين جالوت",
+        "author": "جرجي زيدان",
+        "pages": 280,
+        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%8A%D9%86-%D8%AC%D8%A7%D9%84%D9%88%D8%AA-27-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-658%D9%87-%D8%A7%D9%84%D9%88%D9%84-1260%D9%85-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D9%88-%D9%86%D8%B5%D9%88%D8%B5-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D9%81-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 193,
+        "title": "يوتوبيا",
+        "author": "أحمد خالد توفيق",
+        "pages": 200,
+        "coverImage": "https://m.media-amazon.com/images/I/71T2mApcPJL.AC_UF1000,1000_QL80.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 194,
+        "title": "عالم جديد شجاع",
+        "author": "ألدوس هكسلي",
+        "pages": 288,
+        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%B9%D8%A7%D9%84%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B4%D8%AC%D8%A7%D8%B9-%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 195,
+        "title": "نحن",
+        "author": "يفغيني زامياتين",
+        "pages": 240,
+        "coverImage": "https://m.media-amazon.com/images/I/61DC4Km7zcL.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 196,
+        "title": "إيكاروس",
+        "author": "أحمد خالد توفيق",
+        "pages": 220,
+        "coverImage": "https://m.media-amazon.com/images/I/61-ks4upYsL.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 197,
+        "title": "أرض زيكولا",
+        "author": "عمرو عبد الحميد",
+        "pages": 280,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/9/98/%D8%A3%D8%B1%D8%B6_%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 198,
+        "title": "أماريتا",
+        "author": "عمرو عبد الحميد",
+        "pages": 320,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1453065317i/28590941.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 199,
+        "title": "سيد الخواتم",
+        "author": "ج.ر.ر تولكين",
+        "pages": 1200,
+        "coverImage": "https://foulabook.com/storage/photo/23039.2019-07-09.1562689719.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 200,
+        "title": "هاري بوتر وحجر الفيلسوف",
+        "author": "ج.ك رولينغ",
+        "pages": 330,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/2/2b/Harry_potter_and_the_philosophers_stone_%28Arabic%29.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 201,
+        "title": "أغنية الجليد والنار",
+        "author": "جورج ر.ر مارتن",
+        "pages": 850,
+        "coverImage": "https://apis.takweenkw.com/Attachments/book//2019121623173214961189.png",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 202,
+        "title": "الطريق إلى القرآن",
+        "author": "إبراهيم السكران",
+        "pages": 117,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1333014209i/13565003.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      },
+      {
+        "id": 203,
+        "title": "معالم في الطريق",
+        "author": "سيد قطب",
+        "pages": 225,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/c/c9/%D9%85%D8%B9%D8%A7%D9%84%D9%85_%D9%81%D9%8A_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82.jpg",
+        "category": "الروايات والقصص",
+        "subcategory": "الروايات"
+      }
+    ],
+    "التاريخ والجغرافيا": [
+      {
+        "id": 72,
+        "title": "البداية والنهاية",
+        "author": "ابن كثير",
+        "pages": 8000,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/fd/AlbidayaWalnihaya.jpg",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 73,
+        "title": "قصة الحضارة",
+        "author": "ويل ديورانت",
+        "pages": 11000,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1369964519i/15759610.jpg",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 74,
+        "title": "فن الحرب",
+        "author": "صن تزو",
+        "pages": 250,
+        "coverImage": "https://daralsaqi.com/uploads/books/image/fan_alharb_ED2_jpg.png",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 75,
+        "title": "الاستشراق",
+        "author": "إدوارد سعيد",
+        "pages": 400,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650531752i/60855309.jpg",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 76,
+        "title": "سير أعلام النبلاء",
+        "author": "الذهبي",
+        "pages": 9000,
+        "coverImage": "https://www.neelwafurat.com/images/eg/abookstore/covers/hard/248/248031.jpg",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 77,
+        "title": "موسوعة تاريخ العالم",
+        "author": "فيليب باركر",
+        "pages": 1200,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498895423i/34350268.jpg",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 78,
+        "title": "هيروشيما",
+        "author": "عبد الله العجيري",
+        "pages": 287,
+        "coverImage": "https://m.media-amazon.com/images/I/51obtrR0M5L.UF1000,1000_QL80.jpg",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 79,
+        "title": "الدولة الأموية",
+        "author": "علي الصلابي",
+        "pages": 1200,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 80,
+        "title": "الدولة العباسية",
+        "author": "علي الصلابي",
+        "pages": 900,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 81,
+        "title": "الدولة العثمانية",
+        "author": "علي الصلابي",
+        "pages": 800,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 82,
+        "title": "دولة السلاجقة",
+        "author": "علي الصلابي",
+        "pages": 550,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 83,
+        "title": "الدولة الزنكية",
+        "author": "علي الصلابي",
+        "pages": 450,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 84,
+        "title": "قصة الأندلس",
+        "author": "راغب السرجاني",
+        "pages": 800,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 85,
+        "title": "قصة التتار",
+        "author": "راغب السرجاني",
+        "pages": 450,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 86,
+        "title": "قصة الحروب الصليبية",
+        "author": "راغب السرجاني",
+        "pages": 900,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 87,
+        "title": "الموسوعة الميسرة في التاريخ الإسلامي",
+        "author": "راغب السرجاني",
+        "pages": 1200,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 88,
+        "title": "ماذا قدم المسلمون للعالم؟",
+        "author": "راغب السرجاني",
+        "pages": 800,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 89,
+        "title": "قصة العلوم الطبية في الحضارة الإسلامية",
+        "author": "راغب السرجاني",
+        "pages": 350,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 90,
+        "title": "قصة تونس / قصة العلوم",
+        "author": "راغب السرجاني",
+        "pages": 600,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 91,
+        "title": "تاريخ الطبري",
+        "author": "محمد بن جرير الطبري",
+        "pages": 8000,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 92,
+        "title": "العواصم من القواصم",
+        "author": "أبو بكر ابن العربي",
+        "pages": 2200,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 93,
+        "title": "الكامل في التاريخ",
+        "author": "ابن الأثير",
+        "pages": 4500,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 94,
+        "title": "اللباب في تهذيب الأنساب",
+        "author": "ابن الأثير",
+        "pages": 1400,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 95,
+        "title": "طبقات الشافعية",
+        "author": "ابن كثير",
+        "pages": 900,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      },
+      {
+        "id": 96,
+        "title": "المنتظم في تاريخ الملوك والأمم",
+        "author": "ابن الجوزي",
+        "pages": 6200,
+        "coverImage": "",
+        "category": "التاريخ والجغرافيا",
+        "subcategory": "التاريخ الإسلامي"
+      }
+    ],
+    "العلوم الطبيعية": [],
+    "التكنولوجيا والحاسوب": [],
+    "الطب والصحة": [],
+    "علم النفس والاجتماع": [],
+    "الاقتصاد والأعمال": [],
+    "السياسة والقانون": [],
+    "الفلسفة والفكر": [
+      {
+        "id": 97,
+        "title": "الأب الغني الأب الفقير",
+        "author": "روبرت كيوساكي",
+        "pages": 336,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/2/20/20231126105925%21%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D8%BA%D9%86%D9%8A.jpeg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 98,
+        "title": "فن اللامبالاة",
+        "author": "مارك مانسون",
+        "pages": 224,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/f/f0/%D8%BA%D9%84%D8%A7%D9%81_%D9%83%D8%AA%D8%A7%D8%A8_%D9%81%D9%86_%D8%A7%D9%84%D9%84%D8%A7%D9%85%D8%A8%D8%A7%D9%84%D8%A7%D8%A9.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 99,
+        "title": "قوة التفكير الإيجابي",
+        "author": "نورمان فينسنت بيل",
+        "pages": 288,
+        "coverImage": "https://daralkhayal.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-01-at-10.59.57-AM.jpeg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 100,
+        "title": "عالم صوفي",
+        "author": "يوستاين غاردر",
+        "pages": 518,
+        "coverImage": "https://m.media-amazon.com/images/I/61wABrw36CS.AC_UF1000,1000_QL80.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 101,
+        "title": "الماجريات",
+        "author": "إبراهيم السكران",
+        "pages": 343,
+        "coverImage": "https://m.media-amazon.com/images/I/61BumoSqGOS.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 102,
+        "title": "رقائق القرآن",
+        "author": "إبراهيم السكران",
+        "pages": 128,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386913381i/19408357.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 103,
+        "title": "مسلكيات",
+        "author": "إبراهيم السكران",
+        "pages": 187,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1513880611i/22363984.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 104,
+        "title": "التأويل الحداثي للتراث",
+        "author": "إبراهيم السكران",
+        "pages": 300,
+        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A-%D9%84%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%85%D8%B1%D9%83%D8%B2-%D8%AA%D9%81%D9%83%D8%B1-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 105,
+        "title": "سلطة الثقافة الغالبة",
+        "author": "إبراهيم السكران",
+        "pages": 248,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394395743i/21410657.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 106,
+        "title": "سرج رمضانية",
+        "author": "إبراهيم السكران",
+        "pages": 150,
+        "coverImage": "https://assets.asfar.io/uploads/2025/07/suruj-ramadaniya-ibrahim-assakran-8-scaled.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 107,
+        "title": "رحلة الحروف",
+        "author": "إبراهيم السكران",
+        "pages": 175,
+        "coverImage": "https://archive.org/services/img/20220125_20220125_1053/full/pct:200/0/default.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 108,
+        "title": "ميليشيا الإلحاد",
+        "author": "عبد الله العجيري",
+        "pages": 240,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZ7LSwmPOeLK_kKyamW0HhMJ6XI-9smWQ0A&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 109,
+        "title": "زخرف القول",
+        "author": "عبد الله العجيري",
+        "pages": 341,
+        "coverImage": "https://nasihaa.com/uploads/img/1688227735_528037.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 110,
+        "title": "شموع النهار",
+        "author": "عبد الله العجيري",
+        "pages": 450,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphA633p7praiBd0fFmTLEGnXHVdHZNaVfpg&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 111,
+        "title": "المنشقون",
+        "author": "عبد الله العجيري",
+        "pages": 350,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7Ksy6xZ_LsMGWayL1izdg2vEaxnyGItw-g&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 112,
+        "title": "خرافة السر",
+        "author": "عبد الله العجيري",
+        "pages": 93,
+        "coverImage": "https://www.samawy.com/displayimg/1000836/2c8756d9864a4fcea2f3e705dcafc638.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 113,
+        "title": "ينبوع الغواية الفكرية",
+        "author": "عبد الله العجيري",
+        "pages": 620,
+        "coverImage": "https://alameenbookstore.com/image/cache/catalog/feed_1/1400-file_11_46-e1648033515387-350x500.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 114,
+        "title": "في ظلال القرآن",
+        "author": "سيد قطب",
+        "pages": 5630,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/archive/6/63/20231126111028%21%D9%81%D9%8A_%D8%B8%D9%84%D8%A7%D9%84_%D8%A7%D9%84_%D9%82%D8%B1%D8%A2%D9%86.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 115,
+        "title": "كتب وشخصيات",
+        "author": "سيد قطب",
+        "pages": 342,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf/page1-182px-%D9%83%D8%AA%D8%A8_%D9%88%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA_%281946%29_-%D8%B3%D9%8A%D8%AF%D9%82%D8%B7%D8%A8.pdf.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 116,
+        "title": "السلام العالمي والإسلام",
+        "author": "سيد قطب",
+        "pages": 280,
+        "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/normal/264/264227.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 117,
+        "title": "خصائص التصور الإسلامي",
+        "author": "سيد قطب",
+        "pages": 200,
+        "coverImage": "https://books-library.website/files/books-library.online-03300601Lh4A2.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 118,
+        "title": "شروط النهضة",
+        "author": "مالك بن نبي",
+        "pages": 164,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqHeUmoUvKWu4StDSyNwnvqSJHf91roUdvaw&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 119,
+        "title": "وجهة العالم الإسلامي",
+        "author": "مالك بن نبي",
+        "pages": 186,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVY7p062EyBgs8ZAxy70O9Bnmmn1XIaegbA&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 120,
+        "title": "مشكلة الثقافة",
+        "author": "مالك بن نبي",
+        "pages": 152,
+        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D9%85%D8%B4%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 121,
+        "title": "مشكلات الحضارة",
+        "author": "مالك بن نبي",
+        "pages": 316,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEDe2J--OfkxM-lN8otgVbBXMZSyzKk2DDg&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 122,
+        "title": "دور المسلم ورسالته",
+        "author": "مالك بن نبي",
+        "pages": 65,
+        "coverImage": "https://bookhomemaster.com/ControlPanel/Content/BookImgs/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85-%D9%88%D8%B1%D8%B3%D8%A7%D9%84%D8%AA%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AB%D9%84%D8%AB-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%8A%D9%86-%D8%AD%D9%83%D8%A7%D9%88%D9%8A-%D9%84%D9%84%D9%86%D8%B4%D8%B1-%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%AA%D8%A8.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 123,
+        "title": "مذكرات شاهد للقرن",
+        "author": "مالك بن نبي",
+        "pages": 460,
+        "coverImage": "https://cdn.abjjad.com/pub/e33f97e5-02c3-4dce-9ce1-67926f0d881b.png",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 124,
+        "title": "بداية المجتهد",
+        "author": "ابن رشد",
+        "pages": 600,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1350895521i/16101628.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 125,
+        "title": "الحجاب في الشرع والفطرة",
+        "author": "عبد العزيز الطريفي",
+        "pages": 84,
+        "coverImage": "https://www.neelwafurat.com/images/lb/abookstore/covers/hard/311/311850.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 126,
+        "title": "صفة وضوء النبي ﷺ",
+        "author": "عبد العزيز الطريفي",
+        "pages": 150,
+        "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46tD65e7o9ho9kprXe6dr3XfmXFkKQ5i-iA&s",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 127,
+        "title": "الفصل بين النفس والعقل",
+        "author": "عبد العزيز الطريفي",
+        "pages": 209,
+        "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522199254i/39666869.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 128,
+        "title": "أذكار الصباح والمساء رواية ودراية",
+        "author": "عبد العزيز الطريفي",
+        "pages": 480,
+        "coverImage": "https://books.islamway.net//1/1223/906_eltrife_elfasl.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 129,
+        "title": "فصول في العقيدة",
+        "author": "عبد العزيز الطريفي",
+        "pages": 70,
+        "coverImage": "https://i0.wp.com/almuttaqin.co.uk/wp-content/uploads/2019/09/SEP480-1.jpg?fit=1901%2C2786&ssl=1",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 130,
+        "title": "لا إله إلا الله",
+        "author": "محمد قطب",
+        "pages": 183,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 131,
+        "title": "الرحيق المختوم",
+        "author": "صفي الرحمن المباركفوري",
+        "pages": 500,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/ar/5/5c/Arraheek_Almakhtoom.jpg",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 132,
+        "title": "الآجرومية",
+        "author": "محمد بن داود الصنهاجي",
+        "pages": 80,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 133,
+        "title": "ألفية ابن مالك",
+        "author": "محمد بن عبد الله ابن مالك",
+        "pages": 200,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 134,
+        "title": "شرح ابن عقيل",
+        "author": "عبد الله بن عقيل",
+        "pages": 600,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 135,
+        "title": "مغني اللبيب",
+        "author": "ابن هشام الأنصاري",
+        "pages": 700,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 136,
+        "title": "دلائل الإعجاز",
+        "author": "عبد القاهر الجرجاني",
+        "pages": 300,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 137,
+        "title": "المنتظم",
+        "author": "ابن الجوزي",
+        "pages": 2000,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 138,
+        "title": "مدارج السالكين",
+        "author": "ابن قيم الجوزية",
+        "pages": 1400,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 139,
+        "title": "الفوائد",
+        "author": "ابن قيم الجوزية",
+        "pages": 420,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 140,
+        "title": "الوابل الصيب",
+        "author": "ابن قيم الجوزية",
+        "pages": 360,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 141,
+        "title": "عدة الصابرين",
+        "author": "ابن قيم الجوزية",
+        "pages": 240,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 142,
+        "title": "مختصر منهاج القاصدين",
+        "author": "ابن قدامة المقدسي",
+        "pages": 200,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 143,
+        "title": "تفسير ابن كثير",
+        "author": "ابن كثير",
+        "pages": 4000,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 144,
+        "title": "المنهاج من ميراث النبوة",
+        "author": "أحمد السيد",
+        "pages": 336,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 145,
+        "title": "بوصلة المصلح",
+        "author": "أحمد السيد",
+        "pages": 192,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 146,
+        "title": "كامل الصورة",
+        "author": "أحمد السيد",
+        "pages": 81,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 147,
+        "title": "التفكير الناقد للجيل الصاعد",
+        "author": "أحمد السيد",
+        "pages": 55,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 148,
+        "title": "الى الجيل الصاعد",
+        "author": "أحمد السيد",
+        "pages": 128,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 149,
+        "title": "محاسن الإسلام",
+        "author": "أحمد السيد",
+        "pages": 60,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 150,
+        "title": "العقلية الليبرالية",
+        "author": "عبد العزيز الطريفي",
+        "pages": 350,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 151,
+        "title": "الاستقامة",
+        "author": "ابن تيمية",
+        "pages": 900,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 152,
+        "title": "مفتاح دار السعادة",
+        "author": "ابن القيم",
+        "pages": 1400,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 153,
+        "title": "تحفة المودود بأحكام المولود",
+        "author": "ابن القيم",
+        "pages": 350,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 154,
+        "title": "بدائع الفوائد",
+        "author": "ابن القيم",
+        "pages": 1300,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 155,
+        "title": "مدارج السالكين",
+        "author": "ابن القيم",
+        "pages": 1800,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 156,
+        "title": "الروح",
+        "author": "ابن القيم",
+        "pages": 600,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 157,
+        "title": "إغاثة اللهفان من مصائد الشيطان",
+        "author": "ابن القيم",
+        "pages": 1100,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 158,
+        "title": "حادي الأرواح إلى بلاد الأفراح",
+        "author": "ابن القيم",
+        "pages": 500,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 159,
+        "title": "اجتماع الجيوش الإسلامية",
+        "author": "ابن القيم",
+        "pages": 300,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 160,
+        "title": "شفاء العليل",
+        "author": "ابن القيم",
+        "pages": 600,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 161,
+        "title": "الصواعق المرسلة",
+        "author": "ابن القيم",
+        "pages": 1600,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 162,
+        "title": "دستور الوحدة الثقافية",
+        "author": "محمد الغزالي",
+        "pages": 192,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 163,
+        "title": "مفاهيم ينبغي أن تصحح",
+        "author": "محمد قطب",
+        "pages": 380,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 164,
+        "title": "واقعنا المعاصر",
+        "author": "محمد قطب",
+        "pages": 530,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 165,
+        "title": "جاهلية القرن العشرين",
+        "author": "محمد قطب",
+        "pages": 292,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 166,
+        "title": "منهج الفن الإسلامي",
+        "author": "محمد قطب",
+        "pages": 228,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 167,
+        "title": "زاد المسير في علم التفسير",
+        "author": "ابن الجوزي",
+        "pages": 3500,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 168,
+        "title": "تلبيس إبليس",
+        "author": "ابن الجوزي",
+        "pages": 450,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 169,
+        "title": "صيد الخاطر",
+        "author": "ابن الجوزي",
+        "pages": 500,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 170,
+        "title": "التبصرة",
+        "author": "ابن الجوزي",
+        "pages": 700,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 171,
+        "title": "أخبار الحمقى والمغفلين",
+        "author": "ابن الجوزي",
+        "pages": 200,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 172,
+        "title": "ذم الهوى",
+        "author": "ابن الجوزي",
+        "pages": 600,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      },
+      {
+        "id": 173,
+        "title": "بر الوالدين",
+        "author": "ابن الجوزي",
+        "pages": 150,
+        "coverImage": "",
+        "category": "الفلسفة والفكر",
+        "subcategory": "الفكر الإسلامي"
+      }
+    ],
+    "الفنون": [],
+    "اللغات": [],
+    "التعليم والمراجع": [],
+    "الأطفال والناشئة": [],
+    "الهوايات ونمط الحياة": [],
+    "الديناميكيات الحديثة": []
   }
 }

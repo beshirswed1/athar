@@ -8,6 +8,7 @@ import {
   loginWithGoogleAccount,
   clearError,
 } from '../../store/authSlice';
+import { parseFirebaseError } from '../utils/errorMessages';
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -26,6 +27,7 @@ export default function RegisterPage() {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [localError, setLocalError] = useState('');
   const [passwordStrength, setPasswordStrength] = useState('');
+  const [success, setSuccess] = useState(false);
   
   // إعادة التوجيه إذا كان المستخدم مسجل دخول
   useEffect(() => {
@@ -123,7 +125,7 @@ export default function RegisterPage() {
     }));
     
     if (registerUser.fulfilled.match(result)) {
-      router.push('/dashboard');
+      setSuccess(true);
     }
   };
   
@@ -131,11 +133,11 @@ export default function RegisterPage() {
     const result = await dispatch(loginWithGoogleAccount());
     
     if (loginWithGoogleAccount.fulfilled.match(result)) {
-      router.push('/dashboard');
+      router.push('/library');
     }
   };
   
-  if (loading && isAuthenticated) {
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#faf8f5]">
         <div className="text-center">
@@ -146,22 +148,59 @@ export default function RegisterPage() {
     );
   }
   
+  if (success) {
+    return (
+      <div className="min-h-screen bg-[#faf8f5] flex items-center justify-center p-4 pt-20 sm:pt-24">
+        <div className="max-w-md w-full">
+          <div className="bg-white rounded-lg shadow-sm border border-[#e8dfd0] p-8 text-center animate-fade-in">
+            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            
+            <h2 className="text-2xl font-serif text-[#3d2f1f] mb-3">تم إنشاء الحساب بنجاح!</h2>
+            
+            <p className="text-[#8b7355] mb-6 leading-relaxed">
+              تم إرسال رابط التحقق إلى بريدك الإلكتروني:
+              <span className="block font-medium text-[#3d2f1f] mt-2">{formData.email}</span>
+            </p>
+            
+            <div className="bg-[#faf8f5] border border-[#e8dfd0] rounded-lg p-4 mb-6 text-sm text-[#8b7355]">
+              <p className="mb-2">📧 يرجى الضغط على الرابط في الرسالة لتفعيل حسابك.</p>
+              <p className="text-xs">بعد التفعيل، ستتمكن من تسجيل الدخول والبدء في إضافة كتبك.</p>
+            </div>
+            
+            <div className="space-y-3">
+              <button
+                onClick={() => router.push('/login')}
+                className="w-full py-3 bg-[#3d2f1f] text-white rounded-lg hover:bg-[#2d1f0f] transition-all duration-300 tracking-wider font-medium cursor-pointer"
+              >
+                الذهاب لتسجيل الدخول
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-[#faf8f5] flex items-center justify-center p-4">
-      <div className="max-w-md w-full">
+    <div className="min-h-screen bg-[#faf8f5] flex items-center justify-center px-4 py-8 pt-20 sm:pt-24">
+      <div className="w-full max-w-sm sm:max-w-md">
         {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-serif text-[#3d2f1f] mb-2">إنشاء حساب جديد</h1>
-          <p className="text-[#8b7355] text-sm tracking-wide">انضم إلينا وابدأ رحلتك في القراءة</p>
+        <div className="text-center mb-6 sm:mb-8">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#3d2f1f] mb-2">إنشاء حساب جديد</h1>
+          <p className="text-[#8b7355] text-xs sm:text-sm tracking-wide">انضم إلينا وابدأ رحلتك في القراءة</p>
         </div>
         
         {/* Card */}
-        <div className="bg-white rounded-lg shadow-sm border border-[#e8dfd0] p-8">
+        <div className="bg-white rounded-lg shadow-sm border border-[#e8dfd0] p-6 sm:p-8">
           {/* Error Message */}
           {(error || localError) && (
             <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
               <p className="text-red-700 text-sm text-center">
-                {localError || error}
+                {localError || parseFirebaseError(error)}
               </p>
             </div>
           )}

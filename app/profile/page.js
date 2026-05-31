@@ -1,72 +1,54 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import { logoutUser, setUser } from '../../store/authSlice';
-import {
-  updateUserProfile,
-  changeEmail,
-  changePassword,
-} from '../../lib/auth';
-import ProtectedRoute from '../../components/ProtectedRoute';
+import { logoutUser, setUser } from '@/store/authSlice';
+import { selectAllBooks, fetchBooks } from '@/store/booksSlice';
+import { updateUserProfile } from '@/lib/auth';
+import ProtectedRoute from '@/components/ProtectedRoute';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCamera, faEnvelope, faLock, faSignOutAlt, faCheck, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { 
+  faUser, 
+  faSignOutAlt, 
+  faCheckCircle, 
+  faCalendarAlt,
+  faChevronLeft
+} from '@fortawesome/free-solid-svg-icons';
 
 export default function ProfilePage() {
   const router = useRouter();
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
+  const books = useSelector(selectAllBooks);
+  const userId = user?.uid;
   
-  const [activeTab, setActiveTab] = useState('profile');
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
-  const fileInputRef = useRef(null);
 
-  // Profile Form
+  // Profile Form State
   const [profileData, setProfileData] = useState({
     displayName: '',
   });
-  
-  // Email Form
-  const [emailData, setEmailData] = useState({
-    newEmail: '',
-    currentPassword: '',
-  });
-  
-  // Password Form
-  const [passwordData, setPasswordData] = useState({
-    currentPassword: '',
-    newPassword: '',
-    confirmPassword: '',
-  });
-  
-  const [showCurrentPassword, setShowCurrentPassword] = useState(false);
-  const [showNewPassword, setShowNewPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
-  // Load saved photo from localStorage on mount
+  // Load books on mount/userId change to calculate statistics
   useEffect(() => {
-    if (user) {
-      const savedPhoto = localStorage.getItem(`userPhoto_${user.uid}`);
-      if (savedPhoto) {
-        dispatch(setUser({
-          ...user,
-          photoURL: savedPhoto,
-        }));
-      }
+    if (userId) {
+      dispatch(fetchBooks(userId));
     }
-  }, [user?.uid]); // Only run when user.uid changes
+  }, [dispatch, userId]);
 
-  // Save photo to localStorage when it changes
-  useEffect(() => {
-    if (user?.uid && user?.photoURL) {
-      localStorage.setItem(`userPhoto_${user.uid}`, user.photoURL);
-    }
-  }, [user?.uid, user?.photoURL]);
+  // Calculate user reading statistics
+  const stats = useMemo(() => {
+    const total = books.length;
+    const reading = books.filter(b => b.status === 'reading').length;
+    const completed = books.filter(b => b.status === 'completed').length;
+    const planned = books.filter(b => b.status === 'planned').length;
+    return { total, reading, completed, planned };
+  }, [books]);
 
-  // Load user data
+  // Load user name into form on user change
   useEffect(() => {
     if (user) {
       setProfileData({
@@ -75,12 +57,6 @@ export default function ProfilePage() {
     }
   }, [user]);
 
-  // Clear messages when changing tabs
-  useEffect(() => {
-    setSuccess('');
-    setError('');
-  }, [activeTab]);
-
   const handleLogout = async () => {
     if (confirm('هل أنت متأكد من تسجيل الخروج؟')) {
       await dispatch(logoutUser());
@@ -88,73 +64,7 @@ export default function ProfilePage() {
     }
   };
 
-  // Handle profile photo upload - store locally in Redux only (Firebase Auth has 2048 char limit)
-  const handlePhotoUpload = async (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-
-    // Validate file type
-    if (!file.type.startsWith('image/')) {
-      setError('يرجى اختيار ملف صورة');
-      return;
-    }
-
-    // Validate file size (max 100KB for local storage)
-    if (file.size > 100 * 1024) {
-      setError('حجم الصورة يجب أن يكون أقل من 100KB');
-      return;
-    }
-
-    setLoading(true);
-    setError('');
-
-    try {
-      // Convert file to base64 for local storage only
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = async () => {
-        try {
-          // Store photo locally in Redux only (not in Firebase Auth to avoid length limit)
-          setSuccess('تم تحديث صورة الملف الشخصي بنجاح');
-          // Update Redux state
-          dispatch(setUser({
-            ...user,
-            photoURL: reader.result,
-          }));
-        } catch (err) {
-          setError('حدث خطأ غير متوقع');
-        } finally {
-          setLoading(false);
-        }
-      };
-      reader.onerror = () => {
-        setError('حدث خطأ في قراءة الملف');
-        setLoading(false);
-      };
-    } catch (err) {
-      setError('حدث خطأ غير متوقع');
-      setLoading(false);
-    }
-  };
-
-  // Remove profile photo from local storage
-  const handleRemovePhoto = async () => {
-    try {
-      setSuccess('تم إزالة صورة الملف الشخصي');
-      // Remove from localStorage
-      if (user?.uid) {
-        localStorage.removeItem(`userPhoto_${user.uid}`);
-      }
-      dispatch(setUser({
-        ...user,
-        photoURL: null,
-      }));
-    } catch (err) {
-      setError('حدث خطأ غير متوقع');
-    }
-  };
-
-  // Update Profile (name only - Firebase has photoURL limit)
+  // Update Profile Name
   const handleProfileSubmit = async (e) => {
     e.preventDefault();
     setError('');
@@ -173,12 +83,10 @@ export default function ProfilePage() {
     setLoading(true);
     
     try {
-      // Update name in Firebase Auth (no photoURL to avoid length limit)
       const result = await updateUserProfile(profileData.displayName.trim());
       
       if (result.success) {
-        setSuccess('تم تحديث الملف الشخصي بنجاح');
-        // Update Redux state
+        setSuccess('تم تحديث الاسم بنجاح');
         dispatch(setUser({
           ...user,
           displayName: profileData.displayName.trim(),
@@ -192,489 +100,193 @@ export default function ProfilePage() {
       setLoading(false);
     }
   };
-  
-  // Update Email
-  const handleEmailSubmit = async (e) => {
-    e.preventDefault();
-    setError('');
-    setSuccess('');
-    
-    if (!emailData.newEmail.trim()) {
-      setError('البريد الإلكتروني الجديد مطلوب');
-      return;
-    }
-    
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailData.newEmail)) {
-      setError('البريد الإلكتروني غير صالح');
-      return;
-    }
-    
-    if (emailData.newEmail === user?.email) {
-      setError('البريد الإلكتروني الجديد مطابق للحالي');
-      return;
-    }
-    
-    if (!emailData.currentPassword) {
-      setError('كلمة المرور الحالية مطلوبة');
-      return;
-    }
-    
-    setLoading(true);
-    
-    try {
-      const result = await changeEmail(emailData.newEmail.trim(), emailData.currentPassword);
-      
-      if (result.success) {
-        setSuccess('تم تحديث البريد الإلكتروني بنجاح. يرجى تسجيل الدخول مرة أخرى');
-        setEmailData({ newEmail: '', currentPassword: '' });
-        
-        // Auto logout after 2 seconds
-        setTimeout(async () => {
-          await dispatch(logoutUser());
-          router.push('/login');
-        }, 2000);
-      } else {
-        setError(result.error || 'حدث خطأ في التحديث');
-      }
-    } catch (err) {
-      setError('حدث خطأ غير متوقع');
-    } finally {
-      setLoading(false);
-    }
-  };
-  
-  // Update Password
-  const handlePasswordSubmit = async (e) => {
-    e.preventDefault();
-    setError('');
-    setSuccess('');
-    
-    if (!passwordData.currentPassword) {
-      setError('كلمة المرور الحالية مطلوبة');
-      return;
-    }
-    
-    if (!passwordData.newPassword) {
-      setError('كلمة المرور الجديدة مطلوبة');
-      return;
-    }
-    
-    if (passwordData.newPassword.length < 6) {
-      setError('كلمة المرور الجديدة يجب أن تكون 6 أحرف على الأقل');
-      return;
-    }
-    
-    if (passwordData.newPassword !== passwordData.confirmPassword) {
-      setError('كلمة المرور الجديدة غير متطابقة');
-      return;
-    }
-    
-    if (passwordData.currentPassword === passwordData.newPassword) {
-      setError('كلمة المرور الجديدة مطابقة للحالية');
-      return;
-    }
-    
-    setLoading(true);
-    
-    try {
-      const result = await changePassword(
-        passwordData.currentPassword,
-        passwordData.newPassword
-      );
-      
-      if (result.success) {
-        setSuccess('تم تحديث كلمة المرور بنجاح');
-        setPasswordData({
-          currentPassword: '',
-          newPassword: '',
-          confirmPassword: '',
-        });
-      } else {
-        // Show more helpful error message
-        if (result.code === 'auth/invalid-credential') {
-          setError('كلمة المرور الحالية غير صحيحة. يرجى التأكد من إدخال كلمة المرور الصحيحة.');
-        } else if (result.code === 'auth/requires-recent-login') {
-          setError('يرجى تسجيل الخروج ثم تسجيل الدخول مرة أخرى لتحديث كلمة المرور.');
-        } else {
-          setError(result.error || 'حدث خطأ في تحديث كلمة المرور');
-        }
-      }
-    } catch (err) {
-      setError('حدث خطأ غير متوقع: ' + err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
 
-  // Get user initials for avatar
+  // Get user initials for default avatar if no photoURL
   const getUserInitials = () => {
     if (user?.displayName) {
-      return user.displayName.charAt(0).toUpperCase();
+      return user.displayName.slice(0, 2);
     }
     if (user?.email) {
-      return user.email.charAt(0).toUpperCase();
+      return user.email.slice(0, 2).toUpperCase();
     }
-    return '؟';
-  };
-
-  // Get display photo from Firebase Auth
-  const getDisplayPhoto = () => {
-    return user?.photoURL;
+    return 'أث';
   };
 
   return (
     <ProtectedRoute>
-      <div className="min-h-screen bg-[#faf8f5]">
-        {/* Header */}
-        <header className="bg-gradient-to-r from-amber-600 to-orange-500 text-white shadow-lg">
-          <div className="max-w-4xl mx-auto px-4 py-8">
-            <div className="flex items-center justify-between">
+      <div className="min-h-screen bg-gradient-to-br from-amber-50/40 via-white to-stone-50/40 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 pt-24 pb-12 transition-all duration-300">
+        
+        {/* Top Header Card */}
+        <header className="max-w-4xl mx-auto px-4 mb-6">
+          <div className="bg-gradient-to-r from-amber-700 to-amber-900 dark:from-amber-900 dark:to-stone-900 text-white rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-amber-400 opacity-10 rounded-full blur-2xl translate-y-1/2 -translate-x-1/4"></div>
+            
+            <div className="relative z-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div>
-                <h1 className="text-3xl font-bold font-serif">الملف الشخصي</h1>
-                <p className="text-white/90 mt-1">إدارة معلومات حسابك</p>
+                <h1 className="text-3xl font-black font-sans">الملف الشخصي</h1>
+                <p className="text-amber-100/90 mt-1.5 text-sm sm:text-base font-medium">إدارة معلومات حسابك ومتابعة تقدمك القرائي</p>
               </div>
               <button
-                onClick={() => router.push('/dashboard')}
-                className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors text-sm font-medium"
+                onClick={() => router.push('/library')}
+                className="flex items-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/15 border border-white/10 rounded-xl transition-all duration-300 text-sm font-bold shadow-sm hover:scale-105 active:scale-95 cursor-pointer"
               >
-                ← العودة للمكتبة
+                <FontAwesomeIcon icon={faChevronLeft} className="text-xs" />
+                <span>العودة للمكتبة</span>
               </button>
             </div>
           </div>
         </header>
         
-        <main className="max-w-4xl mx-auto px-4 py-8">
-          {/* User Info Card */}
-          <div className="bg-white rounded-2xl shadow-sm border border-[#e8dfd0] p-6 mb-6 overflow-hidden relative">
-            {/* Decorative gradient bar */}
+        <main className="max-w-4xl mx-auto px-4">
+          
+          {/* User Info Card with Glassmorphism */}
+          <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md rounded-2xl shadow-lg border border-gray-200/50 dark:border-gray-800/80 p-5 sm:p-7 mb-6 overflow-hidden relative">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-600 to-orange-500"></div>
             
-            <div className="flex items-center gap-6">
-              {/* Avatar with photo */}
-              <div className="relative group flex-shrink-0">
-                {getDisplayPhoto() ? (
+            <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-right">
+              {/* Avatar structure - Read Only */}
+              <div className="relative shrink-0">
+                {user?.photoURL ? (
                   <img
-                    src={getDisplayPhoto()}
+                    src={user.photoURL}
                     alt={user?.displayName || 'User'}
-                    className="w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg"
+                    className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
                   />
                 ) : (
-                  <div className="w-24 h-24 rounded-full bg-gradient-to-br from-amber-600 to-orange-500 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+                  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-amber-600 to-orange-500 flex items-center justify-center text-3xl font-black text-white shadow-xl">
                     {getUserInitials()}
                   </div>
                 )}
-                
-                {/* Camera icon overlay */}
-                <button
-                  onClick={() => fileInputRef.current?.click()}
-                  className="absolute bottom-0 right-0 w-8 h-8 bg-amber-600 hover:bg-amber-700 rounded-full flex items-center justify-center text-white shadow-lg transition-transform transform hover:scale-110 opacity-0 group-hover:opacity-100"
-                  title="تغيير الصورة"
-                >
-                  <FontAwesomeIcon icon={faCamera} className="text-xs" />
-                </button>
-                
-                {/* Remove photo button (show when photo exists) */}
-                {getDisplayPhoto() && (
-                  <button
-                    onClick={handleRemovePhoto}
-                    className="absolute bottom-0 left-0 w-8 h-8 bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center text-white shadow-lg transition-transform transform hover:scale-110 opacity-0 group-hover:opacity-100"
-                    title="إزالة الصورة"
-                  >
-                    <span className="text-xs font-bold">×</span>
-                  </button>
-                )}
-                
-                {/* Hidden file input */}
-                <input
-                  ref={fileInputRef}
-                  type="file"
-                  accept="image/*"
-                  onChange={handlePhotoUpload}
-                  className="hidden"
-                />
               </div>
               
-              {/* Info */}
+              {/* Info Block */}
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-3">
-                  <h2 className="text-2xl font-bold text-[#3d2f1f] truncate">
-                    {user?.displayName || 'مستخدم جديد'}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-center sm:justify-start gap-2 sm:gap-3">
+                  <h2 className="text-2xl sm:text-3xl font-black text-gray-800 dark:text-white truncate">
+                    {user?.displayName || 'مستخدم أثر'}
                   </h2>
                   {user?.emailVerified && (
-                    <span className="flex items-center gap-1 text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
-                      <FontAwesomeIcon icon={faCheck} className="text-xs" />
-                      موثق
+                    <span className="inline-flex items-center justify-center gap-1 text-[10px] font-bold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 px-2.5 py-1 rounded-full w-fit mx-auto sm:mx-0">
+                      <FontAwesomeIcon icon={faCheckCircle} />
+                      <span>موثق</span>
                     </span>
                   )}
                 </div>
-                <p className="text-[#8b7355] mt-1 truncate">{user?.email}</p>
-                <div className="flex items-center gap-4 mt-3">
-                  <span className="text-xs text-[#8b7355]">
-                   _member since_
+                <p className="text-gray-500 dark:text-gray-400 mt-1.5 font-medium truncate">{user?.email}</p>
+                <div className="flex items-center justify-center sm:justify-start gap-4 mt-3">
+                  <span className="text-xs text-gray-400 dark:text-gray-500 font-bold flex items-center gap-1.5">
+                    <FontAwesomeIcon icon={faCalendarAlt} className="text-amber-500/80" />
+                    عضو منذ: {user?.metadata?.creationTime ? new Date(user.metadata.creationTime).toLocaleDateString('ar-EG', { year: 'numeric', month: 'long' }) : 'يناير ٢٠٢٦'}
                   </span>
                 </div>
               </div>
               
-              {/* Logout Button */}
+              {/* Logout Action */}
               <button
                 onClick={handleLogout}
-                className="flex items-center gap-2 px-4 py-2 bg-red-50 hover:bg-red-100 text-red-600 rounded-lg transition-colors text-sm font-medium"
+                className="flex items-center gap-2 px-5 py-3 bg-red-50 hover:bg-red-100 dark:bg-red-950/20 dark:hover:bg-red-950/45 text-red-600 dark:text-red-400 rounded-xl transition-all duration-300 text-sm font-bold cursor-pointer hover:shadow-md active:scale-95 shrink-0"
               >
                 <FontAwesomeIcon icon={faSignOutAlt} />
-                تسجيل الخروج
+                <span>تسجيل الخروج</span>
               </button>
             </div>
           </div>
-          
-          {/* Tabs */}
-          <div className="bg-white rounded-2xl shadow-sm border border-[#e8dfd0] overflow-hidden">
-            <div className="border-b border-[#e8dfd0]">
-              <div className="flex">
-                <button
-                  onClick={() => setActiveTab('profile')}
-                  className={`flex-1 py-4 px-6 text-center transition-all duration-300 flex items-center justify-center gap-2 ${
-                    activeTab === 'profile'
-                      ? 'bg-gradient-to-r from-amber-600 to-orange-500 text-white'
-                      : 'text-[#8b7355] hover:bg-[#faf8f5]'
-                  }`}
-                >
-                  <FontAwesomeIcon icon={faUser} />
-                  الملف الشخصي
-                </button>
-                <button
-                  onClick={() => setActiveTab('email')}
-                  className={`flex-1 py-4 px-6 text-center transition-all duration-300 flex items-center justify-center gap-2 ${
-                    activeTab === 'email'
-                      ? 'bg-gradient-to-r from-amber-600 to-orange-500 text-white'
-                      : 'text-[#8b7355] hover:bg-[#faf8f5]'
-                  }`}
-                >
-                  <FontAwesomeIcon icon={faEnvelope} />
-                  البريد الإلكتروني
-                </button>
-                <button
-                  onClick={() => setActiveTab('password')}
-                  className={`flex-1 py-4 px-6 text-center transition-all duration-300 flex items-center justify-center gap-2 ${
-                    activeTab === 'password'
-                      ? 'bg-gradient-to-r from-amber-600 to-orange-500 text-white'
-                      : 'text-[#8b7355] hover:bg-[#faf8f5]'
-                  }`}
-                >
-                  <FontAwesomeIcon icon={faLock} />
-                  كلمة المرور
-                </button>
-              </div>
+
+          {/* Stats Dashboard Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6">
+            {/* Total Books */}
+            <div className="bg-white dark:bg-gray-900 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-gray-200/50 dark:border-gray-800/80 shadow-sm flex flex-col gap-1 relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-amber-500/5 to-orange-500/5 rounded-full blur-xl translate-x-1/3 -translate-y-1/3"></div>
+              <span className="text-2xl sm:text-3xl font-black text-amber-600 dark:text-amber-500 group-hover:scale-105 transition-transform w-fit">{stats.total}</span>
+              <span className="text-xs sm:text-sm font-bold text-gray-500 dark:text-gray-400">إجمالي الكتب</span>
             </div>
             
-            <div className="p-8">
-              {/* Success Message */}
+            {/* Reading now */}
+            <div className="bg-white dark:bg-gray-900 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-gray-200/50 dark:border-gray-800/80 shadow-sm flex flex-col gap-1 relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 rounded-full blur-xl translate-x-1/3 -translate-y-1/3"></div>
+              <span className="text-2xl sm:text-3xl font-black text-blue-600 dark:text-blue-500 group-hover:scale-105 transition-transform w-fit">{stats.reading}</span>
+              <span className="text-xs sm:text-sm font-bold text-gray-500 dark:text-gray-400">أقرأه حالياً</span>
+            </div>
+            
+            {/* Completed books */}
+            <div className="bg-white dark:bg-gray-900 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-gray-200/50 dark:border-gray-800/80 shadow-sm flex flex-col gap-1 relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-green-500/5 to-emerald-500/5 rounded-full blur-xl translate-x-1/3 -translate-y-1/3"></div>
+              <span className="text-2xl sm:text-3xl font-black text-emerald-600 dark:text-emerald-500 group-hover:scale-105 transition-transform w-fit">{stats.completed}</span>
+              <span className="text-xs sm:text-sm font-bold text-gray-500 dark:text-gray-400">أتممت قراءته</span>
+            </div>
+            
+            {/* Planned books */}
+            <div className="bg-white dark:bg-gray-900 rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-gray-200/50 dark:border-gray-800/80 shadow-sm flex flex-col gap-1 relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-purple-500/5 to-indigo-500/5 rounded-full blur-xl translate-x-1/3 -translate-y-1/3"></div>
+              <span className="text-2xl sm:text-3xl font-black text-purple-600 dark:text-purple-500 group-hover:scale-105 transition-transform w-fit">{stats.planned}</span>
+              <span className="text-xs sm:text-sm font-bold text-gray-500 dark:text-gray-400">سأقرأه لاحقاً</span>
+            </div>
+          </div>
+          
+          {/* Edit Profile Form Container (No Tabs) */}
+          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-200/50 dark:border-gray-800/80 overflow-hidden">
+            
+            {/* Form Header */}
+            <div className="border-b border-gray-200/60 dark:border-gray-800/80 bg-gray-50/50 dark:bg-gray-950/20 px-5 py-4 sm:px-8">
+              <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                <FontAwesomeIcon icon={faUser} className="text-amber-500" />
+                <span>تعديل المعلومات الشخصية</span>
+              </h3>
+            </div>
+            
+            {/* Form Body */}
+            <div className="p-5 sm:p-8">
+              
+              {/* Success Banner */}
               {success && (
-                <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-xl flex items-center gap-3 animate-fade-in">
-                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                    <FontAwesomeIcon icon={faCheck} className="text-green-600" />
+                <div className="mb-6 p-4 bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-100 dark:border-emerald-800/40 rounded-2xl flex items-center gap-3 animate-fade-in">
+                  <div className="w-8 h-8 bg-emerald-100 dark:bg-emerald-900/35 rounded-full flex items-center justify-center shrink-0">
+                    <FontAwesomeIcon icon={faCheckCircle} className="text-emerald-600 dark:text-emerald-400" />
                   </div>
-                  <p className="text-green-700 font-medium">{success}</p>
+                  <p className="text-emerald-700 dark:text-emerald-400 font-bold text-sm leading-relaxed">{success}</p>
                 </div>
               )}
               
-              {/* Error Message */}
+              {/* Error Banner */}
               {error && (
-                <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl flex items-center gap-3 animate-fade-in">
-                  <div className="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center">
-                    <span className="text-red-600 font-bold">!</span>
+                <div className="mb-6 p-4 bg-red-50 dark:bg-red-950/20 border border-red-100 dark:border-red-800/40 rounded-2xl flex items-center gap-3 animate-fade-in">
+                  <div className="w-8 h-8 bg-red-100 dark:bg-red-900/35 rounded-full flex items-center justify-center shrink-0">
+                    <span className="text-red-600 dark:text-red-400 font-extrabold">!</span>
                   </div>
-                  <p className="text-red-700">{error}</p>
+                  <p className="text-red-700 dark:text-red-400 font-bold text-sm leading-relaxed">{error}</p>
                 </div>
               )}
               
-              {/* Profile Tab */}
-              {activeTab === 'profile' && (
-                <form onSubmit={handleProfileSubmit} className="space-y-6">
-                  <div className="text-center pb-6 border-b border-[#e8dfd0]">
-                    <p className="text-sm text-[#8b7355]">
-                      يمكنك تغيير اسمك أو صورة ملفك الشخصي من خلال Firebase Auth
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-[#3d2f1f] mb-2">
-                      الاسم الكامل
-                    </label>
+              <form onSubmit={handleProfileSubmit} className="space-y-6">
+                <div className="group space-y-2">
+                  <label className="block text-sm font-bold text-gray-700 dark:text-gray-300 group-focus-within:text-amber-600 transition-colors">
+                    الاسم الكامل
+                  </label>
+                  <div className="relative flex items-center rounded-xl border transition-all duration-300 bg-gray-50/50 dark:bg-gray-800/50 border-gray-200 dark:border-gray-700 focus-within:bg-white dark:focus-within:bg-gray-900 focus-within:border-amber-400 focus-within:ring-4 focus-within:ring-amber-500/10 hover:border-gray-300 dark:hover:border-gray-600">
+                    <FontAwesomeIcon icon={faUser} className="absolute right-4 text-gray-400 group-focus-within:text-amber-500 transition-colors pointer-events-none" />
                     <input
                       type="text"
                       value={profileData.displayName}
                       onChange={(e) => setProfileData({ displayName: e.target.value })}
-                      className="w-full px-4 py-3 border border-[#e8dfd0] rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all duration-200 text-[#3d2f1f] bg-white"
+                      className="w-full pr-11 pl-4 py-3 bg-transparent border-none outline-none text-gray-800 dark:text-white font-bold text-sm"
                       placeholder="أدخل اسمك الكامل"
                       required
                     />
                   </div>
-                  
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    className="w-full py-4 bg-gradient-to-r from-amber-600 to-orange-500 text-white rounded-xl hover:from-amber-700 hover:to-orange-600 disabled:opacity-50 transition-all duration-300 font-medium shadow-lg shadow-amber-200"
-                  >
-                    {loading ? (
-                      <span className="flex items-center justify-center gap-2">
-                        <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                        </svg>
-                        جاري الحفظ...
-                      </span>
-                    ) : 'حفظ التغييرات'}
-                  </button>
-                </form>
-              )}
-              
-              {/* Email Tab */}
-              {activeTab === 'email' && (
-                <form onSubmit={handleEmailSubmit} className="space-y-6">
-                  <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-6">
-                    <p className="text-sm text-blue-800 flex items-center gap-2">
-                      <FontAwesomeIcon icon={faEnvelope} />
-                      البريد الإلكتروني الحالي: <strong className="truncate">{user?.email}</strong>
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-[#3d2f1f] mb-2">
-                      البريد الإلكتروني الجديد
-                    </label>
-                    <input
-                      type="email"
-                      value={emailData.newEmail}
-                      onChange={(e) => setEmailData({ ...emailData, newEmail: e.target.value })}
-                      className="w-full px-4 py-3 border border-[#e8dfd0] rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all duration-200 text-[#3d2f1f] bg-white"
-                      placeholder="example@email.com"
-                      required
-                    />
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-[#3d2f1f] mb-2">
-                      كلمة المرور الحالية
-                    </label>
-                    <div className="relative">
-                      <input
-                        type={showCurrentPassword ? "text" : "password"}
-                        value={emailData.currentPassword}
-                        onChange={(e) => setEmailData({ ...emailData, currentPassword: e.target.value })}
-                        className="w-full px-4 py-3 border border-[#e8dfd0] rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all duration-200 text-[#3d2f1f] bg-white"
-                        placeholder="••••••••"
-                        required
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowCurrentPassword(!showCurrentPassword)}
-                        className="absolute left-3 top-1/2 -translate-y-1/2 text-[#8b7355] hover:text-[#3d2f1f] transition-colors"
-                      >
-                        <FontAwesomeIcon icon={showCurrentPassword ? faEyeSlash : faEye} />
-                      </button>
-                    </div>
-                    <p className="text-xs text-[#8b7355] mt-2">
-                      مطلوب لتأكيد هويتك
-                    </p>
-                  </div>
-                  
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    className="w-full py-4 bg-gradient-to-r from-amber-600 to-orange-500 text-white rounded-xl hover:from-amber-700 hover:to-orange-600 disabled:opacity-50 transition-all duration-300 font-medium shadow-lg shadow-amber-200"
-                  >
-                    {loading ? 'جاري التحديث...' : 'تحديث البريد الإلكتروني'}
-                  </button>
-                </form>
-              )}
-              
-              {/* Password Tab */}
-              {activeTab === 'password' && (
-                <form onSubmit={handlePasswordSubmit} className="space-y-6">
-                  <div>
-                    <label className="block text-sm font-medium text-[#3d2f1f] mb-2">
-                      كلمة المرور الحالية
-                    </label>
-                    <div className="relative">
-                      <input
-                        type={showCurrentPassword ? "text" : "password"}
-                        value={passwordData.currentPassword}
-                        onChange={(e) => setPasswordData({ ...passwordData, currentPassword: e.target.value })}
-                        className="w-full px-4 py-3 border border-[#e8dfd0] rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all duration-200 text-[#3d2f1f] bg-white pr-12"
-                        placeholder="••••••••"
-                        required
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowCurrentPassword(!showCurrentPassword)}
-                        className="absolute left-3 top-1/2 -translate-y-1/2 text-[#8b7355] hover:text-[#3d2f1f] transition-colors"
-                      >
-                        <FontAwesomeIcon icon={showCurrentPassword ? faEyeSlash : faEye} />
-                      </button>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-[#3d2f1f] mb-2">
-                      كلمة المرور الجديدة
-                    </label>
-                    <div className="relative">
-                      <input
-                        type={showNewPassword ? "text" : "password"}
-                        value={passwordData.newPassword}
-                        onChange={(e) => setPasswordData({ ...passwordData, newPassword: e.target.value })}
-                        className="w-full px-4 py-3 border border-[#e8dfd0] rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all duration-200 text-[#3d2f1f] bg-white pr-12"
-                        placeholder="••••••••"
-                        required
-                        minLength="6"
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowNewPassword(!showNewPassword)}
-                        className="absolute left-3 top-1/2 -translate-y-1/2 text-[#8b7355] hover:text-[#3d2f1f] transition-colors"
-                      >
-                        <FontAwesomeIcon icon={showNewPassword ? faEyeSlash : faEye} />
-                      </button>
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label className="block text-sm font-medium text-[#3d2f1f] mb-2">
-                      تأكيد كلمة المرور الجديدة
-                    </label>
-                    <div className="relative">
-                      <input
-                        type={showConfirmPassword ? "text" : "password"}
-                        value={passwordData.confirmPassword}
-                        onChange={(e) => setPasswordData({ ...passwordData, confirmPassword: e.target.value })}
-                        className="w-full px-4 py-3 border border-[#e8dfd0] rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all duration-200 text-[#3d2f1f] bg-white pr-12"
-                        placeholder="••••••••"
-                        required
-                        minLength="6"
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                        className="absolute left-3 top-1/2 -translate-y-1/2 text-[#8b7355] hover:text-[#3d2f1f] transition-colors"
-                      >
-                        <FontAwesomeIcon icon={showConfirmPassword ? faEyeSlash : faEye} />
-                      </button>
-                    </div>
-                  </div>
-                  
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    className="w-full py-4 bg-gradient-to-r from-amber-600 to-orange-500 text-white rounded-xl hover:from-amber-700 hover:to-orange-600 disabled:opacity-50 transition-all duration-300 font-medium shadow-lg shadow-amber-200"
-                  >
-                    {loading ? 'جاري التحديث...' : 'تحديث كلمة المرور'}
-                  </button>
-                </form>
-              )}
+                </div>
+                
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full py-3.5 bg-gradient-to-r from-amber-600 to-orange-500 text-white rounded-xl hover:from-amber-700 hover:to-orange-600 disabled:opacity-50 transition-all duration-300 font-bold shadow-lg shadow-amber-500/20 active:scale-95 cursor-pointer"
+                >
+                  {loading ? 'جاري الحفظ...' : 'حفظ التغييرات'}
+                </button>
+              </form>
             </div>
           </div>
           
-
         </main>
       </div>
     </ProtectedRoute>

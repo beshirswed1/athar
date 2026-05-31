@@ -6,13 +6,13 @@ import { faBookOpen, faPlus, faSpinner } from '@fortawesome/free-solid-svg-icons
 
 export default function QuickActions({ myBooksCount, isLoading }) {
   return (
-    <div className="flex flex-col sm:flex-row gap-4 justify-center py-8">
+    <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center py-6 sm:py-8">
       <Link
         href="/library"
-        className="group relative overflow-hidden bg-gradient-to-r from-amber-600 to-orange-600 text-white px-8 py-5 rounded-2xl font-bold text-lg hover:from-amber-700 hover:to-orange-700 transition-all shadow-xl hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-3"
+        className="group relative overflow-hidden bg-gradient-to-r from-amber-600 to-orange-600 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-sm sm:text-lg hover:from-amber-700 hover:to-orange-700 transition-all shadow-xl hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-2 sm:gap-3"
       >
-        <span className="absolute inset-0 bg-white/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-2xl"></span>
-        <FontAwesomeIcon icon={faBookOpen} className="relative z-10 text-xl" />
+        <span className="absolute inset-0 bg-white/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-xl sm:rounded-2xl"></span>
+        <FontAwesomeIcon icon={faBookOpen} className="relative z-10 text-lg sm:text-xl" />
         <span className="relative z-10">
           {isLoading ? (
             <>
@@ -27,9 +27,9 @@ export default function QuickActions({ myBooksCount, isLoading }) {
 
       <Link
         href="/add"
-        className="bg-white dark:bg-gray-800 border-2 border-amber-600 text-amber-600 dark:text-amber-500 px-8 py-5 rounded-2xl font-bold text-lg hover:bg-amber-50 dark:hover:bg-gray-700 transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center justify-center gap-3"
+        className="bg-white dark:bg-gray-800 border-2 border-amber-600 text-amber-600 dark:text-amber-500 px-6 sm:px-8 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-sm sm:text-lg hover:bg-amber-50 dark:hover:bg-gray-700 transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2 sm:gap-3"
       >
-        <FontAwesomeIcon icon={faPlus} className="text-xl" />
+        <FontAwesomeIcon icon={faPlus} className="text-lg sm:text-xl" />
         <span>إضافة كتاب</span>
       </Link>
     </div>

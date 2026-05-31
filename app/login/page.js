@@ -9,6 +9,7 @@ import {
   loginWithGoogleAccount,
   clearError,
 } from '../../store/authSlice';
+import { parseFirebaseError } from '../utils/errorMessages';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -105,7 +106,7 @@ export default function LoginPage() {
     }
   };
   
-  if (loading && isAuthenticated) {
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#faf8f5]">
         <div className="text-center">
@@ -117,13 +118,13 @@ export default function LoginPage() {
   }
   
   return (
-    <div className="min-h-screen bg-[#faf8f5] flex items-center justify-center p-4 mt-20">
-      <div className="max-w-md w-full">
+    <div className="min-h-screen bg-[#faf8f5] flex items-center justify-center px-4 py-8 pt-20 sm:pt-24">
+      <div className="w-full max-w-sm sm:max-w-md">
         {/* Header */}
           
-        <div className="text-center mb-8">
-  <h1 className="text-4xl font-serif text-[#3d2f1f] mb-2">مرحباً بعودتك</h1>
-  <p className="text-[#8b7355] text-sm tracking-wide">
+        <div className="text-center mb-6 sm:mb-8">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#3d2f1f] mb-2">مرحباً بعودتك</h1>
+  <p className="text-[#8b7355] text-xs sm:text-sm tracking-wide">
     سجل بـ
     {/* بداية تنسيق شعار جوجل */}
     <span className="font-bold text-xl font-sans mx-1 bg-white px-1 rounded-sm">
@@ -145,7 +146,7 @@ export default function LoginPage() {
           {(error || localError) && (
             <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
               <p className="text-red-700 text-sm text-center">
-                {localError || error}
+                {localError || parseFirebaseError(error)}
               </p>
             </div>
           )}

@@ -15,7 +15,7 @@ export default function BooksGrid({
         {[...Array(8)].map((_, i) => (
           <div 
             key={i} 
-            className="h-[480px] bg-gray-200 dark:bg-gray-700 rounded-2xl animate-pulse"
+            className="h-[400px] sm:h-[420px] md:h-[450px] bg-gray-200 dark:bg-gray-700 rounded-2xl animate-pulse"
           ></div>
         ))}
       </div>
